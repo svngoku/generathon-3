@@ -50,6 +50,7 @@ A woman takes the last metro; an impossible passenger leads her to a mirror that
 - Log every call in `dernier-reflet/05_video/log.md`: `time | shot | pass | model | prompt | refs | output | verdict`.
 - Save to the `frame_out` / `video_out` paths in `shotlist.csv` and move `status` `todo → draft → approved`.
 - **Checkpoints — stop and show the team:** after refs, after each plate, after the animatic, after inserts, after each act block, after sound.
+- **Editing (team rule 31/10 16:30):** the cut is built in **Remotion** (`dernier-reflet/edit_remotion/`), one EDL JSON per block (take, in/dur, per-shot `focusY` crop for 2.39, grade). No blind centre crops; the team picks takes in the EDL. Lip sync is handled by the team upstream — no OmniHuman.
 - Commit + push after each checkpoint (`feat(reflet): shots 14-17 stills v01`). Keep each file < 100 MB; large raw media stay out of git (see `.gitignore`).
 
 ## Definition of done
