@@ -47,3 +47,7 @@ Consistency comes from **the same uploaded references on every call**, not from 
 2. **Stills are cheap, video is not:** approve every keyframe before any Seedance call.
 3. Animatic from approved stills first (no video spend) → watch muted → then Seedance 1080p.
 4. Seedance 720p is allowed only for quick motion tests that won't be in the cut; finals are 1080p high.
+
+
+## Prompt structure (team rule 31/10 14:40)
+Generate on Arcads, write like Higgsfield: Seedance 2.5 calls on Arcads use the Higgsfield skill's staged structure (`.claude/skills/higgsfield/skills/higgsfield-seedance-2-5/SKILL.md` § Core Prompt Formula, § Reference Roles, § Long Video, § Audio). On Arcads the **first referenceImage is the approved keyframe** (there is no start_image field) — declare it in the prompt as `@image1: the first frame`; then the character sheets, then the plates, in the order they are passed. Lint before every call (`seedance_lint.py --preflight --model seedance_2_5`).

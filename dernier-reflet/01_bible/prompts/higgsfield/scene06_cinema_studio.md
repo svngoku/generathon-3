@@ -1,3 +1,72 @@
+# Scene 06 → 07 — Arcads Seedance 2.5 calls in Higgsfield-skill structure (team rule 31/10 14:40)
+
+Generate on **Arcads** (`arcads_generate_video_seedance_25`, 1080p, bitrateMode high, 16:9 output, 2.39 framing in the edit), write like Higgsfield. Both prompts lint **PASS** (`seedance_lint.py --preflight --model seedance_2_5`). Reference order = handle order (first image = first frame).
+
+## A — whole scene, one call (≈15 s → ≈1 560 credits per take)
+`duration 15 · audioEnabled true · referenceImages [06a_v03 71df430d-186d-498a-9595-19e4d64eee02, H_sheet 0c000e23-2690-4314-b8f3-b6c6988a382d, V_sheet 6e582f9f-b82a-4db9-946c-9b6589603e1c, plate_LOC-00 ae7fcaed-d367-4a47-a509-459561eb9e1f, E01 a e66b5611-38d3-4b3f-84e5-3935d4785f84]`
+
+```
+[Generation Goal]
+Generate a 15-second horror sequence in six shots, one continuous rainy night in one dark Paris back street. The central subjects are the Traveler and the Watcher; the primary event is the Watcher bursting out of the dark, warning the Traveler, vanishing, and the Traveler fleeing into the metro.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler from behind in the dark rainy street). Keep its framing, light and rain.
+@image2: the Traveler — voluminous dark curly hair, camel wool coat, dark crossbody bag. Full-preserve face, hair and coat. Do not take the gray backdrop, the panel borders or the multi-view layout.
+@image3: the Watcher — long straight silver-white hair, milky pale-blue blind eyes, deeply lined pale face, tattered oxblood shawls over a rust-brown dress, long wooden-bead necklace, bony hands with yellowed nails and stone rings. Full-preserve. Do not take the gray backdrop, the panel borders or the multi-view layout.
+@image4: the street — rain-soaked cobblestones, a pitch-black carriage doorway on the left, closed iron shutters on the right, a small Art Nouveau metro entrance glowing blue-teal at the far end. Use the place only, not its people.
+@image5: the metro stairs — green Art Nouveau railings, round lamps above a blue-lit doorway, white tiled walls. Use the place only.
+Exactly one Traveler and one Watcher exist in the whole video.
+
+[Stage 1 — 0-3 seconds]
+Initial state: the Traveler hurries away from camera toward the glowing metro, head down in a downpour, boots splashing, coat flapping. Medium shot, handheld tracking right behind her shoulder.
+End state: the streetlight ahead stutters; she slows for half a second, shoulders rising.
+
+[Stage 2 — 3-5 seconds]
+Her point of view down the street toward the metro, wide, locked-off static camera. The street is empty for a moment. The Watcher steps out of the black doorway further down, rushes toward the lens and lunges, bony hand thrust out, mouth open in a dry hiss, hair whipping; the camera jolts back.
+End state: the Watcher's hand fills the foreground, her blind eyes on the lens.
+
+[Stage 3 — 5-7 seconds]
+Reverse angle, medium close-up, handheld: the Traveler faces the camera; behind her the dark street she came from, shutters now on the left, no metro glow. Sharp inhale through the mouth, eyes widen, body freezes, one hand flies to her chest; then she backs away step by step, gaze locked, breath shallow, hands trembling. The streetlight behind her flickers to near-black.
+End state: she stands two steps back, frozen.
+
+[Stage 4 — 7-10 seconds]
+Close-up, locked-off static camera: the Watcher, face centred, motionless in the rain, the glowing metro far behind her. Her lips articulate every word of the line clearly. A thin cruel smile. The streetlight dies.
+End state: black frame.
+
+[Stage 5 — 10-12 seconds]
+Wide, slow handheld drift: the light stutters back on over the same street toward the metro. The doorway is empty; the Watcher is gone.
+End state: empty street, rain only.
+
+[Stage 6 — 12-15 seconds]
+High-angle medium-wide from the top of the metro stairs, static, then tilting down: the stairs are empty, then the Traveler bursts in from behind the camera and runs down, one hand on the rain-slick metal rail; halfway she whips her head back toward the street, petrified, then keeps running toward the blue door.
+End state: she reaches the blue-lit doorway at the bottom.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic-style horizontal blue flares, gentle halation, fine MiniDV noise, crushed blacks. Dark from the first frame: only one flickering sodium-amber streetlight and the cold blue-teal metro glow light the scene. Heavy rain visible in every shot.
+
+[Audio]
+<dense heavy rain on cobbles and iron shutters throughout> <splashing hurried footsteps> <buzzing sodium streetlight that crackles at each flicker and dies with a pop> <from the doorway, a raspy breath and wooden beads clicking at the end of stage 1> <near-silence, then a violent impact: low thump, dry hiss, metallic screech, exactly as her hand reaches the lens> <the Traveler's sharp gasp and trembling breath in stage 3>
+Dialogue language: French from Paris. In stage 4 the Watcher says slowly, in a low cracked very-aged voice: {Le dernier métro… ne ramène personne, ma fille.}
+<a short dry cackle in the black> <fast echoing steps down stone stairs, a hand slapping the metal rail, panicked breathing, a whispered "personne… personne…" fading> <a low metro rumble rising from below>
+Diegetic sound only. No music.
+
+[Maintain Consistency]
+Keep the Traveler's face, curls and camel coat, the Watcher's face, hair, shawls, necklace and rings, one Traveler and one Watcher, the street geography (metro ahead, doorway on the left, shutters on the right) and the two light sources consistent across all six shots. The Watcher never touches the Traveler.
+```
+
+## B — lip-sync shot (stage 4 replacement, ≈6 s → ≈624 credits per take)
+`duration 6 · audioEnabled true · referenceImages [06b_v02 3bbc6b7f-b00c-466d-9b2c-cf852987e7b2, V_sheet 6e582f9f-b82a-4db9-946c-9b6589603e1c] · referenceAudios [06b_voice_v01 2d2545fc-c3dd-485e-b111-de681b9b3c8e]`
+
+```
+@image1: the first frame — the video starts exactly on this close-up of the Watcher.
+@image2: the Watcher — long straight silver-white hair, milky pale-blue blind eyes, deeply lined pale face, tattered oxblood shawls, long wooden-bead necklace. Full-preserve. Do not take the gray backdrop, the panel borders or the multi-view layout.
+@audio1: the Watcher's voice and her line. Audio @audio1 plays exactly as uploaded from 0s to end.
+Close-up, locked-off static camera. The Watcher stands motionless in the rain, face centred, blind eyes fixed on the lens. Her lips, jaw and teeth articulate every syllable of @audio1 in sync; between words her mouth closes. After the last word a thin cruel smile forms at one corner of her mouth.
+Mood: cold, ominous horror. Early-2000s DV camcorder texture, fine MiniDV noise, crushed blacks, one sodium-amber streetlight on her face, the blue-teal metro glow far behind her.
+```
+
+---
+
 # Higgsfield Cinema Studio 4.0 — scene 06 → 07 (built with the higgsfield skill, `.claude/skills/higgsfield`)
 
 Routing: higgsfield-prompt + higgsfield-cinema (§ Cinema Studio 4.0) + higgsfield-seedance-2-5 (staged long video, reference roles, bracket audio) + higgsfield-audio (lip-sync rules).
