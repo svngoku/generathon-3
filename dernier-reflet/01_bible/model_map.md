@@ -11,6 +11,9 @@
 
 All calls go to brand **JUA** (`productId 1b5e7fe6-ac1f-414c-91a3-d9e32ff46634`, the only brand in the workspace) unless the team creates a "Le Dernier Reflet" brand. Credits at setup: **50 000**.
 
+## Team rule (31/10 11:40): metro = Nano Banana only
+Every metro image (LOC-01 station, LOC-02 carriage, LOC-03 ghost station, TRAIN, metro inserts) is generated with **Nano Banana 2.1** — it is more realistic and matches the Notion « Metro » section. **Seedream 5.0 Pro is not used for the metro.**
+
 ## Character consistency protocol (non-negotiable)
 Consistency comes from **the same uploaded references on every call**, not from the prompt.
 

@@ -191,6 +191,8 @@ def calls_for(r, rows, lock, base_prompt):
             out[k]["prompt"] = "Characters: " + ", ".join("@" + e for e in elements) + ". " + out[k]["prompt"]
     if not codes_of(r):
         out.pop("arcads_generate_image_gpt")  # environments: Nano Banana 2.1 + Seedream 5 Pro
+    if r["location"] in ("LOC-01", "LOC-02", "LOC-03"):  # team rule: metro = Nano Banana only
+        out.pop("arcads_generate_image_seedream", None)
     kf = f"dernier-reflet/{r['frame_out']}"
     vrefs = [(kf, "APPROVED KEYFRAME — the video starts exactly on this image")] + [x for x in refs if "storyboard" not in x[1] and "draft" not in x[1]]
     out["arcads_generate_video_seedance_25"] = {

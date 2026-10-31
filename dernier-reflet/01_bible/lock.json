@@ -104,7 +104,14 @@
       "descriptor": "the SAME young Black woman from the uploaded character sheet: voluminous curly dark hair, camel wool coat, dark crossbody bag",
       "sheet": "locked/H_sheet.png",
       "rule": "strict continuity of face, hair and clothes across all shots",
-      "element": ""
+      "element": "",
+      "voice": {
+        "provider": "ElevenLabs",
+        "voice_id": "WweZOMKqvAIKsDPBT74q",
+        "name": "Le Dernier Reflet — Héroïne",
+        "model": "eleven_v4",
+        "rule": "the ONLY voice for every line of the heroine"
+      }
     },
     "C": {
       "name": "La créature",
@@ -133,7 +140,14 @@
       "descriptor": "the SAME very old woman from the uploaded character sheet: long straight silver-white hair, deeply wrinkled pale skin, milky pale-blue eyes, layered tattered oxblood-burgundy shawls over a long rust-brown dress, long wooden-bead necklace, bony hands with long yellowed nails and stone rings",
       "sheet": "locked/V_sheet.png",
       "rule": "dark street only (06a, 06b; absent in 06d): motionless in the doorway, speaks ONE line to the heroine with lip sync in 06b, never touches her, vanishes when the heroine turns back; same hair, robe, necklace and rings every frame; no gore",
-      "element": ""
+      "element": "",
+      "voice": {
+        "provider": "ElevenLabs",
+        "voice_id": "IhgmsOH7Mm66KHPfp8Rm",
+        "name": "Le Dernier Reflet — La Vieille",
+        "model": "eleven_v4",
+        "rule": "the ONLY voice for every line of la Vieille; same voice_id, same tags [low, hoarse, ominous whisper]"
+      }
     }
   }
 }

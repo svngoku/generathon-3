@@ -18,6 +18,10 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 11:31 | 06c | — | gpt-image-2-5-sunburst ×2 | key/06c | H_sheet, plate_LOC-00 | candidates/06c_sunburst_a/b | both on model · **b: face more centred** |
 | 11:31 | 06d | — | nano-banana-2-1 ×2 (2K) | key/06d | plate_LOC-00 | candidates/06d_nb21_a/b | **a: same arch + metro entrance = continuity with 06a** · b: cleaner but different axis |
 | 11:31 | voices | — | ElevenLabs eleven_v4 ×2 each | V2 « Le dernier métro… » · H1 « Aidez-moi… » | — | 06_audio/06b_voice_take*.mp3, 37_voice_take*.mp3 | 06b: take B 3.52 s → 06b_voice_v01.wav · 37: take A 1.28 s → 37_voice_v01.wav |
+| 11:40 | 06b voice | — | ElevenLabs design voice ×3 (ttv_v3, « ~90 y.o., NOT whispering ») | V3 description | — | 06_audio/voice_previews/V_old_V3_0..2.mp3 | ❌ Gemini: 25–50 y., whispered/ASMR, 3–6/10 — designed voices can't sound 85+ |
+| 11:43 | 06b voice | — | ElevenLabs eleven_v4 ×2 each, library voices Grandma Clo / michelle.ia / Seer Morganna, tag `[slow, ominous, low]` | 06b line | — | voice_previews/lib_*_A/B.mp3 | ❌ Gemini 20–45 y., whispered: the v4 tags push every voice into a whisper |
+| 11:45 | 06b voice | — | ElevenLabs eleven_multilingual_v2 ×2 each, **no tags**, Grandma Clo `EMuO6fFLrXKOryHzij6K` + michelle.ia | 06b line | — | voice_previews/lib_clo_v2_A/B.mp3, lib_michelle_v2_A.mp3 | **clo_v2_A: Gemini 60–75 y., full voice, not whispered (best)** · clo_v2_B / michelle: whispered |
+| 11:46 | 06b voice | — | ffmpeg post (vibrato/tremolo/pitch) | — | — | *_aged.wav, lib_clo_v2_A_light.wav | heavy pass = worse (reads as whisper) · light tremor = 40–55 y., full, « éraillée » · team listens: 06_audio/review/06b_vieille_voice_compare.mp3 |
 
 ## Credits
 | time | balance | batch |
