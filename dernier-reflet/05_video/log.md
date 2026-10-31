@@ -86,3 +86,7 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 15:12 | blk2 | team review | — | — | — | — | ✓ approved by team: E02_a, 08_b, E03_a, 09_a, 11_b, E04_a, 12v3_a, 13v3_a, 14_b, 15v3_b, E06_a · ✗ 10 rejected → redo from Notion team refs (13/14/17 H at carriage doors, 35 train doors open) |
 | 15:15 | 10 | still ×4 v2 | gpt-2.5-sunburst | identity-locked, inside carriage at open doors | H_sheet, 12v3_a + (a) notion 14, 35 · (b) notion 13, 17 | blk2/10v2_a1 (914e3284), a2 (aa616cb8), b1 (3108b6ba), b2 (740e8a8c) | same face as 12v3/06c on all 4; b1 closest to team ref 13; a1 = doors right, platform visible |
 | 15:17 | refs | — | — | — | — | — | notion 94 (attack shot) dropped at team request — never use |
+| 15:37 | 10 | team frames as-is | — | — | Notion 15_H_carriage_standing / 19_H_carriage_wide-b | blk2/10_team15, 10_team19 | ✓ team-supplied, no regeneration; 10v2 set aside |
+| 15:38 | refs | register | — | — | notion 15, 19, 98, 101 (+ new H variants 95–103 stored) | ba2a7515, 24f480bd, 8811ef4b, fad9b837 | team frames = H identity anchor (model_map update) |
+| 15:39 | 11,12 | still ×2 each v2/v4 | gpt-2.5-sunburst | team-anchored | team 15, 19, var98, var101, notion 45 | blk2/11v2_a (40ffc2fb), 12v4_b (67820c65) | ✓ same woman as shot 10 (12v3/13v3/15v3/11 old → rejected_identity) |
+| 15:40 | 13,15 | edit ×2 each v4 | gpt-2.5-sunburst | edits of 12v4_b | 12v4_b, team 15, var98 | blk2/13v4_a (3ddcf144), 15v4_a (829383de) | ✓ identity held |
