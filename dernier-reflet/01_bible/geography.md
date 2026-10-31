@@ -64,3 +64,6 @@ Rule: every shot of C is the **14 axis**; every reaction of H is the **reverse**
 - 26: extreme close-up inside the glass (gilt frame edge in frame) — the Hooded Figure exists only in the mirror.
 - 27: close-up of the glass, her horrified reflection frontal; A clean / B crack (dissolve).
 - 28: wide reverse from the mirror toward the doorway wall; she stands back to camera facing it; A doorway / B continuous wall (dissolve).
+
+## Team rule 31/10 23:45 — the creature stays the C_sheet creature in EVERY shot
+Face = `locked/C_sheet.png` + notion 48: dark brown rotten cracked flesh, sunken cheeks, glowing red eyes, **wide mouth with long bared fangs**, dirty cream hood and robe with brown stains, tattered hem, clawed brown hands. Never ask for a "closed-lip grin" or a smoother face (26 v01 drifted that way → redone from the sheet). Every C prompt attaches C_sheet + notion 48 and says "exactly as the sheet".
