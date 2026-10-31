@@ -1,0 +1,21 @@
+[Generation Goal]
+A 4-second close-up: the Traveler, trapped inside the black carriage window, pounds the glass and calls for help.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler inside the dark window glass, palms pressed flat, mouth open, carriage lights reflected on the glass). Keep its framing and light.
+@image2: the Traveler — deep dark-brown complexion, slim oval face, long dark curls worn half-up, camel wool coat. Full-preserve. Do not take its background.
+@image3: the same Traveler, another angle — identity only. Do not take its background.
+
+[Stage 1 — 0-4 seconds]
+Static camera. Inside the glass she pounds both palms against the surface, then presses them flat again; her mouth forms two pleading words; tunnel lights streak across the glass over her face.
+End state: palms flat on the glass, her eyes pleading at the camera.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal fluorescent light. Mood: hushed dread. Photographic realism, no readable text, no on-screen overlay.
+
+[Audio]
+<muffled dull thuds of palms on thick glass> <the rumble of the moving train>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+She stays inside the glass the whole time; keep her identical to @image2.

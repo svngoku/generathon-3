@@ -1,0 +1,20 @@
+[Generation Goal]
+A 4-second medium shot: a new passenger settles alone in the last metro as it leaves the station.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the blonde Commuter seated by the dark window in the empty lit carriage, phone in hand, earbuds in). Keep its framing and light.
+@image2: the Commuter — blonde, pale complexion, cream cardigan, white earbuds. Full-preserve. Do not take its background.
+
+[Stage 1 — 0-4 seconds]
+Static camera. She settles back into the seat with a tired sigh, scrolls her phone, nods slightly to her music; the carriage jolts as the train starts; blue tunnel lights begin to streak across the black window behind her.
+End state: she looks down at her phone, the tunnel lights streaming past.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal fluorescent light. Mood: hushed dread. Photographic realism, no readable text, no on-screen overlay.
+
+[Audio]
+<the doors closing with a thud> <the train starting, rising rumble> <faint tinny music leaking from earbuds>
+Diegetic sound only. No dialogue.
+
+[Maintain Consistency]
+Keep her identical to @image2; the carriage stays empty around her; nobody else appears.

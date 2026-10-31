@@ -1,0 +1,29 @@
+[Generation Goal]
+A 9-second flashback oner in a candle-lit room: the Grey-Shirt Man looks into a gilded mirror and is drawn into the glass.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Grey-Shirt Man before the big gilded mirror in a candle-lit room, his reflection facing him). Keep its framing and light.
+@image2: the Grey-Shirt Man — Black, short afro hair, worn dark grey t-shirt, no hood. Full-preserve. Do not take its background.
+@image3: the same Grey-Shirt Man, another angle — identity only. Do not take its background.
+
+[Stage 1 — 0-3 seconds]
+Slow push-in toward the mirror. He stands still and stares at his reflection; the candles flicker.
+End state: his reflection stares back, motionless.
+
+[Stage 2 — 3-6 seconds]
+Thin cracks spread through the glass around his reflection; he leans closer, unable to look away; the candle flames bend toward the mirror.
+End state: cracks framing his reflected face.
+
+[Stage 3 — 6-9 seconds]
+His body is drawn forward into the surface like into dark water and vanishes into the glass; for a moment his palm stays pressed flat against the inside of the mirror, then fades. The cracks close.
+End state: the room empty, the mirror whole, only candlelight.
+
+[Look]
+Faded flashback: warm sepia and amber candlelight, softer grain, slight bloom, like an old memory. Early-2000s DV camcorder texture, MiniDV noise, halation. Mood: hushed dread. Photographic realism, no readable text, no on-screen overlay.
+
+[Audio]
+<candle flames fluttering> <a faint old crackle like worn tape> <glass ticking as it cracks> <a deep sucked-in whoosh> <then silence>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep his face, hair and grey t-shirt identical to @image2; same room and same gilded mirror as @image1; nobody else appears.

@@ -1,0 +1,21 @@
+[Generation Goal]
+A 4-second locked-off medium shot: the Traveler's reflection lifts its hand on its own and presses its palm against the inside of the mirror while she stays still.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler on the left in profile facing the big gilded mirror on the right, her reflection in the glass). Keep its framing and light.
+@image2: the Traveler — deep dark-brown complexion, slim oval face, long dark curls worn half-up, camel wool coat. Full-preserve. Do not take its background.
+@image3: the same Traveler, another angle — identity only. Do not take its background.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static camera on a tripod, no camera movement. The real Traveler on the left stays completely still, arms at her sides. Inside the glass, her reflection slowly raises its own right hand and presses its palm flat against the inside of the mirror surface.
+End state: the reflection's palm flat on the glass, the real Traveler unmoved.
+
+[Look]
+Early-2000s DV camcorder texture, gentle halation, MiniDV noise, crushed blacks; tobacco, dust beige and tarnished gold, unstable warm amber against cold blue shadow. Mood: hushed dread. Photographic realism, no readable text, no on-screen overlay.
+
+[Audio]
+<a very low hum> <a soft dull press of a palm on glass from the other side>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Only the reflection moves; the real Traveler keeps her arms down; the camera never moves; keep her identical to @image2.

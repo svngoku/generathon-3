@@ -5,6 +5,7 @@ import blk1json from './edl_blk1.json';
 const blk1 = blk1json as unknown as Edl;
 import blk2 from './edl_blk2.json';
 import blk3 from './edl_blk3.json';
+import blk4 from './edl_blk4.json';
 import order from './shot_order.json';
 
 // Joins block EDLs in film order; `bridges` = the transition between the last shot of a block and the first of the next.
@@ -25,9 +26,10 @@ const checkOrder = (name: string, edl: Edl) => {
   });
   return edl;
 };
-const film = join([blk1, blk2 as Edl, blk3 as Edl], [
+const film = join([blk1, blk2 as Edl, blk3 as Edl, blk4 as Edl], [
   {cut: '06a-07>E02', type: 'fade', frames: 10, why: 'she runs down the metro stairs -> the station corridor'},
   {cut: '18>19', type: 'fade', frames: 10, why: 'the lights come back on the empty carriage -> the train has stopped at a station that should not exist'},
+  {cut: 'E10>23', type: 'fade', frames: 8, why: 'from the handprint in the glass back to her before the mirror'},
 ]);
 
 // Master = 16:9 full frame 1920x1080, no crop, no bars (team rule 31/10 16:45). Social 9:16 later from the same EDL.
@@ -35,4 +37,4 @@ const comp = (id: string, edl: Edl) => (
   <Composition key={id} id={id} component={Edit} width={1920} height={1080}
     fps={edl.fps} durationInFrames={totalFrames(edl)} defaultProps={{edl}} />
 );
-export const Root: React.FC = () => <>{comp('Film', checkOrder('Film', film))}{comp('Blk1', checkOrder('Blk1', blk1))}{comp('Blk2', checkOrder('Blk2', blk2 as Edl))}{comp('Blk3', checkOrder('Blk3', blk3 as Edl))}</>;
+export const Root: React.FC = () => <>{comp('Film', checkOrder('Film', film))}{comp('Blk1', checkOrder('Blk1', blk1))}{comp('Blk2', checkOrder('Blk2', blk2 as Edl))}{comp('Blk3', checkOrder('Blk3', blk3 as Edl))}{comp('Blk4', checkOrder('Blk4', blk4 as Edl))}</>;

@@ -1,0 +1,25 @@
+[Generation Goal]
+A 4-second medium side view in the lit carriage: the Hooded Figure seated beside the unaware Commuter turns toward her and surges at her.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the blonde Commuter on her phone by the window, the Hooded Figure seated still beside her). Keep its framing and light.
+@image2: the Commuter — blonde, pale complexion, cream cardigan, white earbuds. Full-preserve. Do not take its background.
+@image3: the Hooded Figure — worn pale hooded robe, gaunt shadowed face, two glowing red eyes. Full-preserve. Do not take its background.
+
+[Stage 1 — 0-2 seconds]
+Static camera. She keeps scrolling, unaware. Very slowly, the Hooded Figure turns its hood toward her; its red eyes flare.
+End state: the hood facing her, red eyes blazing.
+
+[Stage 2 — 2-4 seconds]
+The figure surges sideways onto her in one sudden motion; she looks up, her mouth opens; at that instant the carriage lights flicker violently.
+End state: the frame strobing in the flickering lights, the figure over her.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal fluorescent light. Mood: hushed dread. Photographic realism, no readable text, no on-screen overlay.
+
+[Audio]
+<the train rumble> <faint tinny sound from earbuds> <a dry rush of cloth> <the fluorescent tubes crackling and cutting out>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep her identical to @image2 and the figure identical to @image3; the figure stays seated until it surges; the scene stays stylised and clean.
