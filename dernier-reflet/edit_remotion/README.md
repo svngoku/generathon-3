@@ -24,3 +24,7 @@ Renders use the sandbox Chromium headless shell (`remotion.config.ts`). Runtime 
 - `src/edl_blk2.json` — E02 -> 18 (Arcads/Seedance).
 - Composition `Film` = Blk1 + Blk2 joined in `Root.tsx` (bridge `06a-07>E02` fade 10). `npm run render:film`.
 - Cue fields: `keys` = volume keyframes `[shotId, offset s, volume]`; `stopAt` = the cue stops dead when that shot starts.
+
+## Film order (team rule 31/10 19:20 — never lose the order of the videos)
+The order is `01_bible/shotlist.csv`. `sync-audio.mjs` writes it to `src/shot_order.json`; `Root.tsx` refuses to build any composition whose shots are out of that order (ranges like `06a-07` count by their first id).
+Current Film: 01-03 Perle 93 → 02-05 Perle 92 → 06a-07 Higgsfield street → E02 → 08 → E03 → 09 → 10 → E04 → 11 → 12 → 13 → 14 → E05 → 15 → 16 → E06 → 17 → 18. Next blocks append after 18 (19 → 39), in shotlist order.
