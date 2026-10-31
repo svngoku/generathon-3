@@ -47,3 +47,20 @@ Every prompt for a shot with a look, a reveal or a reverse angle **states the ax
 Rule: every shot of C is the **14 axis**; every reaction of H is the **reverse** (camera on the aisle looking at her, front door behind her). Never show C and H in the same frame here.
 
 **Team rule 31/10 17:35 — C STANDS.** In 14/16/17 the creature stands upright in the centre aisle, both feet on the floor, arms hanging, facing the lens (pose ref `notion/66_C_fullbody_carriage_standing.png`, asset `b56265e1…`, pose only — never its blood). Never seated on nothing; never floating. Far (14) → mid (16) → near (17), same locked axis, still within each shot.
+
+## Mirror room LOC-05 — shots 22 → 33 (mapped 31/10 23:00, before generating)
+```
+            [back wall]
+   [doorway]   [BIG GILDED MIRROR]   [fireplace + small mirror]
+     (left)        (centre)                (right)
+                     ^
+                     |  she faces the mirror
+                    (H)
+                 [camera side = the room]
+```
+- 22: wide master from the room — doorway left, mirror centre, fireplace right; she stands before the mirror, 3/4 back to camera.
+- **23 / 24 / 31 (mirror axis, locked):** camera 3/4 from the right, she is on the **left third in profile facing right**, the mirror fills the **right half** with her reflection facing her. No overlap between her body and the glass → the anomaly is a two-pass composite (A = real action, B = mirror anomaly) masked to the mirror zone only.
+- 25: reverse close-up — camera in the room, she spins from the mirror toward camera; the mirror (her back reflected) blurred behind her; her eyeline goes past camera into the empty room.
+- 26: extreme close-up inside the glass (gilt frame edge in frame) — the Hooded Figure exists only in the mirror.
+- 27: close-up of the glass, her horrified reflection frontal; A clean / B crack (dissolve).
+- 28: wide reverse from the mirror toward the doorway wall; she stands back to camera facing it; A doorway / B continuous wall (dissolve).
