@@ -56,7 +56,8 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 13:56 | scene 06 | — | — | TEAM 13:55 « pas de transition logique, éléments statiques » → EDL 07_edit/scene06_edl.md: no stills, cut on eyeline / impact / flicker, light-out → empty street (E01 slot, 06d_v01) → run (07); build script 07_edit/build_scene06.sh | — | — | — |
 | 14:09 | scene 06→07 | rough v04 | build_scene06.sh | all moving takes: 06a_v03a · 06b_v03b · 06c_v03b · 06d=06b_v01 (fade to black) · E01=06d_v01 (flicker back on, empty street) · 07_v01b | — | 07_edit/rough/scene06_rough_v04.mp4 (15 s) | no stills ✔, transitions per EDL ✔ — sound still missing: stinger, shadow noises, rain bed (team files) |
 | 14:16 | scene 06 | — | — | TEAM 14:15: 06a « trop statique », rain must be visible (as before) · 06b « trop brusque » → switch to 06b_v03a 2.1–3.9 s (empty → she steps out down the street → charges → lunge) · TEAM 14:16: « lumières sombres dès le départ » → one dark grade for the whole scene in build_scene06.sh (gamma 0.82 · 0.68 on the bright takes 06b/06d/E01) | — | — | — |
-| 14:15 | 06a | video v4 | seedance 2.5 1080p high, 4 s ×2 | lively close handheld tracking, downpour clearly visible, splashing, light flickers, she slows | 06a_v03, H_sheet, plate_LOC-00 | assets 2be484f7… / a33af3e5… | pending (≈832) |
+| 14:15 | 06a | video v4 | seedance 2.5 1080p high, 4 s ×2 | lively close handheld tracking, downpour clearly visible, splashing, light flickers, she slows | 06a_v03, H_sheet, plate_LOC-00 | 05_video/06a_v04a.mp4 (2be484f7…) | **a: starts tight behind her shoulder, she pulls away, coat flapping, never looks back, doorway empty → pick (real speed 0–3 s)** · b (a33af3e5…): wider, calmer |
+| 14:40 | scene 06→07 | rough v05 | build_scene06.sh | 06a_v04a (real speed) · 06b_v03a build-up · one dark grade · rest as v04 · forced to 15.00 s | — | 07_edit/rough/scene06_rough_v05.mp4 | 15.00 s ✔ · no stills ✔ |
 
 ## Credits
 | time | balance | batch |

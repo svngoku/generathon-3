@@ -9,8 +9,8 @@ LB="scale=1920:1080,crop=1920:804:0:138,pad=1920:1080:0:138:black,fps=25,format=
 # team 14:16: dark from the very first frame — one grade for the whole scene, stronger on the brighter takes
 GRADE="eq=gamma=0.82:contrast=1.06:saturation=0.88"
 DARK="eq=gamma=0.68:contrast=1.1:saturation=0.85"
-# 06a 3.0 s — walk (0–2.7 s slowed)
-ffmpeg -loglevel error -y -ss 0 -t 2.7 -i 05_video/06a_v03a.mp4 -an -vf "setpts=PTS*1.111,$GRADE,$LB" -t 3 $S/1.mp4
+# 06a 3.0 s — lively handheld walk in the downpour (v04a, real speed — team 14:15)
+ffmpeg -loglevel error -y -ss 0 -t 3 -i 05_video/06a_v04a.mp4 -an -vf "$GRADE,$LB" -t 3 $S/1.mp4
 # 06b 2.0 s — build-up: empty street → she steps out of the doorway down the street → charges → lunge (team 14:15: less abrupt)
 ffmpeg -loglevel error -y -ss 2.1 -t 1.84 -i 05_video/06b_v03a.mp4 -an -vf "setpts=PTS*1.111,$DARK,$LB" -t 2 $S/2.mp4
 # 06c 2.0 s — startle → backs away → flicker (0.5–3.6 s at 1.55×)
@@ -22,7 +22,7 @@ ffmpeg -loglevel error -y -ss 0.5 -t 2 -i 05_video/06d_v01.mp4 -an -vf "$DARK,$L
 # 07 3.0 s — empty stairs → she bursts in running
 ffmpeg -loglevel error -y -ss 0.9 -t 3.6 -i "$T07" -an -vf "setpts=PTS/1.2,$GRADE,$LB" -t 3 $S/6.mp4
 printf "file '%s'\n" $S/1.mp4 $S/2.mp4 $S/3.mp4 $S/4.mp4 $S/5.mp4 $S/6.mp4 > $S/l.txt
-ffmpeg -loglevel error -y -f concat -safe 0 -i $S/l.txt -c copy $S/v.mp4
+ffmpeg -loglevel error -y -f concat -safe 0 -i $S/l.txt -vf "tpad=stop_mode=clone:stop_duration=0.2" -t 15 -c:v libx264 -crf 16 -pix_fmt yuv420p $S/v.mp4
 # sound: line from the lip-sync take at 7.0 s, team laugh + whispers after it
 ffmpeg -loglevel error -y -ss 0.5 -t 4.7 -i 05_video/06b_v01.mp4 -vn -ar 48000 -ac 2 $S/line.wav
 ffmpeg -loglevel error -y -ss 4.8 -i 06_audio/06b_voice_team_v01.mp3 -ar 48000 -ac 2 $S/tail.wav
