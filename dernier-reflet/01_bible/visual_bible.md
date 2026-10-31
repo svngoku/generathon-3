@@ -40,7 +40,7 @@ Reference images: `notion/34_TRAIN_arrival_front.png` (train « 51 Pont de Sèvr
 (Shot numbers = V4 storyboard IDs, as in `shotlist.csv` and the PDF.) Never regenerate an approved sheet; never let a character drift. Do not use the generic Higgsfield "charcoal suit" woman for H.
 
 ## Staging rules
-- **Lip sync (challenge):** 06b and 37 — face centred, mouth clearly visible, voice file generated first and passed to Seedance.
+- **Lip sync (challenge):** 06d and 37 — face centred, mouth clearly visible, voice file generated first and passed to Seedance.
 - **Loop (challenge):** 39's last frame = 01's first frame. Generate and approve 01 before 39.
 - **Vertical-safe:** close-ups keep the face in the centre third (9:16 punch-in, `delivery/social_9x16.md`).
 - **C never moves on screen in the carriage.** It changes position *between cuts* on the **same locked axis** (14 → 16 → 17): jump-cuts, not animation.

@@ -10,8 +10,9 @@ From Notion §F (V2), re-timed to the V4 edit. Sound carries half the fear: **th
 | 00:00–00:14 | 01–05 | **« The Reason » from the chorus, in her earbuds** (`02_refs/notion/54_music_opening_ssstik.mp3`, *sync + master rights to check*), distant city, keyboard, urban rain |
 | 00:14–00:17 | 06 | music **chokes off** on "no taxi available" |
 | 00:17–00:20 | 06a | rain, her quick steps on cobbles, a streetlight buzzing; **from the black doorway: raspy breathing, wooden beads clicking, a dry scrape (team supplies these files)** — she stops dead |
-| 00:20–00:23 | 06b | **the rain goes quiet** — la Vieille, on screen, lip sync: « Le dernier métro ne ramène personne, ma fille. » |
-| 00:23–00:27 | 06c–06d | her breath, « Pardon… ? » barely audible → empty doorway: the streetlight buzzes and dies, silence |
+| 00:20–00:22 | 06b | **JUMP SCARE** — silence cut dead + stinger as la Vieille bursts out (team file) |
+| 00:22–00:24 | 06c | her stifled cry / gasp |
+| 00:24–00:27 | 06d | **the rain goes quiet** — la Vieille, on screen, lip sync: « Le dernier métro ne ramène personne, ma fille. » — laugh + whispered « personne… » run on over E01 |
 | 00:27–00:39 | E01–E03 | rain melts into a metro rumble · reverberant steps · **three neon crackles** (E02) · one amplified drop |
 | 00:39–00:52 | 09–E04 | realistic braking · door hiss · rubber grips creaking |
 | 00:52–01:29 | 11–18 | low carriage vibration · dry power cut · torch click + breath · **silence when C appears** · a muffled thud at each of C's moves (**never footsteps**) · electronic click (E06) · neons back on |
@@ -26,7 +27,7 @@ From Notion §F (V2), re-timed to the V4 edit. Sound carries half the fear: **th
 Three discreet impulses recur (neon E02 → metal → mirror cracks 27/33 → three pulses on the final black 39). Keep it a texture, **not a melody**.
 
 ## Voices (lip sync — record the voices BEFORE generating 06b and 37: Seedance lip-syncs to them)
-- « Le dernier métro ne ramène personne, ma fille. » (06b, **on screen, lip sync**) — la Vieille: very old woman, low, slow, French. **LOCKED 31/10 12:00: team-supplied file `06b_voice_team_v01.mp3` (10.45 s) — the team makes all audio from now on.** Edit: line « Le dernier métro ne ramène personne, ma fille » 0–~4.8 s, lip-synced on 06b (3 s on screen, « ma fille » over 06c = J-cut); laugh ~4.8–7.2 s over 06c→06d; whispered « personne… » ×3 7.6–10 s under 06d/E01, gone before 07. Files: `06b_voice_v01.wav` (lip-sync source, 0–5.2 s) · `06b_voice_v01_full.wav` (mix master).
+- « Le dernier métro ne ramène personne, ma fille. » (06d, **on screen, lip sync** — files keep the 06b_voice_* names) — la Vieille: very old woman, low, slow, French. **LOCKED 31/10 12:00: team-supplied file `06b_voice_team_v01.mp3` (10.45 s) — the team makes all audio from now on.** Edit: line « Le dernier métro ne ramène personne, ma fille » 0–~4.8 s, lip-synced on 06b (3 s on screen, « ma fille » over 06c = J-cut); laugh ~4.8–7.2 s over 06c→06d; whispered « personne… » ×3 7.6–10 s under 06d/E01, gone before 07. Files: `06b_voice_v01.wav` (lip-sync source, 0–5.2 s) · `06b_voice_v01_full.wav` (mix master).
 - « Tu peux prendre sa place, maintenant. » — low intimate whisper, off-screen, close to the ear (C's voice).
 - « Aidez-moi… » (37, **on screen in the window, lip sync**) → `06_audio/37_voice_v01.wav` — the heroine's voice, filtered: thick glass, slight low-pass, no reverb tail.
 - Make both with ElevenLabs (design voice → generate speech), 2 takes each; log in `../05_video/log.md`.

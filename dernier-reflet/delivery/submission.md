@@ -28,10 +28,10 @@ After her last bus is cancelled, a young woman takes a near-empty night metro. A
 ## QA — PDF V4 §9 (must all be ticked)
 - [ ] exactly 180 s; only the team-approved additions 06a–06d
 - [ ] **challenge:** last frame of 39 = first frame of 01 (play on repeat: no visible joint, sound loops too)
-- [ ] **challenge:** 06b la Vieille speaks on screen with clean lip sync (+ 37)
+- [ ] **challenge:** 06d la Vieille speaks on screen with clean lip sync (+ 37)
 - [ ] **challenge:** 9:16 social cut exported, subtitles FR/EN burnt in, hook title on 01
 - [ ] 2.39:1, DV camcorder and anamorphic look constant
-- [ ] H, C, M, N and V never confused; V only in 06a–06b, same sheet
+- [ ] H, C, M, N and V never confused; V only in 06b–06d (scene 06), same sheet
 - [ ] hooded red-eyed C only in 14, 16, 17, 24, 26, 32b, 38
 - [ ] M only in the grey T-shirt, only in the flashback (29a, 29b, 30)
 - [ ] C in the mirror at 24; outside the mirror at 32b; H's autonomous hand at 31
