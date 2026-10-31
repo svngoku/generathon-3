@@ -16,7 +16,7 @@ Reference images: `notion/34_TRAIN_arrival_front.png` (train « 51 Pont de Sèvr
 ## Locations
 | ID | Set | Must stay constant | Palette | Plate (locked/) |
 |---|---|---|---|---|
-| LOC-00 | Dark street to the metro (06a/06b) — *team addition* | wet cobbles, closed iron shutters, deep carriage doorways, one failing sodium streetlight, Métropolitain entrance glowing at the end | sodium amber, wet graphite, cold blue, oxblood accent | `plate_LOC-00.png` (prompt `plates/LOC-00_sheet.txt`) |
+| LOC-00 | Dark street to the metro (06a/06b) — *team addition* | wet cobbles, closed iron shutters, deep carriage doorways, one failing sodium streetlight, Métropolitain entrance glowing at the end | sodium amber, wet graphite, cold blue, oxblood accent | `plate_LOC-00.png` = **LOC-00_nb21_b (team pick 31/10 12:20)**: long cobbled street, carriage doorway left, iron shutters right, small Métropolitain at the far end opening on a lit square (prompt `plates/LOC-00_sheet.txt`) |
 | LOC-01 | Active metro: stairs + tiled corridors + vaulted platform | wet stairs, white bevelled tile, long neons, French signage, **white & teal train**, amber display, blue haze, wet floor | graphite, teal, cold white | `plate_LOC-01.png`, `plate_TRAIN.png` |
 | LOC-02 | Night carriage | same seat plan, bars, grips, windows, line map | steel, blue-grey, cold fluorescent | `plate_LOC-02.png` |
 | LOC-03 | Ghost platform | cracked tile, old posters, rusted benches, wooden door at the end | dirty ivory, mould green, distant amber | `plate_LOC-03.png` |
