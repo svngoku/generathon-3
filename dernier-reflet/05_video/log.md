@@ -12,7 +12,12 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 11:22 | 01 | — | seedream_5_pro ×1 (16:9) | key/01 | ref_01_paris_aerial | 04_frames/candidates/01_sd5pro_a.jpg | good, but 16:9 crop loses sky |
 | 11:22 | voices | — | ElevenLabs design voice (eleven_ttv_v3) | V: very old woman, hoarse · H: young woman, whispering behind glass | — | 06_audio/voice_previews/*.mp3 | team to pick 1 V + 1 H |
 
-| 11:27 | LOC-03 plate v2 | — | nano-banana-2-1 ×2 (HIGH) + seedream_5_pro ×2 | ghost platform in the Notion Metro look | plate_LOC-01 (#39), plate_TRAIN_side (#37), plate_TRAIN (#34) | 03_plates/LOC-03_v2_* | **sd5pro_a: best — same geometry as #39, the wooden door replaces the kiosk** · sd5pro_b: door centred, best for shot 20 · nb21_a: good 21:9 but a « NATION » sign stays (fix in post) · nb21_b: more ruined, rusty sign |
+| 11:27 | LOC-03 plate v2 | — | nano-banana-2-1 ×2 (HIGH) + seedream_5_pro ×2 | ghost platform in the Notion Metro look | plate_LOC-01 (#39), plate_TRAIN_side (#37), plate_TRAIN (#34) | 03_plates/LOC-03_v2_* | **TEAM PICK 11:35: nb21 board → nb21_a = plate_LOC-03, nb21_b = plate_LOC-03_alt; « NATION » sign to paint out in post** · (my earlier note: sd5pro_a: best — same geometry as #39, the wooden door replaces the kiosk** · sd5pro_b: door centred, best for shot 20 · nb21_a: good 21:9 but a « NATION » sign stays (fix in post) · nb21_b: more ruined, rusty sign |
+| 11:31 | 06a | — | gpt-image-2-5-sunburst ×2 (21:9) | key/06a | H_sheet, V_sheet, plate_LOC-00 | candidates/06a_sunburst_a/b | **a: V readable in the doorway, H on model** · b: V too dark · gibberish sign on the entrance → paint out |
+| 11:31 | 06b | — | gpt-image-2-5-sunburst ×2 | key/06b | V_sheet, V_extra_01/02, plate_LOC-00 | candidates/06b_sunburst_a/b | both on model · **b: face centred (vertical-safe)** |
+| 11:31 | 06c | — | gpt-image-2-5-sunburst ×2 | key/06c | H_sheet, plate_LOC-00 | candidates/06c_sunburst_a/b | both on model · **b: face more centred** |
+| 11:31 | 06d | — | nano-banana-2-1 ×2 (2K) | key/06d | plate_LOC-00 | candidates/06d_nb21_a/b | **a: same arch + metro entrance = continuity with 06a** · b: cleaner but different axis |
+| 11:31 | voices | — | ElevenLabs eleven_v4 ×2 each | V2 « Le dernier métro… » · H1 « Aidez-moi… » | — | 06_audio/06b_voice_take*.mp3, 37_voice_take*.mp3 | 06b: take B 3.52 s → 06b_voice_v01.wav · 37: take A 1.28 s → 37_voice_v01.wav |
 
 ## Credits
 | time | balance | batch |
