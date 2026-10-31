@@ -17,7 +17,7 @@ Phase-by-phase prompts: `dernier-reflet/AGENT_PROMPTS.md`. Full Notion text (sou
 
 ## Track challenge (31/10) — must be visible in the film
 - **Infinite Loop:** the last frame (39) cuts back into the first (01) — the window reflection becomes Paris. Generate 01 first; 39 is built from it.
-- **On-screen lip sync:** 06b la Vieille « Le dernier métro ne ramène personne, ma fille. » (+ 37 « Aidez-moi… »). Voice first (ElevenLabs), then Seedance with `referenceAudios` + audio on.
+- **On-screen lip sync:** 06b la Vieille « Le dernier métro ne ramène personne, ma fille. » (+ 37 « Aidez-moi… »). Voice first — **the team supplies every audio file itself (31/10 12:00); don't generate voices** — then Seedance with `referenceAudios` + audio on.
 - **Viral for socials:** 2.39 master + 9:16 cut (`delivery/social_9x16.md`); close-ups keep the face in the centre third.
 
 ## The film in one line

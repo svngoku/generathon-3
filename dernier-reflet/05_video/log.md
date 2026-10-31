@@ -24,6 +24,7 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 11:46 | 06b voice | — | ffmpeg post (vibrato/tremolo/pitch) | — | — | *_aged.wav, lib_clo_v2_A_light.wav | heavy pass = worse (reads as whisper) · light tremor = 40–55 y., full, « éraillée » · team listens: 06_audio/review/06b_vieille_voice_compare.mp3 |
 | 11:52 | 06b voice | — | ElevenLabs team voice « old-woman » `HVigdwcH9s5lXiFILV4Z`, multilingual_v2 ×2 + eleven_v4 ×2, plain text | 06b line | — | 06_audio/06b_voice_takeE..H_ow_*.mp3 | Gemini 50–75 y., full voice, no whisper · E 3/10 · F/G « ma fille » missing · **H 5/10, clear → 06b_voice_v01.wav (LOCKED)** · old V2 take → 06b_voice_V2-rejected.wav |
 | 11:56 | 06b voice | — | ElevenLabs eleven_v4 ×2, voice old-woman, **team prompt** (deep distorted / snarl / maniacal laugh / echoing whispers) | team prompt | — | 06_audio/06b_voice_takeI/J_laugh.mp3 (11.4 / 11.2 s) | both: all words clear, 60–70 y. · Gemini: laugh « cliché » (I 4/10, J 3/10) · **I locked** → 06b_voice_v01.wav (line 0–5.18 s, lip sync) + 06b_voice_v01_fx.wav (pitch −2 st, soft clip, echo tail) · take H kept as 06b_voice_takeH_plain.wav |
+| 12:00 | 06b voice | — | **team-supplied file** Old_Woman_Voice_Sample.mp3 → 06_audio/06b_voice_team_v01.mp3 (10.45 s) | — | — | 06b_voice_v01.wav (0–5.2 s lip-sync source, Arcads 2d2545fc…) + 06b_voice_v01_full.wav | **LOCKED** · Gemini: line 0–4.8 s, laugh 4.8–7.2, whispers 7.6–10 · team now generates all audio itself · my ElevenLabs takes I/J/H kept as archive |
 
 ## Credits
 | time | balance | batch |
