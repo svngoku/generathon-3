@@ -2,19 +2,100 @@
  "fps": 24,
  "note": "Block 4 = 23 -> 28, mirror room (geography.md 'Mirror room LOC-05'). 1 take per shot (team budget choice). Two-pass VFX: 23 = take + its own frame 0 frozen in the mirror zone (the reflection does not move); 27 = clean -> crack; 28 = doorway -> wall.",
  "shots": [
-  {"id": "23", "take": "23_A_v01.mp4", "takeB": "candidates/blk4/23_freeze_f0.jpg", "bMask": "inset(6% 22.5% 11% 47.5%)", "bDur": 0, "in": 0, "dur": 4.0417, "grade": "normal", "sound": "23_A_v01.mp4", "note": "she raises her hand, the reflection stays frozen (frame 0 of the same take, masked to the glass)"},
-  {"id": "24", "take": "24_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "24_v01.mp4", "note": "same locked axis; the Hooded Figure stands behind her reflection, only in the glass"},
-  {"id": "25", "take": "25_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "25_v01.mp4"},
-  {"id": "26", "take": "26_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "26_v01.mp4"},
-  {"id": "27", "take": "27_A_v01.mp4", "takeB": "27_B_v01.mp4", "bAt": 0.3, "bDur": 0.4, "in": 0, "dur": 4.0417, "grade": "normal", "sound": "27_B_v01.mp4", "note": "the crack runs across her reflection (A/B PSNR 33.5 dB)"},
-  {"id": "28", "take": "28_A_v01.mp4", "takeB": "28_B_v01.mp4", "bAt": 0.3, "bDur": 1.6, "in": 0, "dur": 4.0417, "grade": "normal", "sound": "28_A_v01.mp4", "note": "the doorway dissolves into continuous wall"}
+  {
+   "id": "23",
+   "take": "23_A_v01.mp4",
+   "takeB": "candidates/blk4/23_freeze_f0.jpg",
+   "bMask": "inset(6% 22.5% 11% 47.5%)",
+   "bDur": 0,
+   "in": 0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "23_A_v01.mp4",
+   "note": "she raises her hand, the reflection stays frozen (frame 0 of the same take, masked to the glass)"
+  },
+  {
+   "id": "24",
+   "take": "24_v01.mp4",
+   "in": 0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "24_v01.mp4",
+   "note": "same locked axis; the Hooded Figure stands behind her reflection, only in the glass"
+  },
+  {
+   "id": "25",
+   "take": "25_v01.mp4",
+   "in": 0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "25_v01.mp4"
+  },
+  {
+   "id": "26",
+   "take": "26_v02.mp4",
+   "in": 0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "26_v02.mp4",
+   "note": "v02 redone from C_sheet (fangs, rotten face) — v01 had drifted to a smooth closed-lip face"
+  },
+  {
+   "id": "27",
+   "take": "27_A_v01.mp4",
+   "takeB": "27_B_v01.mp4",
+   "bAt": 0.3,
+   "bDur": 0.4,
+   "in": 0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "27_B_v01.mp4",
+   "note": "the crack runs across her reflection (A/B PSNR 33.5 dB)"
+  },
+  {
+   "id": "28",
+   "take": "28_A_v01.mp4",
+   "takeB": "28_B_v01.mp4",
+   "bAt": 0.3,
+   "bDur": 1.6,
+   "in": 0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "28_A_v01.mp4",
+   "note": "the doorway dissolves into continuous wall"
+  }
  ],
  "transitions": [
-  {"cut": "23>24", "type": "cut", "frames": 0, "why": "same locked axis: the figure is simply there after the cut"},
-  {"cut": "24>25", "type": "cut", "frames": 0, "why": "she spins around (shock)"},
-  {"cut": "25>26", "type": "cut", "frames": 0, "why": "the room is empty -> the grin in the glass (shock)"},
-  {"cut": "26>27", "type": "cut", "frames": 0, "why": "the glass answers: crack"},
-  {"cut": "27>28", "type": "cut", "frames": 0, "why": "she turns to run: the door is gone"}
+  {
+   "cut": "23>24",
+   "type": "cut",
+   "frames": 0,
+   "why": "same locked axis: the figure is simply there after the cut"
+  },
+  {
+   "cut": "24>25",
+   "type": "cut",
+   "frames": 0,
+   "why": "she spins around (shock)"
+  },
+  {
+   "cut": "25>26",
+   "type": "cut",
+   "frames": 0,
+   "why": "the room is empty -> the grin in the glass (shock)"
+  },
+  {
+   "cut": "26>27",
+   "type": "cut",
+   "frames": 0,
+   "why": "the glass answers: crack"
+  },
+  {
+   "cut": "27>28",
+   "type": "cut",
+   "frames": 0,
+   "why": "she turns to run: the door is gone"
+  }
  ],
  "audio": []
 }
