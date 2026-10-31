@@ -77,11 +77,11 @@
   },
   {
    "id": "14",
-   "take": "14_v03a.mp4",
+   "take": "14_v04.mp4",
    "in": 0.0,
    "dur": 5.062,
    "grade": "normal",
-   "sound": "14_v03a.mp4"
+   "sound": "14_v04.mp4"
   },
   {
    "id": "E05",
@@ -102,12 +102,36 @@
    "sound": "15_v02a.mp4"
   },
   {
+   "id": "16",
+   "take": "16_v02.mp4",
+   "sound": "16_v02.mp4",
+   "in": 0.0,
+   "dur": 4.086,
+   "grade": "normal"
+  },
+  {
    "id": "E06",
    "take": "E06_v01.mp4",
    "in": 0.0,
    "dur": 4.0417,
    "grade": "dark",
    "sound": "E06_v02a.mp4"
+  },
+  {
+   "id": "17",
+   "take": "17_v02.mp4",
+   "sound": "17_v02.mp4",
+   "in": 0.0,
+   "dur": 4.086,
+   "grade": "normal"
+  },
+  {
+   "id": "18",
+   "take": "18_v01.mp4",
+   "sound": "18_v01.mp4",
+   "in": 0.0,
+   "dur": 4.086,
+   "grade": "normal"
   }
  ],
  "audio": [
@@ -218,10 +242,28 @@
    "why": "back to her face"
   },
   {
-   "cut": "15>E06",
+   "cut": "15>16",
+   "type": "cut",
+   "frames": 0,
+   "why": "C closer: position changes only between cuts"
+  },
+  {
+   "cut": "16>E06",
    "type": "fade",
    "frames": 8,
-   "why": "phone → the line map (placeholder order until 16-18 land)"
+   "why": "from the figure to the line map: the unknown stop"
+  },
+  {
+   "cut": "E06>17",
+   "type": "cut",
+   "frames": 0,
+   "why": "C right in front of the lens — shock"
+  },
+  {
+   "cut": "17>18",
+   "type": "cut",
+   "frames": 0,
+   "why": "lights snap back: empty"
   }
  ]
 }
