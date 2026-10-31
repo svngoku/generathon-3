@@ -90,6 +90,10 @@ def cmd_status(rows):
     for k, v in sorted(by.items()):
         print(f"{k:9} {len(v):3}  {' '.join(v)}")
     blocked = [r["id"] for r in rows if "N" in r["ref"].replace("ENV", "").split("+")]
+    if "DECIDED" in load_lock()["characters"]["N"].get("rule", ""):
+        blocked = []
+    lips = [r["id"] for r in rows if r.get("lipsync")]
+    print(f"lip-sync shots (voice file first): {' '.join(lips)} · loop: 39 -> 01")
     if blocked:
         print(f"BLOCKED on N (second passenger reference not chosen): {' '.join(blocked)}")
     return 0
@@ -118,11 +122,13 @@ def ordered_refs(r, rows, lock):
     if "TRAIN" in r["ref"].split("+") or r["location"] == "LOC-02":
         refs.append(("dernier-reflet/locked/plate_TRAIN.png", "approved white/teal train"))
     sb = PROJ / "02_refs" / "storyboard" / f"{r['id']}.png"
-    if sb.exists():
+    if sb.exists() and r["id"] not in ("34", "39"):  # 34/39 are black frames on the board
         refs.append((f"dernier-reflet/02_refs/storyboard/{r['id']}.png", "storyboard frame — composition only, NOT identity"))
     drafts = r.get("notion_refs", "").split()
     if drafts:
         refs.append((f"dernier-reflet/02_refs/notion/{drafts[0]}", "Notion draft — composition/mood only"))
+    if r["id"] == "39":  # Infinite Loop: the last frame must be shot 01's first frame
+        refs.insert(0, ("dernier-reflet/04_frames/01_v01.png", "APPROVED SHOT 01 — LOOP TARGET: the final frame must match it exactly"))
     if r["id"] in ("16", "17"):
         r14 = next(x for x in rows if x["id"] == "14")
         if r14["status"] == "approved":  # same locked axis: edit the approved 14, only C's seat changes
@@ -193,6 +199,12 @@ def calls_for(r, rows, lock, base_prompt):
         "referenceImages": [arcads_path(p) for p, _ in vrefs[:30]],
         "prompt": identity_clause(vrefs) + " Animate reference image 1 without changing its composition, faces or wardrobe; "
                   "one discreet, physically believable motion; no cuts. " + base_prompt}
+    if r.get("lipsync"):  # challenge: on-screen lip sync — voice first (ElevenLabs), then Seedance lip-syncs to it
+        v = out["arcads_generate_video_seedance_25"]
+        v["audioEnabled"] = True
+        v["referenceAudios"] = [arcads_path(f"dernier-reflet/06_audio/{r['id']}_voice_v01.wav")]
+        v["prompt"] = (f"LIP SYNC: the character speaks this exact line, mouth movements matching reference audio 1: {r['lipsync']}. "
+                       + v["prompt"])
     return out
 
 

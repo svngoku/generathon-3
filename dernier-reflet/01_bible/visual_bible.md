@@ -28,14 +28,17 @@ Delivery: 2.39:1 picture letterboxed inside a 16:9 1920×1080 master (confirm wi
 | Code | Who | Reference sheet (→ `locked/`) | Shots |
 |---|---|---|---|
 | **H** | Heroine — young Black woman, voluminous curly hair, camel coat, dark crossbody bag; tired → disbelief → contained fear → panic | `H_sheet.png` ← `notion/07_H_sheet_turnaround.png` (Marty removed the bucket `jeune-femme-character.png` from Notion on 31/10) | 02, 04–07, 06a, 10–13, 15, 18, 21–25, 27–28, 31, 32a, 32b, 33, 37 |
-| **V** | **La Vieille** — very old woman, long straight silver-white hair, deeply wrinkled pale skin, milky pale-blue eyes, tattered oxblood shawls over a rust-brown dress, long wooden-bead necklace, bony hands, long yellowed nails, stone rings. Motionless, watching | `V_sheet.png` ← `notion/67_V_sheet_turnaround.png` · extras `68–70` | 06a, 06b |
+| **V** | **La Vieille** — very old woman, long straight silver-white hair, deeply wrinkled pale skin, milky pale-blue eyes, tattered oxblood shawls over a rust-brown dress, long wooden-bead necklace, bony hands, long yellowed nails, stone rings. Motionless, watching | `V_sheet.png` ← `notion/67_V_sheet_turnaround.png` · extras `68–70` | 06a, 06b (speaks, lip sync) — gone in 06d |
 | **C** | Creature — hooded, worn pale robe, altered face, red eyes | `C_sheet.png` ← bucket `Horror Movie Image - La créature.png` (+ `notion/44–48_C_carriage_*`; `66_C_fullbody` = costume only: **no blood, no standing/walking pose**) | 14, 16, 17, 24, 26, 32b, 38 |
 | **M** | Young man, past victim — Black, short afro hair, worn dark grey t-shirt; no hood, no red eyes | `M_sheet.png` ← bucket `Jeune Homme Character Horror Movie.png` · 10 new mirror shots `notion/71–80` (candles, gilded frame, cracked glass) = best refs for 29a/29b/30 | 29a, 29b, 30 |
-| **N** | New passenger — ⚠️ **to confirm** (Notion now only has blonde, white sweater: `notion/24` + 8 new angles `81–88`) | `N_sheet.png` (after decision) | 36, 38 |
+| **N** | New passenger — **blonde** (decided 31/10): long wavy honey-blonde hair, fair freckled skin, cream-white knit sweater. **Devoured by C in 38** (stylised, lights cut) | `N_sheet.png` ← `notion/24_N_blonde_turnaround.png` · extras `81–88` | 36, 38 |
 
 (Shot numbers = V4 storyboard IDs, as in `shotlist.csv` and the PDF.) Never regenerate an approved sheet; never let a character drift. Do not use the generic Higgsfield "charcoal suit" woman for H.
 
 ## Staging rules
+- **Lip sync (challenge):** 06b and 37 — face centred, mouth clearly visible, voice file generated first and passed to Seedance.
+- **Loop (challenge):** 39's last frame = 01's first frame. Generate and approve 01 before 39.
+- **Vertical-safe:** close-ups keep the face in the centre third (9:16 punch-in, `delivery/social_9x16.md`).
 - **C never moves on screen in the carriage.** It changes position *between cuts* on the **same locked axis** (14 → 16 → 17): jump-cuts, not animation.
 - **VFX shots** (E05, E06, E10, 23, 24, 27, 28, 29b, 30, 31, 33, 37): clean plate + character/reflection passes with the **identical framing**, composited in the edit.
 - **One discreet action per insert** (drop, flicker, grip, dust, reflection); simple camera moves.

@@ -24,7 +24,7 @@ Consistency comes from **the same uploaded references on every call**, not from 
 
 ## Format rules
 - **Stills:** Sunburst `aspectRatio: "21:9"`; Nano Banana `aspectRatio: "21:9"`, `resolution: "2K"` (4K for hero shots 09, 22, 24, 26, 37) → crop to **2.39:1** in the edit. Seedream `16:9` → crop top/bottom to 2.39:1: keep heads and key props inside the central 75 % height.
-- **Video:** Seedance `16:9`, `1080p`, `bitrateMode: "high"`, **`audioEnabled: false`** (Marty does the sound design) → crop to 2.39:1. Clips run ≥ 4 s: generate `gen_s` from `shotlist.csv` (shot length + 1 s handle, min 4 s) and trim in the edit.
+- **Video:** Seedance `16:9`, `1080p`, `bitrateMode: "high"`, **`audioEnabled: false`** (Marty does the sound design) — **except the lip-sync shots 06b and 37**: `audioEnabled: true` + the line's voice file in `referenceAudios` (ElevenLabs voice made first, see `06_audio/score.md`); the take's sound is replaced by the clean voice in the mix → crop to 2.39:1. Clips run ≥ 4 s: generate `gen_s` from `shotlist.csv` (shot length + 1 s handle, min 4 s) and trim in the edit.
 - **VFX shots** (E05, E06, E10, 23, 24, 27, 28, 29b, 30, 31, 33, 37): pass A clean plate + pass B characters/reflection with the **same references and framing**, each animated separately, composited in the edit.
 - **No generated text:** screens, signs and the line map are added in post.
 

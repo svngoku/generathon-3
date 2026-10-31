@@ -42,6 +42,14 @@ dernier-reflet/07_edit/animatic_v01.mp4 (2.39:1 letterboxed in 1920x1080), no so
 CHECKPOINT: what does a muted stranger understand at 0:44, 1:29, 1:44, 2:43, 3:00? Flag beats that don't read.
 ```
 
+## 3b · Voices for lip sync (before 06b and 37)
+```
+Phase 3b. With ElevenLabs: design la Vieille's voice (very old woman, low, hoarse, slow, French) and the heroine's voice.
+Generate 2 takes each: 06b « Le dernier métro ne ramène personne, ma fille. » (≤ 3 s) and 37 « Aidez-moi… » (≤ 4 s).
+Save the picked takes as dernier-reflet/06_audio/06b_voice_v01.wav and 37_voice_v01.wav, upload them with tools/arcads_put.sh.
+CHECKPOINT: play me both takes.
+```
+
 ## 4 · Inserts E01–E10
 ```
 Phase 4. For E01…E10: `python3 tools/reflet.py prompt E0x --soul` → still (2 variants, plate attached, no people) →
@@ -65,7 +73,7 @@ Fix a nearly-good take:
 Use edit_video_seedance_25 on dernier-reflet/05_video/[id]_v[XX].mp4: [exact problem, e.g. "her coat turns grey at 2s — keep everything else identical"]. Save as _v[XX]b.
 ```
 
-## 6 · Sound
+## 6 · Sound (+ loop)
 ```
 Phase 6. Follow 06_audio/score.md. Generate the two whispers (2 takes each), the music fallback if needed,
 and gather SFX. Lay them on the animatic timing.
@@ -74,7 +82,8 @@ CHECKPOINT: play me 01:44–03:00 with sound only.
 
 ## 7 · Edit & delivery
 ```
-Phase 7. Replace animatic stills with approved takes, composite the VFX passes and the post-only texts
+Phase 7. LOOP: build 39 from the approved 01 (push into the window, last frame == 01 frame 1); play the export on repeat and check the joint (picture + sound).
+Then the 9:16 social cut per delivery/social_9x16.md (hook title, FR/EN subtitles, close-ups punched in). Replace animatic stills with approved takes, composite the VFX passes and the post-only texts
 (bus notification, phone clock, unknown station). Mix. Export 07_edit/le-dernier-reflet_v01.mp4,
 check `python3 tools/reflet.py check` and duration == 3:00.000. Fill delivery/submission.md.
 CHECKPOINT: full watch, then upload before 13:30.

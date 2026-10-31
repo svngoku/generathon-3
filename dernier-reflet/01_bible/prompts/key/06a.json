@@ -2,7 +2,7 @@
   "shot": "P06a — La rue sombre",
   "reference_assets": "H + V + LOC-00",
   "camera": "DV Camcorder, anamorphic lens, 2.39:1",
-  "_source": "team addition 2026-10-31 (not in PDF V4)",
-  "prompt": "The exact same young Black heroine from the character sheet, camel coat and dark bag, hurries away from camera down a narrow dark Paris side street after midnight toward a glowing Métropolitain entrance at the far end. Wet cobbles, closed iron shutters, one flickering sodium streetlight. Deep in a carriage doorway on the left, half in shadow, the exact old woman from the second character sheet stands perfectly still: long silver-white hair, tattered oxblood shawls — small in frame, easy to miss. Wide three-quarter rear follow. Sodium amber, wet graphite, cold blue spill. DV anamorphic 2.39:1. The heroine does not see her.",
+  "_source": "team addition 2026-10-31 (challenge: Infinite Loop + on-screen lip sync), not in PDF V4",
+  "prompt": "The exact same young Black heroine from the character sheet, camel coat and dark bag, hurries down a narrow dark Paris side street after midnight toward a glowing Métropolitain entrance. Wet cobbles, closed iron shutters, one flickering sodium streetlight. In a deep carriage doorway on the left, half in shadow, the exact old woman from the second character sheet stands perfectly still — long silver-white hair, tattered oxblood shawls — and has just called out to her: the heroine slows down. Wide three-quarter rear follow. DV anamorphic 2.39:1.",
   "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement, no gore"
 }

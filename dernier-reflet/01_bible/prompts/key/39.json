@@ -1,0 +1,8 @@
+{
+  "shot": "P39 — Boucle : le reflet devient Paris",
+  "reference_assets": "TRAIN + VFX + shot 01",
+  "camera": "DV Camcorder, anamorphic lens, 2.39:1",
+  "_source": "team addition 2026-10-31 (challenge: Infinite Loop + on-screen lip sync), not in PDF V4",
+  "prompt": "Dark window of the same Paris metro carriage in the blackout; slow axial push-in until the reflection fills the frame and the city lights in the glass resolve into the exact opening aerial of Paris (Seine, bridges, Eiffel Tower before midnight). The final frame must be identical to the first frame of shot 01 so the film loops. Built in the edit from the approved 01 frame. DV anamorphic 2.39:1.",
+  "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement, no gore"
+}

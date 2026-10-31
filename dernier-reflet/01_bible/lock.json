@@ -121,10 +121,10 @@
       "element": ""
     },
     "N": {
-      "name": "Nouvelle passagère",
-      "descriptor": "the SAME second young woman from the uploaded character sheet (reference TO BE DECIDED: blonde light sweater from Notion OR brunette dark clothes from the storyboard)",
+      "name": "Nouvelle passagère (blonde)",
+      "descriptor": "the SAME young blonde woman from the uploaded character sheet: long wavy honey-blonde hair, fair freckled skin, light eyes, cream-white knit sweater",
       "sheet": "locked/N_sheet.png",
-      "rule": "BLOCKED until the team chooses the reference (shots 36, 38); never blend the two references",
+      "rule": "DECIDED 31/10: blonde (Notion #24 + #82–88). Shots 36, 38. She is the one the creature devours at the end — stylised, no visible gore, lights cut at the impact",
       "element": ""
     },
     "_doc": "extra identity images: drop them in locked/ as H_extra_01.png, C_extra_01.png … (picked up automatically). 'element' = Arcads Element handle without @, once created in Arcads Studio.",
@@ -132,7 +132,7 @@
       "name": "La Vieille",
       "descriptor": "the SAME very old woman from the uploaded character sheet: long straight silver-white hair, deeply wrinkled pale skin, milky pale-blue eyes, layered tattered oxblood-burgundy shawls over a long rust-brown dress, long wooden-bead necklace, bony hands with long yellowed nails and stone rings",
       "sheet": "locked/V_sheet.png",
-      "rule": "introduced only in the dark street on the way to the metro (06a, 06b); motionless, watches the heroine, never touches her, never shown moving fast; same hair, robe, necklace and rings in every frame; no gore (ignore the fingers-in-mouth face crop)",
+      "rule": "dark street only (06a, 06b; absent in 06d): motionless in the doorway, speaks ONE line to the heroine with lip sync in 06b, never touches her, vanishes when the heroine turns back; same hair, robe, necklace and rings every frame; no gore",
       "element": ""
     }
   }

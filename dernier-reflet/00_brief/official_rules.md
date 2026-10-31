@@ -14,6 +14,15 @@ Source: [Generathon 3 × Paris Creator Week — Prompts & ressources](https://ap
 | 🎥 **Three Minutes to Scare** (horror short film) | fear, suspense or disgust through a story with a real narrative arc | ✅ **Le Dernier Reflet** |
 | 🎨 Sell the Fear (advert) | promote a product/service with a horror ad aimed at a genre-friendly audience | — |
 
+### ⚠️ Track challenge — announced 31/10 (card « THREE MINUTES TO SCARE: SHORT FILM »)
+> **Challenge: Infinite Loop**: the last frame cuts back into the first one. Plus at least **one character speaking on screen with lip sync**. Your video has to be **viral for socials**.
+
+| Requirement | Our answer |
+|---|---|
+| Last frame cuts back into the first | **39** = push into the black carriage window; the reflection becomes the exact first frame of **01** (Paris aerial) → seamless loop, sound loops too (three pulses → earbud music restarts) |
+| On-screen lip sync | **06b** la Vieille warns the heroine face to camera: « Le dernier métro ne ramène personne, ma fille. » · bonus **37** the heroine in the window: « Aidez-moi… » |
+| Viral for socials | 2.39:1 master for the jury + **9:16 vertical cut** (`delivery/social_9x16.md`): hook in the first second, burnt-in FR/EN subtitles, loop intact |
+
 Original project, **presented live to the jury on Sunday afternoon**.
 
 ## Schedule (Paris time)
