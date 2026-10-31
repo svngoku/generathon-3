@@ -83,3 +83,6 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 14:53 | E04,E06 | still ×2 each | nano-banana-2-1 | inserts | notion 40, 45 | blk2/E04_*, E06_* | E04_b has invented readable map → a; E06 both need post lettering |
 | 15:01 | 12 | still ×2 v3 | gpt-2.5-sunburst | lights out, identity-locked | H_sheet, 06c_v03 (approved), notion 45 | blk2/12v3_a (10b33f66), 12v3_b | ✓ same face as sheet + 06c → 12v3_a = anchor |
 | 15:02 | 13,15 | edit ×2 each v3 | gpt-2.5-sunburst | edits of 12v3_a | 12v3_a, H_sheet | blk2/13v3_a (6e338904), 15v3_b (84571f5a) | ✓ identity held on all four |
+| 15:12 | blk2 | team review | — | — | — | — | ✓ approved by team: E02_a, 08_b, E03_a, 09_a, 11_b, E04_a, 12v3_a, 13v3_a, 14_b, 15v3_b, E06_a · ✗ 10 rejected → redo from Notion team refs (13/14/17 H at carriage doors, 35 train doors open) |
+| 15:15 | 10 | still ×4 v2 | gpt-2.5-sunburst | identity-locked, inside carriage at open doors | H_sheet, 12v3_a + (a) notion 14, 35 · (b) notion 13, 17 | blk2/10v2_a1 (914e3284), a2 (aa616cb8), b1 (3108b6ba), b2 (740e8a8c) | same face as 12v3/06c on all 4; b1 closest to team ref 13; a1 = doors right, platform visible |
+| 15:17 | refs | — | — | — | — | — | notion 94 (attack shot) dropped at team request — never use |
