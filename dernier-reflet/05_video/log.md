@@ -31,8 +31,10 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 12:22 | 06a/06b/06c v2 | — | gpt-image-2-5-sunburst ×2 each (21:9) | edit of the approved v01 (pose/acting kept) + set swapped to nb21_b | v01 frame, plate_LOC-00 (nb21_b), H_sheet / V_sheet (+V_extra_01) | 04_frames/candidates/06x_v2_a/b.png · sheet 07_edit/review/scene06_v2_nb21b.jpg | all on plate + on model · picks a/b/b (= team picks) → 04_frames/06x_v02.png |
 | 12:22 | 06d v2 | — | nano-banana-2-1 ×2 | plate + old 06d as composition | plate_LOC-00, 06d_v01 | candidates/rejected/06d_v2_* | ❌ copied the old building, ignored the plate |
 | 12:24 | 06d v3 | — | nano-banana-2-1 ×2 (HIGH) | edit of 06a v2 a: remove both women | plate_LOC-00, 06a_v2_a | candidates/06d_v3_a/b.png | **a: exact 06a v2 a framing, doorway empty → 06d_v02.png** · b: matches 06a v2 b |
-| 12:42 | 06b | video | seedance 2.5 1080p high, 6 s, **audio ON + referenceAudios 06b_voice_v01.wav (team file, 0–5.2 s)** | lip sync « Le dernier métro… ma fille » | keyframe 06b_v02 (3bbc6b7f…), V_sheet, V_extra_01 | asset 07ea94ed… → 05_video/06b_v01.mp4 | pending · **real cost 624 credits (≈104/s at 1080p)** |
-| 12:43 | 06a / 06c / 06d | video | seedance 2.5 1080p high, 4 s each, audio off | animate keyframe, one discreet action | keyframes 06x_v02 + H_sheet / V_sheet / plate_LOC-00 | assets f6a992d0… / 6a1e8146… / 30fca6fc… | pending |
+| 12:42 | 06b | video | seedance 2.5 1080p high, 6 s, **audio ON + referenceAudios 06b_voice_v01.wav (team file, 0–5.2 s)** | lip sync « Le dernier métro… ma fille » | keyframe 06b_v02 (3bbc6b7f…), V_sheet, V_extra_01 | asset 07ea94ed… → 05_video/06b_v01.mp4 | identity stable, very creepy, voice complete · ❌ **Gemini lip sync 3/10** (generic mouth, drift 2–5 s); Seedance re-times the line (+0.5 s, longer pause) · real cost 624 credits (≈104/s at 1080p) |
+| 12:43 | 06a / 06c / 06d | video | seedance 2.5 1080p high, 4 s each, audio off | animate keyframe, one discreet action | keyframes 06x_v02 + H_sheet / V_sheet / plate_LOC-00 | 05_video/06a/06c/06d_v01.mp4 | 06a: follow shot, V stays motionless in the doorway ✔ · 06c: frozen fear then turns away ✔ · 06d: street stays empty ✔ · 416 each |
+| 12:53 | 06b | video v2 | seedance 2.5 1080p high, 6 s ×2, audio ON + team line | articulation-first lip-sync prompt | keyframe 06b_v02, V_sheet, V_extra_01 | assets 0e50b58a… / 8e74969b… | pending (≈1 248 credits) |
+| 12:53 | scene 06 | rough | ffmpeg | 06a 1.0–4.0 · 06b 0.5–3.5 · 06c 1.7–3.7 · 06d 0–4 (+hold) · 2.39 letterbox · audio: 06b clip line + team laugh/whispers | — | 07_edit/rough/scene06_rough_v01.mp4 (13.4 s review) | for review only |
 
 ## Credits
 | time | balance | batch |
@@ -40,6 +42,7 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 11:15 | 50 000 | before batch 1 |
 | 11:26 | 49 952 | after batch 1 (plates + 01 + voices) |
 | 12:42 | 49 328 | after 06b video (624) |
+| 12:53 | ≈46 832 | after 06a/c/d (3×416) + 06b v2 ×2 (≈1 248) |
 
 ## Locks (promotions to `locked/`)
 | time | file | source | approved by |
