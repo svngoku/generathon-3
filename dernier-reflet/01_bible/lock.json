@@ -49,8 +49,8 @@
       "plate": ""
     },
     "LOC-01": {
-      "setting": "active Paris metro station: wet stairwell, white bevelled tile corridors, vaulted platform, white-and-teal train, French signage",
-      "lighting": "cold blue overhead fluorescents, light haze, amber destination display",
+      "setting": "active Paris metro station exactly as the Notion « Metro » section (refs #34, #37, #39): smooth curved white vault, ONE continuous fluorescent light strip along the ceiling, arched alcoves on the far wall, cold blue fog, wet reflective platform floor, white-and-teal MF train with amber destination display, station Nation",
+      "lighting": "continuous cold fluorescent strip, blue fog, horizontal blue anamorphic flares, soft dark vignette",
       "palette": "icy steel blue, teal, pale tile, wet graphite, tiny amber signage",
       "tone": "cold blue",
       "materials": "wet concrete, glazed tile, glass, painted steel",
@@ -65,7 +65,7 @@
       "plate": "locked/plate_LOC-02.png"
     },
     "LOC-03": {
-      "setting": "forgotten Paris ghost metro platform: cracked tiles, faded vintage posters, rusted benches, half-open wooden service door at the far end",
+      "setting": "the SAME station architecture as LOC-01 (smooth curved vault, continuous light strip, arched alcoves) but abandoned for decades: strip half dead, mould, cracked tiles, peeling vintage posters, rusted benches, blank corroded station plate, half-open wooden door leaking amber at the far end",
       "lighting": "weak cold fluorescent spill and an isolated amber glow near the door",
       "palette": "mould green, aged ivory, rust, faint amber",
       "tone": "desaturated cool",

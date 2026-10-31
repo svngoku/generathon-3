@@ -9,6 +9,10 @@ Subtle horizontal streaks, gentle halation, mild blooming, small-sensor DV depth
 Same camera texture everywhere (metro, corridor, room, mirror): environments and light change, the capture doesn't. JSON: `prompts/_camera_lock.json`.
 Delivery: 2.39:1 picture letterboxed inside a 16:9 1920×1080 master (confirm with organisers).
 
+## Metro look — keep it identical to Notion « Metro » (team rule 31/10)
+Reference images: `notion/34_TRAIN_arrival_front.png` (train « 51 Pont de Sèvres »), `notion/39_LOC-01_platform_empty_blue.png` (empty platform Nation in fog), `notion/37_TRAIN_fog_side.png` (train side in fog) — locked as `plate_TRAIN`, `plate_LOC-01`, `plate_TRAIN_side`.
+**Always:** smooth curved white vault · one continuous fluorescent light strip along the ceiling · arched alcoves · cold blue fog · wet mirror-like floor · white-and-teal MF train, amber destination display · horizontal blue anamorphic flares · soft dark vignette. **Never:** classic bevelled-tile vault with separate tubes (rejected LOC-03 v1). The ghost station (LOC-03) is this same station, abandoned.
+
 ## Locations
 | ID | Set | Must stay constant | Palette | Plate (locked/) |
 |---|---|---|---|---|
