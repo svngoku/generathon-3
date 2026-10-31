@@ -41,6 +41,9 @@ Shot mapping was done from thumbnails: a first pass to confirm by eye.
 Not found anywhere: a ghost-platform (LOC-03) image and a creature turnaround sheet in Notion → C_sheet comes from the HF bucket (`Horror Movie Image - La créature.png`); LOC-03 must be generated (`prompts/plates/LOC-03_sheet.txt` + key prompt `prompts/key/19.json`).
 No PDF on the page (as of 2026-10-31 09:00 UTC).
 
+## 2b. Storyboard frames → `02_refs/storyboard/<id>.png`
+The 39-frame board cut into one image per shot (41 files, caption bar trimmed). Passed as reference for **composition only**: the heroine in the storyboard has a lighter skin tone than her character sheet — the sheet always wins on identity.
+
 ## 3. `locked/` — the only folder generation calls read from
 `storyboard.png` ✅ (symlink) · `H_sheet.png · C_sheet.png · M_sheet.png · N_sheet.png · plate_TRAIN.png · plate_LOC-01..05.png`
-Promote a file only after the team approves it, and log the promotion in `05_video/log.md` (`LOCK | file | source | who approved`).
+Promote a file only after the team approves it, upload it once to Arcads (`tools/arcads_put.sh`, asset id in `locked/arcads_assets.json`), and log the promotion in `05_video/log.md` (`LOCK | file | source | who approved`).

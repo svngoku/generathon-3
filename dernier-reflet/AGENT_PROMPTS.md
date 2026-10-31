@@ -19,13 +19,16 @@ Don't generate anything yet.
 ```
 Phase 1. Run `bash tools/fetch_refs.sh` (or fetch the Hugging Face bucket via the HF MCP if the network blocks it).
 The 65 Notion images are already in 02_refs/notion/ (see index.csv). Sort the unclassified bucket images in 02_refs/refs.md.
-Propose which file becomes H_sheet, C_sheet, M_sheet, plate_TRAIN and plate_LOC-01/02/04/05 (candidates are listed in refs.md). Create the Arcads project "Le Dernier Reflet" and upload the candidates.
+Propose which file becomes H_sheet, C_sheet, M_sheet, plate_TRAIN and plate_LOC-01/02/04/05 (candidates are listed in refs.md).
 CHECKPOINT: show a grid with one-line verdicts. I'll say which go into locked/.
+After my approval: copy each approved file into locked/ under its canonical name, then upload it ONCE with
+tools/arcads_put.sh (get_upload_url → PUT → arcads_register_image → --asset) so locked/arcads_assets.json holds
+one persistent asset id per reference. Every later call uses those ids (reflet.py prompt <id> --calls prints them).
 ```
 
 ## 2 · Plates (sets)
 ```
-Phase 2. Generate the missing plates in this order, 2 variants each, each with its existing reference attached:
+Phase 2. Generate the missing plates with Nano Banana 2.1 (21:9, 2K) ×2 AND Seedream 5 Pro (16:9) ×2, each with its existing reference attached:
 S01 + S02 (TRAIN, from Metro Train Arrive) → LOC-01 sheet → LOC-02 sheet → LOC-03 sheet → S03 (LOC-04) → S04 (LOC-05).
 Use the prompt files as-is. Log every call in dernier-reflet/05_video/log.md.
 CHECKPOINT after each set: both variants + which one you'd lock and why (geometry, light, palette vs visual_bible.md).
@@ -50,8 +53,9 @@ CHECKPOINT: contact sheet of all ten + verdicts.
 ## 5 · Acts — one block at a time
 ```
 Phase 5 — shots [10–18 | 21–28 | 29a–33 | 35–38].
-For each shot: `python3 tools/reflet.py prompt <id>`; use the KEY prompt when there is one, else the ARCADS prompt;
-attach exactly the refs it prints. Still first (2 variants) → I approve → motion with the video model in the row.
+For each shot: `python3 tools/reflet.py prompt <id> --calls` and send the printed calls as they are:
+Nano Banana 2.1 ×2 + Seedream 5 Pro ×1 for the still → I pick → upload the approved still (arcads_put.sh) →
+Seedance 2.5 1080p high from that keyframe. Follow the consistency protocol in model_map.md; reject any drift. Still first (2 variants) → I approve → motion with the video model in the row.
 C never moves on screen in the carriage: 14/16/17 share one locked framing; only its seat changes.
 VFX shots: clean plate + character/reflection passes with identical framing.
 CHECKPOINT per block: stills grid, then takes + which to keep.

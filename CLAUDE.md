@@ -33,7 +33,9 @@ A woman takes the last metro; an impossible passenger leads her to a mirror that
 ## How to work
 - Start every session with `python3 tools/reflet.py check` and `python3 tools/reflet.py next`.
 - Get prompts with `python3 tools/reflet.py prompt <id>`: Marty's KEY prompt (17 shots) + his ARCADS prompt (every shot), verbatim from the PDF, plus the refs to attach. Prompts are templates: adapt the action line to English if the model needs it, never change camera/identity clauses.
-- Use the Arcads MCP; read each tool's schema before its first call and record limits in `model_map.md` (live notes). Check credits before each batch.
+- **Models (fixed):** stills = **Nano Banana 2.1** (`nano-banana-2-1`, primary, ≤14 refs, 21:9) + **Seedream 5.0 Pro** (`seedream_5_pro`, A/B, ≤4 refs, 16:9); video = **Seedance 2.5 at 1080p, bitrateMode high, audio off**. No other model without asking.
+- **Character consistency:** follow the protocol in `01_bible/model_map.md` — same uploaded refs (asset ids in `locked/arcads_assets.json`) on every call, sheets first, storyboard frames = composition only (the storyboard heroine's skin tone differs from the sheet: the sheet wins), video always starts from the approved keyframe.
+- Check credits (`arcads_get_credits`) before each batch; approve stills before any video spend.
 - Final-candidate generations: **2 variants in parallel**, pick with a one-line verdict each.
 - Log every call in `dernier-reflet/05_video/log.md`: `time | shot | pass | model | prompt | refs | output | verdict`.
 - Save to the `frame_out` / `video_out` paths in `shotlist.csv` and move `status` `todo → draft → approved`.

@@ -5,6 +5,7 @@
   python3 tools/reflet.py status             # progress per status / per location / blocked shots
   python3 tools/reflet.py prompt 14          # Marty's V4 prompts for a shot + refs to attach
   python3 tools/reflet.py prompt 29a --soul  # also print the Notion Soul-Cinematic JSON when one exists
+  python3 tools/reflet.py prompt 14 --calls  # ready-to-send Arcads calls: Nano Banana 2.1, Seedream 5 Pro, Seedance 2.5 1080p
   python3 tools/reflet.py prompt 23 --build --pass A  # extra: JSON built from lock.json (VFX pass A clean / B anomaly)
   python3 tools/reflet.py next               # next shots to generate, in batch order (plates -> inserts -> acts)
 
@@ -94,17 +95,82 @@ def cmd_status(rows):
     return 0
 
 
-def refs_for(r, lock):
+PRODUCT_ID = "1b5e7fe6-ac1f-414c-91a3-d9e32ff46634"  # Arcads brand JUA (only brand in the workspace)
+HERO = {"09", "22", "24", "26", "37"}
+CHAR_LABEL = {"H": "the heroine", "C": "the hooded creature", "M": "the young man (flashback victim)", "N": "the second passenger"}
+
+
+def codes_of(r):
+    return [c for c in ("H", "C", "M", "N") if c in r["ref"].split("+")]
+
+
+def ordered_refs(r, rows, lock):
+    """Reference images in priority order: sheets -> plate(s) -> storyboard frame -> Notion draft -> previous approved shot."""
     refs = []
+    for c in codes_of(r):
+        refs.append((f"dernier-reflet/{lock['characters'][c]['sheet']}", f"{CHAR_LABEL[c]} character sheet"))
     loc = lock["locations"].get(r["location"], {})
     if loc.get("plate"):
-        refs.append(f"dernier-reflet/{loc['plate']}  (location plate {r['location']})")
-    if "TRAIN" in r["ref"].split("+"):
-        refs.append("dernier-reflet/locked/plate_TRAIN.png  (approved white/teal train)")
-    for code in ("H", "C", "M", "N"):
-        if code in r["ref"].split("+"):
-            refs.append(f"dernier-reflet/{lock['characters'][code]['sheet']}  ({lock['characters'][code]['name']})")
+        refs.append((f"dernier-reflet/{loc['plate']}", f"location plate {r['location']}"))
+    if "TRAIN" in r["ref"].split("+") or r["location"] == "LOC-02":
+        refs.append(("dernier-reflet/locked/plate_TRAIN.png", "approved white/teal train"))
+    sb = PROJ / "02_refs" / "storyboard" / f"{r['id']}.png"
+    if sb.exists():
+        refs.append((f"dernier-reflet/02_refs/storyboard/{r['id']}.png", "storyboard frame — composition only, NOT identity"))
+    drafts = r.get("notion_refs", "").split()
+    if drafts:
+        refs.append((f"dernier-reflet/02_refs/notion/{drafts[0]}", "Notion draft — composition/mood only"))
+    i = next(k for k, x in enumerate(rows) if x["id"] == r["id"])
+    for prev in reversed(rows[:i]):
+        if prev["location"] == r["location"] and prev["status"] == "approved" and prev["frame_out"]:
+            refs.append((f"dernier-reflet/{prev['frame_out']}", f"previous approved shot {prev['id']} — light/wardrobe continuity"))
+            break
     return refs
+
+
+def refs_for(r, lock):
+    return [f"{p}  ({label})" for p, label in ordered_refs(r, load_rows(), lock)]
+
+
+def arcads_path(local):
+    manifest = PROJ / "locked" / "arcads_assets.json"
+    m = json.loads(manifest.read_text()) if manifest.exists() else {}
+    return m.get(local, f"UPLOAD_FIRST:{local}")
+
+
+def identity_clause(refs):
+    parts = [f"reference image {n} = {label}" for n, (_, label) in enumerate(refs, 1)]
+    return ("References: " + "; ".join(parts) + ". Keep every character exactly identical to their character sheet "
+            "(face, hair, skin tone, costume); never blend two characters; storyboard and drafts give composition only.")
+
+
+def calls_for(r, rows, lock, base_prompt):
+    refs = ordered_refs(r, rows, lock)
+    title = lambda m: f"2026-10-31_shot{r['id']}_{m}_v1"
+    vfx = "VFX" in r["ref"]
+    nb_refs = refs[:14]
+    sd_refs = [x for x in refs if "previous" not in x[1] and "Notion draft" not in x[1]][:4]
+    out = {
+        "arcads_generate_image_nano_banana": {
+            "productId": PRODUCT_ID, "model": "nano-banana-2-1", "aspectRatio": "21:9",
+            "resolution": "4K" if r["id"] in HERO else "2K", "thinkingLevel": "HIGH" if len(codes_of(r)) > 1 or vfx else "MEDIUM",
+            "nbGenerations": 2, "title": title("nb21"),
+            "referenceImages": [arcads_path(p) for p, _ in nb_refs],
+            "prompt": identity_clause(nb_refs) + " " + base_prompt},
+        "arcads_generate_image_seedream": {
+            "productId": PRODUCT_ID, "model": "seedream_5_pro", "aspectRatio": "16:9", "nbGenerations": 1,
+            "title": title("sd5pro"), "referenceImages": [arcads_path(p) for p, _ in sd_refs],
+            "prompt": identity_clause(sd_refs) + " Keep heads and key props inside the central 75% of the frame height (cropped to 2.39:1 later). " + base_prompt},
+    }
+    kf = f"dernier-reflet/{r['frame_out']}"
+    vrefs = [(kf, "APPROVED KEYFRAME — the video starts exactly on this image")] + [x for x in refs if "storyboard" not in x[1] and "draft" not in x[1]]
+    out["arcads_generate_video_seedance_25"] = {
+        "productId": PRODUCT_ID, "resolution": "1080p", "bitrateMode": "high", "aspectRatio": "16:9",
+        "audioEnabled": False, "duration": int(r.get("gen_s") or 4), "nbGenerations": 1, "title": title("sd25"),
+        "referenceImages": [arcads_path(p) for p, _ in vrefs[:30]],
+        "prompt": identity_clause(vrefs) + " Animate reference image 1 without changing its composition, faces or wardrobe; "
+                  "one discreet, physically believable motion; no cuts. " + base_prompt}
+    return out
 
 
 def build(r, lock, vfx_pass):
@@ -147,7 +213,7 @@ def build(r, lock, vfx_pass):
     }
 
 
-def cmd_prompt(rows, sid, vfx_pass="B", soul=False, build_json=False):
+def cmd_prompt(rows, sid, vfx_pass="B", soul=False, build_json=False, calls=False):
     r = find(rows, sid)
     lock = load_lock()
     if r["ref"] == "BLACK":
@@ -157,11 +223,9 @@ def cmd_prompt(rows, sid, vfx_pass="B", soul=False, build_json=False):
     print(f"# action: {r['beat']} — {r['action']} | cadre: {r['frame']} | son: {r['sound']}")
     print(f"# image: {r['image_model']}  ->  video: {r['video_model']}")
     print(f"# save: dernier-reflet/{r['frame_out']}  ·  dernier-reflet/{r['video_out']}")
-    for ref in refs_for(r, lock):
-        print(f"# attach: {ref}")
-    for f in r.get("notion_refs", "").split():
-        print(f"# existing Notion image for this shot: dernier-reflet/02_refs/notion/{f}")
-    print("# storyboard frame: dernier-reflet/locked/storyboard.png (original 39-frame board)")
+    for n, (p, label) in enumerate(ordered_refs(r, rows, lock), 1):
+        ok = "" if (ROOT / p).exists() else "   <-- MISSING: lock/approve it first"
+        print(f"# ref {n}: {p}  ({label}){ok}")
     for code in ("H", "C", "M", "N"):
         if code in r["ref"].split("+"):
             print(f"# rule {code}: {lock['characters'][code]['rule']}")
@@ -178,6 +242,12 @@ def cmd_prompt(rows, sid, vfx_pass="B", soul=False, build_json=False):
             print((BIBLE / r["soul_json"]).read_text().strip())
         else:
             print(f"\n# also available: Notion Soul JSON 01_bible/{r['soul_json']} (--soul to print)")
+    if calls:
+        base = json.loads((BIBLE / r["key_prompt"]).read_text())["prompt"] if r.get("key_prompt") else (BIBLE / r["prompt"]).read_text().strip()
+        print("\n## READY-TO-SEND ARCADS CALLS (stills first; video only after the keyframe is approved)")
+        if "VFX" in r["ref"]:
+            print("# VFX: run each still call twice — pass A (clean plate: remove the impossible element) and pass B (as written)")
+        print(json.dumps(calls_for(r, rows, lock, base), ensure_ascii=False, indent=2))
     if build_json:
         print("\n## BUILT JSON (lock.json) — review before use")
         print(json.dumps(build(r, lock, vfx_pass), ensure_ascii=False, indent=2))
@@ -217,7 +287,7 @@ def main(argv):
         p = "B"
         if "--pass" in argv:
             p = argv[argv.index("--pass") + 1].upper()
-        return cmd_prompt(rows, argv[2], p, soul="--soul" in argv, build_json="--build" in argv)
+        return cmd_prompt(rows, argv[2], p, soul="--soul" in argv, build_json="--build" in argv, calls="--calls" in argv)
     print(__doc__)
     return 2
 
