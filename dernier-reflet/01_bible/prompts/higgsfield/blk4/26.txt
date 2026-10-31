@@ -1,0 +1,20 @@
+[Generation Goal]
+A 4-second extreme close-up inside the mirror glass: the Hooded Figure lifts its head and grins.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the hooded face with red eyes seen through the tarnished glass, gilt frame edge on the left). Keep its framing and light.
+@image2: the Hooded Figure — worn pale hooded robe, shadowed gaunt face, two glowing red eyes. Full-preserve. Do not take its background.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static camera. Very slowly, the Hooded Figure lifts its head a little; its thin grin widens; the red eyes glow brighter; the hood stays in place. It stays behind the tarnished glass the whole time.
+End state: the grin at its widest, eyes on the camera, motionless.
+
+[Look]
+Early-2000s DV camcorder texture, gentle halation, MiniDV noise, crushed blacks; tobacco, dust beige and tarnished gold, unstable warm amber against cold blue shadow. Mood: hushed dread. Photographic realism, no readable text.
+
+[Audio]
+<a very low frequency swelling> <a dry crackle in the glass>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+The figure stays inside the mirror, never comes through the glass; same hood and face as @image2; the camera never moves.

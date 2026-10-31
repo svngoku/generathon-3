@@ -1,0 +1,21 @@
+[Generation Goal]
+A 4-second locked-off wide shot: the Traveler stands frozen, back to camera, facing the far wall of the room.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler from behind facing a continuous panelled wall where the doorway was, fireplace on the left). Keep its framing and light.
+@image2: the Traveler — deep dark-brown complexion, slim oval face, long dark curls worn half-up, camel wool coat, brown leather bag. Full-preserve. Do not take its background.
+@image3: the same Traveler, another angle — identity only. Do not take its background.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static camera on a tripod, no camera movement. She stands rooted in the same spot, back to camera, shoulders rising with fast breaths, her head turning very slightly left and right.
+End state: she in the same spot, motionless.
+
+[Look]
+Early-2000s DV camcorder texture, gentle halation, MiniDV noise, crushed blacks; tobacco, dust beige and tarnished gold, unstable warm amber against cold blue shadow. Mood: hushed dread. Photographic realism, no readable text.
+
+[Audio]
+<her fast breathing> <a low hum> <a faint creak of the parquet>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Absolutely static framing identical to @image1; she stays in the same place; the wall stays continuous, no door appears; keep her identical to @image2; nobody else appears.

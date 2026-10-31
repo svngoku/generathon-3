@@ -1,0 +1,21 @@
+[Generation Goal]
+A 4-second close-up reaction: the Traveler spins around from the mirror to face the empty room.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler's terrified face in close-up, the gilded mirror blurred behind her). Keep its framing and light.
+@image2: the Traveler — deep dark-brown complexion, slim oval face, long dark curls worn half-up, camel wool coat, brown leather bag. Full-preserve. Do not take its background.
+@image3: the same Traveler, another angle — identity only. Do not take its background.
+
+[Stage 1 — 0-4 seconds]
+Handheld close-up. Her curls swing from the turn; her eyes dart left and right past the camera, searching the room; her breath comes short and fast; nothing is there.
+End state: her eyes fixed past the camera, frozen in fear.
+
+[Look]
+Early-2000s DV camcorder texture, gentle halation, MiniDV noise, crushed blacks; tobacco, dust beige and tarnished gold, unstable warm amber against cold blue shadow. Mood: hushed dread. Photographic realism, no readable text.
+
+[Audio]
+<the swish of her coat as she turns> <short panicked breaths> <an oppressive silence of the empty room>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep her face identical to @image2 and @image3; the mirror behind her shows only the back of her head; nobody else appears.

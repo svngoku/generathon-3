@@ -1,0 +1,21 @@
+[Generation Goal]
+A 4-second locked-off medium shot: the Traveler slowly raises her hand toward the gilded mirror.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler on the left in profile facing the big gilded mirror on the right, her reflection in the glass). Keep its framing and light.
+@image2: the Traveler — deep dark-brown complexion, slim oval face, long dark curls worn half-up, camel wool coat, brown leather bag. Full-preserve. Do not take its background.
+@image3: the same Traveler, another angle — identity only. Do not take its background.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static camera on a tripod, no camera movement. She slowly raises her right hand to shoulder height, palm open toward the mirror, and holds it there, staying on the left side of frame without stepping toward the glass.
+End state: her hand raised, palm toward the mirror, motionless.
+
+[Look]
+Early-2000s DV camcorder texture, gentle halation, MiniDV noise, crushed blacks; tobacco, dust beige and tarnished gold, unstable warm amber against cold blue shadow. Mood: hushed dread. Photographic realism, no readable text.
+
+[Audio]
+<a very low hum in the room> <the rustle of her coat sleeve> <her held breath>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep her identical to @image2; the camera never moves; keep the room and the mirror identical to @image1; nobody else appears.

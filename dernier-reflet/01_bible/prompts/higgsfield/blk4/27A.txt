@@ -1,0 +1,21 @@
+[Generation Goal]
+A 4-second locked-off close-up of the Traveler's reflection in the tarnished mirror glass.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler's horrified reflection in the intact tarnished glass, gilt frame edge on the left). Keep its framing and light.
+@image2: the Traveler — deep dark-brown complexion, slim oval face, long dark curls worn half-up, camel wool coat, brown leather bag. Full-preserve. Do not take its background.
+@image3: the same Traveler, another angle — identity only. Do not take its background.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static camera on a tripod, no camera movement. Her reflection breathes short and fast, eyes wide, lips trembling, head almost still.
+End state: the reflection frozen in horror, in the same place.
+
+[Look]
+Early-2000s DV camcorder texture, gentle halation, MiniDV noise, crushed blacks; tobacco, dust beige and tarnished gold, unstable warm amber against cold blue shadow. Mood: hushed dread. Photographic realism, no readable text.
+
+[Audio]
+<her trembling breath> <a faint high glassy tension>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Absolutely static framing identical to @image1; the glass stays intact; keep her face identical to @image2.

@@ -1,11 +1,13 @@
 import React from 'react';
-import {AbsoluteFill, Audio, Loop, OffthreadVideo, Sequence, staticFile, useCurrentFrame, interpolate} from 'remotion';
+import {AbsoluteFill, Audio, Img, Loop, OffthreadVideo, Sequence, staticFile, useCurrentFrame, interpolate} from 'remotion';
 import {TransitionSeries, linearTiming} from '@remotion/transitions';
 import {fade} from '@remotion/transitions/fade';
 import present from './audio_present.json'; // names of the team audio files that exist
 
 // sound: video file whose own Seedance audio plays under the shot (team rule 31/10 16:50).
-export type Shot = {id: string; take: string | null; takeB?: string; sound?: string | null; soundVolume?: number; in: number; dur: number; grade: 'normal' | 'dark'; note?: string};
+// Two-pass VFX (CLAUDE.md): takeB = pass B (a video in 05_video, or a still in 04_frames when it ends in .png/.jpg).
+// bMask = CSS clip-path limiting pass B to a zone (e.g. the mirror glass); bAt / bDur = when (fraction of the shot) and how long (s) B dissolves in.
+export type Shot = {id: string; take: string | null; takeB?: string; bMask?: string; bAt?: number; bDur?: number; sound?: string | null; soundVolume?: number; in: number; dur: number; grade: 'normal' | 'dark'; note?: string};
 // One transition per cut, in film order. "fade" = cross-dissolve (picture AND sound overlap);
 // "cut" = hard cut, kept for shocks (power cut, reveals, C moving between cuts). Remotion skill: TransitionSeries.
 export type Transition = {cut: string; type: 'fade' | 'cut'; frames: number; why?: string};
@@ -34,12 +36,17 @@ export const totalFrames = (edl: Edl) =>
   edl.shots.reduce((n, s) => n + frames(s, edl.fps), 0) -
   edl.shots.slice(0, -1).reduce((n, _s, i) => n + tFrames(transitionAt(edl, i)), 0);
 
-const Clip: React.FC<{file: string; startFrom: number; grade: Shot['grade']; opacity?: number}> = ({file, startFrom, grade, opacity = 1}) => (
-  <AbsoluteFill style={{opacity}}>
-    <OffthreadVideo src={staticFile(`video/${file}`)} startFrom={startFrom} muted
-      style={{width: '100%', height: '100%', objectFit: 'contain', filter: GRADES[grade]}} />
-  </AbsoluteFill>
-);
+const isStill = (f: string) => /\.(png|jpe?g)$/i.test(f);
+const Clip: React.FC<{file: string; startFrom: number; grade: Shot['grade']; opacity?: number; mask?: string}> = ({file, startFrom, grade, opacity = 1, mask}) => {
+  const style = {width: '100%', height: '100%', objectFit: 'cover' as const, filter: GRADES[grade]};
+  return (
+    <AbsoluteFill style={{opacity, clipPath: mask}}>
+      {isStill(file)
+        ? <Img src={staticFile(`frames/${file}`)} style={style} />
+        : <OffthreadVideo src={staticFile(`video/${file}`)} startFrom={startFrom} muted style={{...style, objectFit: 'contain'}} />}
+    </AbsoluteFill>
+  );
+};
 
 // fadeIn / fadeOut = length of the dissolve on each side, so the sound crossfades with the picture.
 const ShotView: React.FC<{shot: Shot; fps: number; fadeIn: number; fadeOut: number}> = ({shot, fps, fadeIn, fadeOut}) => {
@@ -54,12 +61,13 @@ const ShotView: React.FC<{shot: Shot; fps: number; fadeIn: number; fadeOut: numb
   };
   const snd = shot.sound ? <Audio src={staticFile(`video/${shot.sound}`)} startFrom={start} volume={env} /> : null;
   if (!shot.takeB) return <>{snd}<Clip file={shot.take} startFrom={start} grade={shot.grade} /></>;
-  // VFX two-pass: identical framing, A (clean) dissolves into B (anomaly) over 1.5 s mid-shot.
-  const b = interpolate(f, [d * 0.35, d * 0.35 + 1.5 * fps], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  // VFX two-pass: identical framing, A (clean) dissolves into B (anomaly), by default from 35 % of the shot over 1.5 s.
+  const at = d * (shot.bAt ?? 0.35);
+  const b = shot.bDur === 0 ? 1 : interpolate(f, [at, at + (shot.bDur ?? 1.5) * fps], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (<>
     {snd}
     <Clip file={shot.take} startFrom={start} grade={shot.grade} />
-    <Clip file={shot.takeB} startFrom={start} grade={shot.grade} opacity={b} />
+    <Clip file={shot.takeB} startFrom={start} grade={shot.grade} opacity={b} mask={shot.bMask} />
   </>);
 };
 

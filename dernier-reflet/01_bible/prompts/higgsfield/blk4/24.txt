@@ -1,0 +1,22 @@
+[Generation Goal]
+A 4-second locked-off medium shot: in the mirror only, the Hooded Figure stands behind the Traveler's reflection.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler on the left facing the mirror; inside the glass, the Hooded Figure stands behind her reflection). Keep its framing and light.
+@image2: the Traveler — deep dark-brown complexion, slim oval face, long dark curls worn half-up, camel wool coat, brown leather bag. Full-preserve. Do not take its background.
+@image3: the same Traveler, another angle — identity only. Do not take its background.
+@image4: the Hooded Figure — worn pale hooded robe, shadowed gaunt face, two glowing red eyes. Full-preserve. Do not take its background.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static camera on a tripod, no camera movement. The Traveler stands frozen on the left, breathing shallowly. Inside the glass the Hooded Figure stands completely still behind her reflection, its red eyes glowing a little brighter. The real room around her stays empty.
+End state: the same image, the red eyes brighter.
+
+[Look]
+Early-2000s DV camcorder texture, gentle halation, MiniDV noise, crushed blacks; tobacco, dust beige and tarnished gold, unstable warm amber against cold blue shadow. Mood: hushed dread. Photographic realism, no readable text.
+
+[Audio]
+<a sudden near-silence> <a very low frequency rising slowly> <her shallow breathing>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+The Hooded Figure exists only inside the mirror and never moves; it stands, feet on the floor; the real room stays empty; the camera never moves.

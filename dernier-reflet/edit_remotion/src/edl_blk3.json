@@ -1,0 +1,24 @@
+{
+ "fps": 24,
+ "note": "Block 3 = 19 -> E10: ghost station, door, corridor, mirror room. Whole takes (97 frames = 4.0417 s, 21 = 121 frames).",
+ "shots": [
+  {"id": "19", "take": "19_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "19_v01.mp4"},
+  {"id": "E07", "take": "E07_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "E07_v01.mp4"},
+  {"id": "20", "take": "20_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "20_v01.mp4"},
+  {"id": "E08", "take": "E08_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "E08_v01.mp4"},
+  {"id": "21", "take": "21_v01.mp4", "in": 0, "dur": 5.0417, "grade": "normal", "sound": "21_v01.mp4"},
+  {"id": "E09", "take": "E09_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "E09_v01.mp4"},
+  {"id": "22", "take": "22_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "22_v01.mp4"},
+  {"id": "E10", "take": "E10_A_v01.mp4", "takeB": "E10_B_v01.mp4", "bAt": 0.3, "bDur": 1.2, "in": 0, "dur": 4.0417, "grade": "normal", "sound": "E10_A_v01.mp4", "note": "two-pass VFX: the handprint appears inside the glass"}
+ ],
+ "transitions": [
+  {"cut": "19>E07", "type": "fade", "frames": 8, "why": "same ghost platform: from the doors to the walls"},
+  {"cut": "E07>20", "type": "fade", "frames": 8, "why": "same platform, the eye travels to the far door"},
+  {"cut": "20>E08", "type": "fade", "frames": 6, "why": "push toward the door -> its handle"},
+  {"cut": "E08>21", "type": "fade", "frames": 12, "why": "through the door: platform -> Haussmann corridor (space jump, soft)"},
+  {"cut": "21>E09", "type": "fade", "frames": 8, "why": "same corridor: her walk -> the portraits she passes"},
+  {"cut": "E09>22", "type": "fade", "frames": 10, "why": "end of the corridor -> the mirror room"},
+  {"cut": "22>E10", "type": "cut", "frames": 0, "why": "punch-in on the glass (shock insert)"}
+ ],
+ "audio": []
+}
