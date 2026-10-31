@@ -1,0 +1,77 @@
+# Agent prompts — Le Dernier Reflet, phase by phase
+
+`CLAUDE.md` holds the rules, so these prompts stay short. Paste one phase at a time; each ends at a **checkpoint** where the team approves or redirects. Replace every `[…]`.
+
+---
+
+## 0 · Kickoff (once per new session)
+```
+git pull. Read CLAUDE.md and every file it lists, in order (official_rules.md overrides everything).
+Run `python3 tools/reflet.py check` and `python3 tools/reflet.py next`. Then reply with:
+1. the story in two sentences,
+2. the open decisions still blocking shots,
+3. the Arcads tools you found + the credit balance,
+4. the phase plan with an estimated credit cost per phase.
+Don't generate anything yet.
+```
+
+## 1 · References → locked/
+```
+Phase 1. Run `bash tools/fetch_refs.sh` (or fetch the Hugging Face bucket via the HF MCP if the network blocks it).
+Sort the unclassified bucket images in 02_refs/refs.md. Propose which file becomes H_sheet, C_sheet, M_sheet,
+plate_TRAIN and plate_LOC-01/05. Create the Arcads project "Le Dernier Reflet" and upload the candidates.
+CHECKPOINT: show a grid with one-line verdicts. I'll say which go into locked/.
+```
+
+## 2 · Plates (sets)
+```
+Phase 2. Generate the missing plates in this order, 2 variants each, each with its existing reference attached:
+S01 + S02 (TRAIN, from Metro Train Arrive) → LOC-01 sheet → LOC-02 sheet → LOC-03 sheet → S03 (LOC-04) → S04 (LOC-05).
+Use the prompt files as-is. Log every call in dernier-reflet/05_video/log.md.
+CHECKPOINT after each set: both variants + which one you'd lock and why (geometry, light, palette vs visual_bible.md).
+```
+
+## 3 · Animatic (story test)
+```
+Phase 3. Build an animatic of all 51 shots on the shotlist.csv grid: for each shot use the best existing still
+(plate, storyboard frame or a cheap draft), hold it for dur_s, black for 36 and 41. ffmpeg concat →
+dernier-reflet/07_edit/animatic_v01.mp4 (2.39:1 letterboxed in 1920x1080), no sound, exactly 180 s.
+CHECKPOINT: what does a muted stranger understand at 0:44, 1:29, 1:44, 2:43, 3:00? Flag beats that don't read.
+```
+
+## 4 · Inserts E01–E10
+```
+Phase 4. For E01…E10: `python3 tools/reflet.py prompt E0x` → still (2 variants, plate attached, no people) →
+image-to-video with ONE discreet action (the "Physics & Effects" line). For E05/E06/E10 do pass A and pass B.
+Save to 04_frames/ and 05_video/, update shotlist.csv status (todo → draft → approved), log every call.
+CHECKPOINT: contact sheet of all ten + verdicts.
+```
+
+## 5 · Acts — one block at a time
+```
+Phase 5 — shots [10–18 | 21–28 | 29–35 | 37–40].
+For each shot: `python3 tools/reflet.py prompt <id>`; translate built captions to English and fill Layout;
+attach exactly the refs it prints. Still first (2 variants) → I approve → motion with the video model in the row.
+C never moves on screen in the carriage: 14/16/17 share one locked framing; only its seat changes.
+VFX shots: pass A and pass B with identical framing.
+CHECKPOINT per block: stills grid, then takes + which to keep.
+```
+Fix a nearly-good take:
+```
+Use edit_video_seedance_25 on dernier-reflet/05_video/[id]_v[XX].mp4: [exact problem, e.g. "her coat turns grey at 2s — keep everything else identical"]. Save as _v[XX]b.
+```
+
+## 6 · Sound
+```
+Phase 6. Follow 06_audio/score.md. Generate the two whispers (2 takes each), the music fallback if needed,
+and gather SFX. Lay them on the animatic timing.
+CHECKPOINT: play me 01:44–03:00 with sound only.
+```
+
+## 7 · Edit & delivery
+```
+Phase 7. Replace animatic stills with approved takes, composite the VFX passes and the post-only texts
+(bus notification, phone clock, unknown station). Mix. Export 07_edit/le-dernier-reflet_v01.mp4,
+check `python3 tools/reflet.py check` and duration == 3:00.000. Fill delivery/submission.md.
+CHECKPOINT: full watch, then upload before 13:30.
+```

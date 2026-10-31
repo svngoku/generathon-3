@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "arcads": {
+      "source": {
+        "source": "github",
+        "repo": "arcads-ai/skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "arcads@arcads": true
+  }
+}

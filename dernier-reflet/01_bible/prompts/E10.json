@@ -1,0 +1,40 @@
+{
+  "Caption": "Close-up of a huge tarnished antique trumeau mirror with a pale palm imprint seemingly trapped beneath its glass.",
+  "STYLE": {
+    "Artistic Medium": "photorealistic cinematic movie still",
+    "Aesthetic Movement / Genre": "psychological horror, supernatural thriller",
+    "Cultural / Historical Influence": "Paris early 2000s–2010s cinematic realism, older period details where appropriate"
+  },
+  "COMPOSITION": {
+    "Framing": "close-up",
+    "Layout": "palm off-center, gilded frame edge",
+    "Perspective": "eye-level"
+  },
+  "SCENE": {
+    "Subject Characteristics": "no human subject; environment-only insert",
+    "Setting": "decaying Paris Haussmannian interior",
+    "Geographic / Cultural Context": "Paris, France, shortly before midnight"
+  },
+  "CINEMATOGRAPHY_AND_LIGHTING": {
+    "Director": "Tony Scott",
+    "Lighting Style": "low-key amber practical lights with cold shadow edges",
+    "Color Palette": "dirty beige, tobacco brown, oxidized gold, cool shadow",
+    "Overall Color Tone": "warm with cold undertones",
+    "Tone & Mood": "subtle dread, uncanny isolation"
+  },
+  "CAMERA_AND_LENS": {
+    "Camera Type and Era": "DV camcorder, early 2000s, with anamorphic adapter",
+    "Aspect ratio": "2.39:1",
+    "Lens size": "Medium",
+    "Lens model": "Anamorphic",
+    "Lens Effects": "subtle horizontal blue or amber anamorphic streaks, gentle halation, mild highlight blooming, DV-era edge softness",
+    "Depth of Field": "shallow to medium, architecture readable where needed",
+    "Film Grain / Noise": "subtle MiniDV digital noise, restrained chroma noise and compression texture, no added 35mm film grain"
+  },
+  "PHYSICAL_ATTRIBUTES": {
+    "Material & Texture": "tarnished glass and gilded wood",
+    "Physics & Effects": "unsettling buried reflection",
+    "Execution Style": "realistic in-camera practical lighting, filmic exposure"
+  },
+  "BRANDED_OBJECTS": []
+}

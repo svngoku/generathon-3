@@ -1,0 +1,12 @@
+.env
+.DS_Store
+.claude/settings.local.json
+__pycache__/
+# raw downloads (re-fetch with tools/fetch_refs.sh / from Notion)
+dernier-reflet/02_refs/hf/
+dernier-reflet/02_refs/notion/
+# heavy intermediates — commit only approved takes < 100 MB
+*.mov
+*.prores
+dernier-reflet/07_edit/*.mp4
+!dernier-reflet/07_edit/animatic_*.mp4

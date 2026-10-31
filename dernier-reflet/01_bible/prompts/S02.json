@@ -1,0 +1,40 @@
+{
+  "Caption": "The same white-and-teal train is stopped beneath the blue fluorescent vaulted Paris metro ceiling; a single pair of doors opens to reveal an empty fluorescent-lit carriage; diffuse mist and the cold wet platform reflect the train in an unnaturally quiet scene.",
+  "STYLE": {
+    "Artistic Medium": "photorealistic cinematic digital-video movie still, DV camcorder capture",
+    "Aesthetic Movement / Genre": "psychological horror, supernatural thriller, cinematic noir",
+    "Cultural / Historical Influence": "Paris architecture with early-2000s digital-cinema aesthetic"
+  },
+  "COMPOSITION": {
+    "Framing": "medium-wide low three-quarter side shot",
+    "Layout": "open train doors in central third, carriage extending into fog",
+    "Perspective": "grounded eye-level or slightly low filmic viewpoint"
+  },
+  "SCENE": {
+    "Subject Characteristics": "environment-only shot; no human subject, no extra silhouette",
+    "Setting": "same Paris metro platform and same train exterior",
+    "Geographic / Cultural Context": "Paris, France, near midnight"
+  },
+  "CINEMATOGRAPHY_AND_LIGHTING": {
+    "Director": "Tony Scott",
+    "Lighting Style": "cold blue practicals and fluorescent spill from inside open doors",
+    "Color Palette": "icy steel blue, teal, pale tile, wet graphite, tiny amber signage",
+    "Overall Color Tone": "cold blue",
+    "Tone & Mood": "eerie, beautifully restrained, ominous and suspenseful"
+  },
+  "CAMERA_AND_LENS": {
+    "Camera Type and Era": "DV camcorder, early 2000s",
+    "Aspect ratio": "2.39:1",
+    "Lens size": "Wide anamorphic",
+    "Lens model": "Anamorphic",
+    "Lens Effects": "horizontal anamorphic streaks, gentle halation, subtle lens blooming, mild edge softness",
+    "Depth of Field": "medium to deep; atmospheric depth through fog and lighting",
+    "Film Grain / Noise": "subtle MiniDV digital noise, restrained chroma artifacts, no added 35mm film grain"
+  },
+  "PHYSICAL_ATTRIBUTES": {
+    "Material & Texture": "wet concrete, glazed tile, glass, painted steel",
+    "Physics & Effects": "slow subtle lateral dolly, hold on open doors",
+    "Execution Style": "grounded practical-light cinematography captured on DV camcorder with anamorphic optics"
+  },
+  "BRANDED_OBJECTS": []
+}

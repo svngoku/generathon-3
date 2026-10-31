@@ -1,0 +1,40 @@
+{
+  "Caption": "A single water droplet distorts reflections of overhead lights in a puddle on a metro platform.",
+  "STYLE": {
+    "Artistic Medium": "photorealistic cinematic movie still",
+    "Aesthetic Movement / Genre": "psychological horror, supernatural thriller",
+    "Cultural / Historical Influence": "Paris early 2000s–2010s cinematic realism, older period details where appropriate"
+  },
+  "COMPOSITION": {
+    "Framing": "extreme close-up",
+    "Layout": "puddle foreground, dim architecture behind",
+    "Perspective": "ground-level macro"
+  },
+  "SCENE": {
+    "Subject Characteristics": "no human subject; environment-only insert",
+    "Setting": "deserted active Paris metro station",
+    "Geographic / Cultural Context": "Paris, France, shortly before midnight"
+  },
+  "CINEMATOGRAPHY_AND_LIGHTING": {
+    "Director": "Tony Scott",
+    "Lighting Style": "cold overhead fluorescent practical lighting, hard restrained highlights",
+    "Color Palette": "charcoal, graphite, cool teal, muted silver, pale tile",
+    "Overall Color Tone": "cool",
+    "Tone & Mood": "subtle dread, uncanny isolation"
+  },
+  "CAMERA_AND_LENS": {
+    "Camera Type and Era": "DV camcorder, early 2000s, with anamorphic adapter",
+    "Aspect ratio": "2.39:1",
+    "Lens size": "Medium",
+    "Lens model": "Anamorphic",
+    "Lens Effects": "subtle horizontal blue or amber anamorphic streaks, gentle halation, mild highlight blooming, DV-era edge softness",
+    "Depth of Field": "shallow to medium, architecture readable where needed",
+    "Film Grain / Noise": "subtle MiniDV digital noise, restrained chroma noise and compression texture, no added 35mm film grain"
+  },
+  "PHYSICAL_ATTRIBUTES": {
+    "Material & Texture": "water and wet concrete",
+    "Physics & Effects": "concentric ripples",
+    "Execution Style": "realistic in-camera practical lighting, filmic exposure"
+  },
+  "BRANDED_OBJECTS": []
+}
