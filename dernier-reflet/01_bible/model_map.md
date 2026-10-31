@@ -1,10 +1,11 @@
 # Model map — Le Dernier Reflet
 
-**Three models only** (team decision, 2026-10-31):
+**Four models only** (team decision, 2026-10-31):
 
 | Role | Arcads tool · `model` | Limits read from the live schema (2026-10-31) |
 |---|---|---|
-| **Stills A — primary** | `arcads_generate_image_nano_banana` · `model: "nano-banana-2-1"` (Nano Banana 2.1) | **up to 14 reference images** · aspect `21:9` available · `resolution` 1K/2K/4K (default 2K) · `thinkingLevel` MINIMAL/MEDIUM/HIGH · 1–10 variants · ~1 min |
+| **Stills — characters (primary for H, C, M, N)** | `arcads_generate_image_gpt` · `model: "gpt-image-2-5-sunburst"` (GPT Image 2.5 Sunburst) | **up to 5 reference images** · aspect `21:9` available · 1–10 variants · 1–3 min · "tighter control across successive edits" → best high-fidelity character consistency, and for **editing an approved still** (VFX pass B, C moving closer 14→16→17) |
+| **Stills A — environments, multi-ref compositions** | `arcads_generate_image_nano_banana` · `model: "nano-banana-2-1"` (Nano Banana 2.1) | **up to 14 reference images** · aspect `21:9` available · `resolution` 1K/2K/4K (default 2K) · `thinkingLevel` MINIMAL/MEDIUM/HIGH · 1–10 variants · ~1 min |
 | **Stills B — A/B and environments** | `arcads_generate_image_seedream` · `model: "seedream_5_pro"` (Seedream 5.0 Pro) | **up to 4 reference images** · aspect only `1:1` / `16:9` / `9:16` · 1–10 variants · ~1 min, slower than lite |
 | **Video — HD** | `arcads_generate_video_seedance_25` (Seedance 2.5) · `resolution: "1080p"` · `bitrateMode: "high"` | **4–30 s** per clip · aspect `16:9` / `4:3` / `9:16` (no 21:9) · **up to 30 reference images**, 10 ref videos, 10 ref audios · no explicit start-frame field · 1080p ≈ 2.5× the 720p price · ~7 min |
 
@@ -14,7 +15,7 @@ All calls go to brand **JUA** (`productId 1b5e7fe6-ac1f-414c-91a3-d9e32ff46634`,
 Consistency comes from **the same uploaded references on every call**, not from the prompt.
 
 1. **Lock once, upload once.** Each approved file in `locked/` is uploaded to Arcads a single time; its S3 path goes into `locked/arcads_assets.json`. Every call reuses those exact paths (`tools/reflet.py prompt <id>` prints the `referenceImages` list ready to paste). Never re-upload a variant "to try"; never generate from an unapproved sheet.
-2. **Reference order = priority:** ① the character sheet(s) of every character in the shot (H, C, M, N) → ② the location plate → ③ the shot's storyboard frame / Notion draft (composition only) → ④ the previous approved shot of the same scene (continuity of light and wardrobe). Nano Banana takes all of them (≤ 14). **Seedream takes 4 max**: sheet(s) + plate + storyboard frame, nothing else.
+2. **Reference order = priority:** ① the character sheet(s) of every character in the shot (H, C, M, N), plus the team's extra character images → ② the location plate → ③ the shot's storyboard frame / Notion draft (composition only) → ④ the previous approved shot of the same scene (continuity of light and wardrobe). Nano Banana takes all of them (≤ 14). **Sunburst takes 5 max** and **Seedream 4 max**: sheet(s) first, then plate, then storyboard — drop the rest.
 3. **Prompt identity clause, word for word:** "the exact same [H/C/M/N description] from reference image 1; preserve face, hair, skin tone and costume". Two characters in one shot (24, 32b, 38): say which reference is which ("reference 1 = the heroine, reference 2 = the hooded creature"); never let one borrow the other's features.
 4. **Elements (recommended):** create H, C, M (and N once decided) as **Elements** in Arcads Studio → Library → Elements. Then pass `elements: ["heroine", …]` + `@heroine` in the prompt on every model — the MCP can't create elements, only use them.
 5. **Video inherits the approved still.** Seedance gets the approved keyframe as **reference image 1** ("the video starts exactly on reference image 1; keep composition, face and wardrobe identical"), then the character sheet(s), then the plate. Never animate from text alone.
@@ -22,7 +23,7 @@ Consistency comes from **the same uploaded references on every call**, not from 
 7. **C rules:** same pose and framing in 14/16/17 (reuse the 14 still as ref for 16 and 17, only the seat changes); C never walks on screen.
 
 ## Format rules
-- **Stills:** Nano Banana `aspectRatio: "21:9"`, `resolution: "2K"` (4K for hero shots 09, 22, 24, 26, 37) → crop to **2.39:1** in the edit. Seedream `16:9` → crop top/bottom to 2.39:1: keep heads and key props inside the central 75 % height.
+- **Stills:** Sunburst `aspectRatio: "21:9"`; Nano Banana `aspectRatio: "21:9"`, `resolution: "2K"` (4K for hero shots 09, 22, 24, 26, 37) → crop to **2.39:1** in the edit. Seedream `16:9` → crop top/bottom to 2.39:1: keep heads and key props inside the central 75 % height.
 - **Video:** Seedance `16:9`, `1080p`, `bitrateMode: "high"`, **`audioEnabled: false`** (Marty does the sound design) → crop to 2.39:1. Clips run ≥ 4 s: generate `gen_s` from `shotlist.csv` (shot length + 1 s handle, min 4 s) and trim in the edit.
 - **VFX shots** (E05, E06, E10, 23, 24, 27, 28, 29b, 30, 31, 33, 37): pass A clean plate + pass B characters/reflection with the **same references and framing**, each animated separately, composited in the edit.
 - **No generated text:** screens, signs and the line map are added in post.
@@ -30,10 +31,12 @@ Consistency comes from **the same uploaded references on every call**, not from 
 ## Per job
 | Job | Stills | Video |
 |---|---|---|
-| Lock set: missing sheets / plates (LOC-03 ghost station, any plate the team rejects) | nano-banana-2-1 ×2 **and** seedream_5_pro ×2, compare | — |
+| Character sheets to complete (e.g. a C turnaround, N once decided) | gpt-image-2-5-sunburst ×2 from the team's images (≤5 refs) | — |
+| Lock set: missing plates (LOC-03 ghost station, any plate the team rejects) | nano-banana-2-1 ×2 **and** seedream_5_pro ×2, compare | — |
 | Inserts E01–E10 (no people) | seedream_5_pro ×2 (plate + storyboard frame) · nano-banana-2-1 ×2 | seedance 2.5, one discreet action |
-| Shots with one character | nano-banana-2-1 ×2 (all refs) · seedream_5_pro ×1 as B | seedance 2.5, keyframe = ref 1 |
-| Two characters (24, 32b, 38) | nano-banana-2-1 ×2, thinkingLevel HIGH | seedance 2.5 per pass if VFX |
+| Shots with one character | **gpt-image-2-5-sunburst ×2** (sheet + plate + storyboard + previous shot, ≤5) · nano-banana-2-1 ×1 as B (all refs) | seedance 2.5, keyframe = ref 1 |
+| Two characters (24, 32b, 38) | **gpt-image-2-5-sunburst ×2** (both sheets + plate + storyboard) · nano-banana-2-1 HIGH as B | seedance 2.5 per pass if VFX |
+| Same frame, one change (VFX pass B from pass A · C closer in 16/17 from approved 14 · 23 from 22) | **gpt-image-2-5-sunburst edit**: approved still = ref 1, "change only …" | — |
 | Fixing a good take | re-run the still with the same refs + a one-line correction | re-run seedance with the approved take as `referenceVideos` |
 
 ## Cost control

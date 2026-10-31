@@ -5,7 +5,7 @@
   python3 tools/reflet.py status             # progress per status / per location / blocked shots
   python3 tools/reflet.py prompt 14          # Marty's V4 prompts for a shot + refs to attach
   python3 tools/reflet.py prompt 29a --soul  # also print the Notion Soul-Cinematic JSON when one exists
-  python3 tools/reflet.py prompt 14 --calls  # ready-to-send Arcads calls: Nano Banana 2.1, Seedream 5 Pro, Seedance 2.5 1080p
+  python3 tools/reflet.py prompt 14 --calls  # ready-to-send Arcads calls: GPT Sunburst (characters), Nano Banana 2.1, Seedream 5 Pro, Seedance 2.5 1080p
   python3 tools/reflet.py prompt 23 --build --pass A  # extra: JSON built from lock.json (VFX pass A clean / B anomaly)
   python3 tools/reflet.py next               # next shots to generate, in batch order (plates -> inserts -> acts)
 
@@ -109,6 +109,9 @@ def ordered_refs(r, rows, lock):
     refs = []
     for c in codes_of(r):
         refs.append((f"dernier-reflet/{lock['characters'][c]['sheet']}", f"{CHAR_LABEL[c]} character sheet"))
+    for c in codes_of(r):  # team's extra images of the same character: locked/H_extra_*.png …
+        for x in sorted((PROJ / "locked").glob(f"{c}_extra_*")):
+            refs.append((f"dernier-reflet/locked/{x.name}", f"{CHAR_LABEL[c]} — extra identity reference"))
     loc = lock["locations"].get(r["location"], {})
     if loc.get("plate"):
         refs.append((f"dernier-reflet/{loc['plate']}", f"location plate {r['location']}"))
@@ -120,6 +123,10 @@ def ordered_refs(r, rows, lock):
     drafts = r.get("notion_refs", "").split()
     if drafts:
         refs.append((f"dernier-reflet/02_refs/notion/{drafts[0]}", "Notion draft — composition/mood only"))
+    if r["id"] in ("16", "17"):
+        r14 = next(x for x in rows if x["id"] == "14")
+        if r14["status"] == "approved":  # same locked axis: edit the approved 14, only C's seat changes
+            refs.insert(0, (f"dernier-reflet/{r14['frame_out']}", "APPROVED SHOT 14 — keep framing, light, seats identical; move only the creature closer"))
     i = next(k for k, x in enumerate(rows) if x["id"] == r["id"])
     for prev in reversed(rows[:i]):
         if prev["location"] == r["location"] and prev["status"] == "approved" and prev["frame_out"]:
@@ -150,7 +157,17 @@ def calls_for(r, rows, lock, base_prompt):
     vfx = "VFX" in r["ref"]
     nb_refs = refs[:14]
     sd_refs = [x for x in refs if "previous" not in x[1] and "Notion draft" not in x[1]][:4]
+    # Sunburst (≤5): one sheet per character first, then plate, storyboard, previous shot, then extras if room
+    sheets = [x for x in refs if "character sheet" in x[1]]
+    rest = [x for x in refs if x not in sheets and "Notion draft" not in x[1] and "extra" not in x[1]]
+    extras = [x for x in refs if "extra" in x[1]]
+    gpt_refs = (sheets + rest + extras)[:5]
+    elements = [lock["characters"][c]["element"] for c in codes_of(r) if lock["characters"][c].get("element")]
     out = {
+        "arcads_generate_image_gpt": {
+            "productId": PRODUCT_ID, "model": "gpt-image-2-5-sunburst", "aspectRatio": "21:9", "nbGenerations": 2,
+            "title": title("sunburst"), "referenceImages": [arcads_path(p) for p, _ in gpt_refs],
+            "prompt": identity_clause(gpt_refs) + " " + base_prompt},
         "arcads_generate_image_nano_banana": {
             "productId": PRODUCT_ID, "model": "nano-banana-2-1", "aspectRatio": "21:9",
             "resolution": "4K" if r["id"] in HERO else "2K", "thinkingLevel": "HIGH" if len(codes_of(r)) > 1 or vfx else "MEDIUM",
@@ -162,6 +179,12 @@ def calls_for(r, rows, lock, base_prompt):
             "title": title("sd5pro"), "referenceImages": [arcads_path(p) for p, _ in sd_refs],
             "prompt": identity_clause(sd_refs) + " Keep heads and key props inside the central 75% of the frame height (cropped to 2.39:1 later). " + base_prompt},
     }
+    if elements:
+        for k in out:
+            out[k]["elements"] = elements
+            out[k]["prompt"] = "Characters: " + ", ".join("@" + e for e in elements) + ". " + out[k]["prompt"]
+    if not codes_of(r):
+        out.pop("arcads_generate_image_gpt")  # environments: Nano Banana 2.1 + Seedream 5 Pro
     kf = f"dernier-reflet/{r['frame_out']}"
     vrefs = [(kf, "APPROVED KEYFRAME — the video starts exactly on this image")] + [x for x in refs if "storyboard" not in x[1] and "draft" not in x[1]]
     out["arcads_generate_video_seedance_25"] = {

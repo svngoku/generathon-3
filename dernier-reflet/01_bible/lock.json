@@ -95,25 +95,30 @@
       "name": "Héroïne",
       "descriptor": "the SAME young Black woman from the uploaded character sheet: voluminous curly dark hair, camel wool coat, dark crossbody bag",
       "sheet": "locked/H_sheet.png",
-      "rule": "strict continuity of face, hair and clothes across all shots"
+      "rule": "strict continuity of face, hair and clothes across all shots",
+      "element": ""
     },
     "C": {
       "name": "La créature",
       "descriptor": "the SAME hooded creature from the uploaded character sheet: worn pale robe and hood, altered gaunt face, red eyes",
       "sheet": "locked/C_sheet.png",
-      "rule": "never shown moving on screen in the carriage: it only changes position between cuts (jump-cuts, same axis)"
+      "rule": "never shown moving on screen in the carriage: it only changes position between cuts (jump-cuts, same axis)",
+      "element": ""
     },
     "M": {
       "name": "Jeune homme du passé",
       "descriptor": "the SAME young Black man from the uploaded character sheet: short hair, grey t-shirt",
       "sheet": "locked/M_sheet.png",
-      "rule": "flashback only (shots 29a, 29b, 30); never in the metro, no hood, no red eyes"
+      "rule": "flashback only (shots 29a, 29b, 30); never in the metro, no hood, no red eyes",
+      "element": ""
     },
     "N": {
       "name": "Nouvelle passagère",
       "descriptor": "the SAME second young woman from the uploaded character sheet (reference TO BE DECIDED: blonde light sweater from Notion OR brunette dark clothes from the storyboard)",
       "sheet": "locked/N_sheet.png",
-      "rule": "BLOCKED until the team chooses the reference (shots 36, 38); never blend the two references"
-    }
+      "rule": "BLOCKED until the team chooses the reference (shots 36, 38); never blend the two references",
+      "element": ""
+    },
+    "_doc": "extra identity images: drop them in locked/ as H_extra_01.png, C_extra_01.png … (picked up automatically). 'element' = Arcads Element handle without @, once created in Arcads Studio."
   }
 }
