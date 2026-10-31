@@ -1,18 +1,34 @@
 {
  "fps": 24,
- "note": "Act 1 = the team's own takes, whole (team rule 31/10 19:00: integrate what the team supplied). 01-03 Perle 93 (Paris storm -> tower -> office window -> her at the desk, no audio track), 02-05 Perle 92 (desk, earbuds, phone, she takes her coat and leaves, own sound), 06a-07 Higgsfield street (walk, la Vieille bursts out, startle, she speaks, empty street, metro stairs, own sound).",
+ "note": "Act 1 = the team's own takes, whole. 01-06 = the team's best Perle version (31/10 19:41, 48.3 s, 640x360 30 fps, own sound mix) replacing Notion 93 + 92; 06a-07 = Higgsfield street.",
  "shots": [
-  {"id": "01-03", "take": "01-03_team_perle93.mp4", "in": 0, "dur": 15.0, "grade": "normal", "sound": null, "note": "Notion 93 - no audio stream; the opening music plays over it"},
-  {"id": "02-05", "take": "02-05_team_perle92.mp4", "in": 0, "dur": 30.0, "grade": "normal", "sound": "02-05_team_perle92.mp4", "note": "Notion 92"},
-  {"id": "06a-07", "take": "06a-07_team_hf.mp4", "in": 0, "dur": 15.0, "grade": "normal", "sound": "06a-07_team_hf.mp4", "note": "HF bucket hf_20261031_143152_19aa2ab2 - validated by the team"}
+  {
+   "id": "01-06",
+   "take": "01-06_team_perle_best.mp4",
+   "in": 0,
+   "dur": 48.3,
+   "grade": "normal",
+   "sound": "01-06_team_perle_best.mp4",
+   "note": "team best version: Paris storm -> office -> phone -> coat -> corridor -> lift, phone call. Low res (640x360) - ask the team for the full-res export"
+  },
+  {
+   "id": "06a-07",
+   "take": "06a-07_team_hf.mp4",
+   "in": 0,
+   "dur": 15.0,
+   "grade": "normal",
+   "sound": "06a-07_team_hf.mp4",
+   "note": "HF bucket hf_20261031_143152_19aa2ab2 - validated by the team"
+  }
  ],
  "transitions": [
-  {"cut": "01-03>02-05", "type": "fade", "frames": 12, "why": "same office, same desk: 93 ends on her at the laptop, 92 opens on her at the laptop"},
-  {"cut": "02-05>06a-07", "type": "fade", "frames": 8, "why": "she walks out of the office -> the rain street; short dissolve, the music stops dead on the street"}
+  {
+   "cut": "01-06>06a-07",
+   "type": "fade",
+   "frames": 8,
+   "why": "lift -> the rain street; short dissolve"
+  }
  ],
- "audio": [
-  {"file": "A10_music-open_team54.mp3", "at": "01-03", "offset": 0, "volume": 0.8, "stopAt": "06a-07",
-   "keys": [["01-03", 0, 0.8], ["01-03", 14.5, 0.8], ["02-05", 0.5, 0.3]],
-   "note": "Notion 54 (TikTok rip - RIGHTS TO CHECK before upload). Full over the silent 93, ducked under 92's own sound (earbud music), hard stop when the street starts (score: the music dies)."}
- ]
+ "audio": [],
+ "replaced": "01-03 Notion 93 + 02-05 Notion 92 + music cue A10 (Notion 54): the team's version already carries its own sound mix"
 }

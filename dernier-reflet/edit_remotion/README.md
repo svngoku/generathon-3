@@ -27,4 +27,4 @@ Renders use the sandbox Chromium headless shell (`remotion.config.ts`). Runtime 
 
 ## Film order (team rule 31/10 19:20 — never lose the order of the videos)
 The order is `01_bible/shotlist.csv`. `sync-audio.mjs` writes it to `src/shot_order.json`; `Root.tsx` refuses to build any composition whose shots are out of that order (ranges like `06a-07` count by their first id).
-Current Film: 01-03 Perle 93 → 02-05 Perle 92 → 06a-07 Higgsfield street → E02 → 08 → E03 → 09 → 10 → E04 → 11 → 12 → 13 → 14 → E05 → 15 → 16 → E06 → 17 → 18. Next blocks append after 18 (19 → 39), in shotlist order.
+Current Film: 01-06 Perle best version (team, 31/10 19:41; replaces 93 + 92 and the A10 music cue — it carries its own mix; its two 0.13 s dips to black at 15.0 s and 38.4 s are the team's own) → 06a-07 Higgsfield street → E02 → 08 → E03 → 09 → 10 → E04 → 11 → 12 → 13 → 14 → E05 → 15 → 16 → E06 → 17 → 18. Next blocks append after 18 (19 → 39), in shotlist order.
