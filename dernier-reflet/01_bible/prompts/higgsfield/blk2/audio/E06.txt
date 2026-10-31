@@ -1,0 +1,19 @@
+[Generation Goal]
+A 4-second insert of the illuminated line map above the carriage door.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (line map panel with small station dots in the dark carriage). Keep its framing and light.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static close detail. The panel's backlight flickers once; then one small indicator dot between two stations lights up amber and glows steadily, the others staying dark.
+End state: one amber dot glowing on the map.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Audio]
+<a small electronic click as the indicator lights up> <low carriage rumble>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the panel, its station marks and the carriage identical to @image1; nobody appears.

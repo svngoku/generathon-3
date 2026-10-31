@@ -1,0 +1,19 @@
+[Generation Goal]
+A 4-second insert of an empty Paris metro corridor where one fluorescent tube fails.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (empty white-tiled metro corridor, fluorescent tube along the vault). Keep its framing and light.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static camera. The corridor stays empty. The long fluorescent tube above flickers off and on three times in a stuttering rhythm, the tiled walls and the puddled floor dimming and relighting with it.
+End state: the tube burns steady again, the corridor empty.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Audio]
+<a fluorescent tube buzzing, then three sharp electrical crackles as it cuts out and relights> <a distant drip echoing down the tiled corridor>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the corridor geometry, tiles and empty floor identical to @image1; nobody enters the frame.

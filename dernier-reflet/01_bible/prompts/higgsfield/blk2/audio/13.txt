@@ -1,0 +1,20 @@
+[Generation Goal]
+A 4-second close-up of the Traveler raising her phone torch in the dark carriage.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler holding her phone with its torch on toward the lens). Keep its framing and light.
+@image2: the Traveler — dark-brown complexion, slim face, long dark curls, camel coat, brown bag. Full-preserve. Not its background.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static close-up. She lifts the phone a little higher and sweeps the hard white torch beam slowly across the dark aisle toward the lens, the lens flaring as the beam passes; her eyes follow the beam, jaw tight, shallow breaths.
+End state: the beam aims straight down the aisle past the lens, her eyes fixed on it.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Audio]
+<the click of a phone torch switching on> <shallow nervous breathing> <low rail clatter>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the Traveler's face, curls and camel coat identical to @image1 and @image2; one phone only.

@@ -2,7 +2,8 @@ import React from 'react';
 import {AbsoluteFill, Audio, Loop, OffthreadVideo, Sequence, staticFile, useCurrentFrame, interpolate} from 'remotion';
 import present from './audio_present.json';
 
-export type Shot = {id: string; take: string | null; takeB?: string; in: number; dur: number; grade: 'normal' | 'dark'; note?: string};
+// sound: video file whose own audio plays under the shot (Seedance audio, team rule 31/10 16:50) — defaults to the take itself when it has audio.
+export type Shot = {id: string; take: string | null; takeB?: string; sound?: string | null; soundVolume?: number; in: number; dur: number; grade: 'normal' | 'dark'; note?: string};
 export type Cue = {file: string; at: string; offset: number; volume: number; loopUntil?: string};
 export type Edl = {fps: number; shots: Shot[]; audio?: Cue[]};
 
@@ -26,10 +27,12 @@ const ShotView: React.FC<{shot: Shot; fps: number}> = ({shot, fps}) => {
   const d = frames(shot, fps);
   if (!shot.take) throw new Error(`Shot ${shot.id} has no take — no black placeholders allowed`);
   const start = Math.round(shot.in * fps);
-  if (!shot.takeB) return <Clip file={shot.take} startFrom={start} grade={shot.grade} />;
+  const snd = shot.sound ? <Audio src={staticFile(`video/${shot.sound}`)} startFrom={start} volume={shot.soundVolume ?? 1} /> : null;
+  if (!shot.takeB) return <>{snd}<Clip file={shot.take} startFrom={start} grade={shot.grade} /></>;
   // VFX two-pass: identical framing, A (clean) dissolves into B (anomaly) over 1.5 s mid-shot.
   const b = interpolate(f, [d * 0.35, d * 0.35 + 1.5 * fps], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (<>
+    {snd}
     <Clip file={shot.take} startFrom={start} grade={shot.grade} />
     <Clip file={shot.takeB} startFrom={start} grade={shot.grade} opacity={b} />
   </>);

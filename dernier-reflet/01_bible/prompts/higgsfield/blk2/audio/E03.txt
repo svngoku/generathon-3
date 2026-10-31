@@ -1,0 +1,19 @@
+[Generation Goal]
+A 4-second macro insert of a single drop falling into a puddle on the metro platform.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (puddle on the platform floor reflecting the fluorescent tubes). Keep its framing and light.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static macro camera, slow motion. One drop falls from above into the puddle; concentric ripples spread and bend the reflection of the fluorescent tubes; the surface slowly settles.
+End state: the reflection is still again.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Audio]
+<one amplified water drop hitting a puddle, with tiled-station reverb> <faint fluorescent hum>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the puddle, the reflected lights and the blurred platform background identical to @image1; nobody appears.

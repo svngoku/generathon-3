@@ -1,0 +1,24 @@
+[Generation Goal]
+A 4-second close-up of the Traveler as the carriage lights die.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (close-up of the Traveler in the dark carriage, lit from below by her phone). Keep its framing and light.
+@image2: the Traveler — dark-brown complexion, slim face, long dark curls, camel coat, brown bag. Full-preserve. Not its background.
+
+[Stage 1 — 0-1 seconds]
+Locked-off static close-up. The carriage is plunged in darkness; only the phone glow and passing blue tunnel lights touch her face.
+End state: her head is up.
+
+[Stage 2 — 1-4 seconds]
+Her eyes widen and dart left and right, breath held, lips parted; blue tunnel light sweeps across her face at intervals.
+End state: she stares toward the lens, frozen.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Audio]
+<a dry electrical cut as the lights die, the carriage hum stops> <rail clatter continuing in the dark> <a sharp held breath>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the Traveler's face, curls and camel coat identical to @image1 and @image2; the camera never moves.

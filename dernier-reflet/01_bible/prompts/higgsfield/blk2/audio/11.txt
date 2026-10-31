@@ -1,0 +1,20 @@
+[Generation Goal]
+A 4-second shot of the Traveler seated alone in the moving carriage.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler seated side-on in the empty lit carriage, phone in hand, earbud in). Keep its framing and light.
+@image2: the Traveler — dark-brown complexion, slim face, long dark curls, camel coat, brown bag. Full-preserve. Not its background.
+
+[Stage 1 — 0-4 seconds]
+Static camera, medium shot. The train is moving; tunnel lights streak across the dark glass panes behind her. She presses the earbud in, exhales and lets her shoulders drop, eyes on the phone screen, her body swaying gently with the train.
+End state: she sits still, absorbed in her phone, alone.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Audio]
+<steady carriage rumble and rail clatter> <the soft tap of a fingertip on a phone screen> <a tired exhale>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the Traveler's face, curls and camel coat identical to @image1 and @image2; exactly one person in the carriage.

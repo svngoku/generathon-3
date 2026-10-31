@@ -1,0 +1,19 @@
+[Generation Goal]
+A 5-second shot of the last metro arriving at the empty platform.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (white-and-teal Paris metro emerging from the tunnel, headlights in the fog). Keep its framing and light.
+
+[Stage 1 — 0-5 seconds]
+Static camera at the platform edge. The train glides forward out of the tunnel along the platform toward camera-right, decelerating, headlights blooming through the fog, beams sweeping the rain-soaked floor, the amber destination glow above the cab. It slows to a stop as the cab passes the camera.
+End state: the train halts alongside the platform, its glass panes lit, the platform empty.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Audio]
+<the train approaching out of the tunnel, a rising rumble, metal brakes screeching, a long pneumatic hiss as it stops>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the train design, the station and the empty platform identical to @image1; the train moves in one direction only; nobody on the platform.

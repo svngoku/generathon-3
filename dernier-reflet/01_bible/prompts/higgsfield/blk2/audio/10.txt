@@ -1,0 +1,24 @@
+[Generation Goal]
+A 4-second shot of the Traveler stepping into an empty metro carriage.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler just inside the open doors of the empty lit carriage, the platform behind her). Keep its framing and light.
+@image2: the Traveler — dark-brown complexion, slim face, long dark curls, camel coat, brown bag. Full-preserve. Not its background.
+
+[Stage 1 — 0-2 seconds]
+Static camera on the aisle. She glances back over her shoulder at the empty platform, wary.
+End state: she turns her head away from the platform.
+
+[Stage 2 — 2-4 seconds]
+She faces down the empty aisle, adjusts the strap of her bag and takes one slow step deeper into the carriage; behind her the sliding doors close.
+End state: doors shut, she stands alone in the bright empty carriage.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Audio]
+<steady carriage hum> <her footsteps on the rubber floor> <the sliding doors closing with a pneumatic hiss and a thud>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the Traveler's face, curls and camel coat identical to @image1 and @image2; exactly one person in the carriage.
