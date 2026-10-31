@@ -1,5 +1,5 @@
 {
- "_doc": "Block 08-15 EDL. Team rule 31/10 16:45: WHOLE takes (in=0, dur=full file length), no black frames, 16:9 full frame (no crop, no bars). take = file in 05_video/ (swap a/b here). grade = normal | dark. E05 = VFX: passA (clean) cross-dissolves into passB (anomaly). Render: npm run render:blk2",
+ "_doc": "Block 08-15 EDL. Team rule 31/10 16:45: WHOLE takes (in=0, dur=full file length), no black frames, 16:9 full frame (no crop, no bars). take = file in 05_video/ (swap a/b here). grade = normal | dark. E05 = VFX: passA (clean) cross-dissolves into passB (anomaly). Render: npm run render:blk2 | sound = video whose own Seedance audio plays under the shot (team rule 31/10 16:50); 13/14/E06 sound pending.",
  "fps": 24,
  "shots": [
   {
@@ -7,71 +7,81 @@
    "take": "E02_v01.mp4",
    "in": 0.0,
    "dur": 4.0417,
-   "grade": "normal"
+   "grade": "normal",
+   "sound": "E02_v02a.mp4"
   },
   {
    "id": "08",
-   "take": "08_v01.mp4",
+   "take": "08_v02a.mp4",
    "in": 0.0,
-   "dur": 4.0417,
-   "grade": "normal"
+   "dur": 4.086,
+   "grade": "normal",
+   "sound": "08_v02a.mp4"
   },
   {
    "id": "E03",
-   "take": "E03_v01.mp4",
+   "take": "E03_v02a.mp4",
    "in": 0.0,
-   "dur": 4.0417,
+   "dur": 4.086,
    "grade": "normal",
-   "note": "take b (53bcea46) — natural drop speed, team pick"
+   "note": "take b (53bcea46) — natural drop speed, team pick",
+   "sound": "E03_v02a.mp4"
   },
   {
    "id": "09",
-   "take": "09_v01.mp4",
+   "take": "09_v02a.mp4",
    "in": 0.0,
    "dur": 5.0417,
-   "grade": "normal"
+   "grade": "normal",
+   "sound": "09_v02a.mp4"
   },
   {
    "id": "10",
-   "take": "10_v01.mp4",
+   "take": "10_v02a.mp4",
    "in": 0.0,
    "dur": 4.0417,
-   "grade": "normal"
+   "grade": "normal",
+   "sound": "10_v02a.mp4"
   },
   {
    "id": "E04",
    "take": "E04_v01.mp4",
    "in": 0.0,
    "dur": 4.0417,
-   "grade": "normal"
+   "grade": "normal",
+   "sound": "E04_v02a.mp4"
   },
   {
    "id": "11",
-   "take": "11_v01.mp4",
+   "take": "11_v02a.mp4",
    "in": 0.0,
-   "dur": 4.0417,
-   "grade": "normal"
+   "dur": 4.086,
+   "grade": "normal",
+   "sound": "11_v02a.mp4"
   },
   {
    "id": "12",
    "take": "12_v01.mp4",
    "in": 0.0,
    "dur": 4.0417,
-   "grade": "normal"
+   "grade": "normal",
+   "sound": "12_v02a.mp4"
   },
   {
    "id": "13",
    "take": "13_v01.mp4",
    "in": 0.0,
    "dur": 4.0417,
-   "grade": "normal"
+   "grade": "normal",
+   "sound": null
   },
   {
    "id": "14",
    "take": "14_v02.mp4",
    "in": 0.0,
    "dur": 5.0417,
-   "grade": "normal"
+   "grade": "normal",
+   "sound": null
   },
   {
    "id": "E05",
@@ -80,21 +90,24 @@
    "dur": 4.0417,
    "grade": "normal",
    "note": "VFX: pass A clean -> pass B anomaly (cross-dissolve 1.5 s)",
-   "takeB": "E05_B_v01.mp4"
+   "takeB": "E05_B_v01.mp4",
+   "sound": "E04_v02a.mp4"
   },
   {
    "id": "15",
-   "take": "15_v01.mp4",
+   "take": "15_v02a.mp4",
    "in": 0.0,
-   "dur": 4.0417,
-   "grade": "normal"
+   "dur": 4.086,
+   "grade": "normal",
+   "sound": "15_v02a.mp4"
   },
   {
    "id": "E06",
    "take": "E06_v01.mp4",
    "in": 0.0,
    "dur": 4.0417,
-   "grade": "dark"
+   "grade": "dark",
+   "sound": null
   }
  ],
  "audio": [
