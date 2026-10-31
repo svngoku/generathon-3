@@ -29,7 +29,7 @@ one persistent asset id per reference. Every later call uses those ids (reflet.p
 ## 2 · Plates (sets)
 ```
 Phase 2. Generate the missing plates with Nano Banana 2.1 (21:9, 2K) ×2 AND Seedream 5 Pro (16:9) ×2, each with its existing reference attached:
-S01 + S02 (TRAIN, from Metro Train Arrive) → LOC-01 sheet → LOC-02 sheet → LOC-03 sheet → S03 (LOC-04) → S04 (LOC-05).
+LOC-00 dark street (plates/LOC-00_sheet.txt, ref notion/89) → S01 + S02 (TRAIN, from Metro Train Arrive) → LOC-01 sheet → LOC-02 sheet → LOC-03 sheet → S03 (LOC-04) → S04 (LOC-05).
 Use the prompt files as-is. Log every call in dernier-reflet/05_video/log.md.
 CHECKPOINT after each set: both variants + which one you'd lock and why (geometry, light, palette vs visual_bible.md).
 ```

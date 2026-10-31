@@ -1,0 +1,8 @@
+{
+  "shot": "P06b — La Vieille",
+  "reference_assets": "V + LOC-00",
+  "camera": "DV Camcorder, anamorphic lens, 2.39:1",
+  "_source": "team addition 2026-10-31 (not in PDF V4)",
+  "prompt": "Locked medium close-up of the exact very old woman from the character sheet standing motionless in the black recess of a Paris carriage doorway in the rain: long straight silver-white hair, deeply wrinkled pale skin, milky pale-blue eyes fixed off-screen on the passing heroine, tattered oxblood shawls over a rust-brown dress, wooden-bead necklace, bony ringed hands hanging still. A flickering sodium streetlight rakes her face on and off. No gesture, no smile, only her eyes following. DV anamorphic 2.39:1. Preserve identity exactly.",
+  "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement, no gore"
+}

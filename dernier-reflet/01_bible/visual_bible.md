@@ -12,6 +12,7 @@ Delivery: 2.39:1 picture letterboxed inside a 16:9 1920×1080 master (confirm wi
 ## Locations
 | ID | Set | Must stay constant | Palette | Plate (locked/) |
 |---|---|---|---|---|
+| LOC-00 | Dark street to the metro (06a/06b) — *team addition* | wet cobbles, closed iron shutters, deep carriage doorways, one failing sodium streetlight, Métropolitain entrance glowing at the end | sodium amber, wet graphite, cold blue, oxblood accent | `plate_LOC-00.png` (prompt `plates/LOC-00_sheet.txt`) |
 | LOC-01 | Active metro: stairs + tiled corridors + vaulted platform | wet stairs, white bevelled tile, long neons, French signage, **white & teal train**, amber display, blue haze, wet floor | graphite, teal, cold white | `plate_LOC-01.png`, `plate_TRAIN.png` |
 | LOC-02 | Night carriage | same seat plan, bars, grips, windows, line map | steel, blue-grey, cold fluorescent | `plate_LOC-02.png` |
 | LOC-03 | Ghost platform | cracked tile, old posters, rusted benches, wooden door at the end | dirty ivory, mould green, distant amber | `plate_LOC-03.png` |
@@ -26,10 +27,11 @@ Delivery: 2.39:1 picture letterboxed inside a 16:9 1920×1080 master (confirm wi
 ## Characters
 | Code | Who | Reference sheet (→ `locked/`) | Shots |
 |---|---|---|---|
-| **H** | Heroine — young Black woman, voluminous curly hair, camel coat, dark crossbody bag; tired → disbelief → contained fear → panic | `H_sheet.png` ← `notion/07_H_sheet_turnaround.png` or bucket `jeune-femme-character.png` | 02, 04–07, 10–13, 15, 18, 21–25, 27–28, 31, 32a, 32b, 33, 37 |
-| **C** | Creature — hooded, worn pale robe, altered face, red eyes | `C_sheet.png` ← bucket `Horror Movie Image - La créature.png` (+ `notion/44–48_C_carriage_*`) | 14, 16, 17, 24, 26, 32b, 38 |
-| **M** | Young man, past victim — Black, short hair, grey t-shirt; no hood, no red eyes | `M_sheet.png` ← bucket `Jeune Homme Character Horror Movie.png` | 29a, 29b, 30 |
-| **N** | New passenger — ⚠️ **undecided** (blonde/light sweater vs brunette/dark) | `N_sheet.png` (after decision; blonde option = `notion/24_N_blonde_turnaround.png`) | 36, 38 |
+| **H** | Heroine — young Black woman, voluminous curly hair, camel coat, dark crossbody bag; tired → disbelief → contained fear → panic | `H_sheet.png` ← `notion/07_H_sheet_turnaround.png` (Marty removed the bucket `jeune-femme-character.png` from Notion on 31/10) | 02, 04–07, 06a, 10–13, 15, 18, 21–25, 27–28, 31, 32a, 32b, 33, 37 |
+| **V** | **La Vieille** — very old woman, long straight silver-white hair, deeply wrinkled pale skin, milky pale-blue eyes, tattered oxblood shawls over a rust-brown dress, long wooden-bead necklace, bony hands, long yellowed nails, stone rings. Motionless, watching | `V_sheet.png` ← `notion/67_V_sheet_turnaround.png` · extras `68–70` | 06a, 06b |
+| **C** | Creature — hooded, worn pale robe, altered face, red eyes | `C_sheet.png` ← bucket `Horror Movie Image - La créature.png` (+ `notion/44–48_C_carriage_*`; `66_C_fullbody` = costume only: **no blood, no standing/walking pose**) | 14, 16, 17, 24, 26, 32b, 38 |
+| **M** | Young man, past victim — Black, short afro hair, worn dark grey t-shirt; no hood, no red eyes | `M_sheet.png` ← bucket `Jeune Homme Character Horror Movie.png` · 10 new mirror shots `notion/71–80` (candles, gilded frame, cracked glass) = best refs for 29a/29b/30 | 29a, 29b, 30 |
+| **N** | New passenger — ⚠️ **to confirm** (Notion now only has blonde, white sweater: `notion/24` + 8 new angles `81–88`) | `N_sheet.png` (after decision) | 36, 38 |
 
 (Shot numbers = V4 storyboard IDs, as in `shotlist.csv` and the PDF.) Never regenerate an approved sheet; never let a character drift. Do not use the generic Higgsfield "charcoal suit" woman for H.
 

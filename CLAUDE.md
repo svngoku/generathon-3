@@ -7,7 +7,7 @@ Deadline: **Sun 2026-11-01 — 14:00 absolute** (our upload target 13:30, pictur
 0b. `dernier-reflet/00_brief/Dossier_Generathon3_V4_reconcilie.pdf` (text: `dossier_v4.txt`) — **Marty's V4 production reference**: canon, edit sheet, all prompts, QA
 1. `dernier-reflet/00_brief/brief.md` — logline, 5 sequences, canon decisions, **open decisions**
 2. `dernier-reflet/01_bible/visual_bible.md` — camera lock, locations, characters, staging rules
-3. `dernier-reflet/01_bible/shotlist.csv` — 51 shots (41 storyboard + 10 inserts), timecodes, refs, models, outputs, status
+3. `dernier-reflet/01_bible/shotlist.csv` — 53 shots (41 storyboard + 06a/06b + 10 inserts), timecodes, refs, models, outputs, status
 4. `dernier-reflet/01_bible/prompts.md` — prompt rules + index of `prompts/`
 5. `dernier-reflet/01_bible/model_map.md` — which Arcads tool does which job
 6. `dernier-reflet/06_audio/score.md` — sound cue sheet
@@ -20,7 +20,8 @@ A woman takes the last metro; an impossible passenger leads her to a mirror that
 
 ## Hard rules (stop and ask rather than break one)
 - **V4 is canon, V3 camera lock is mandatory.** Ignore older V2 / 35 mm / 16:9 wording.
-- **The creature in the metro is C (hooded, red eyes), not the young man M.** M is flashback-only (29a, 29b, 30). Shot IDs are the V4 storyboard numbers.
+- **The creature in the metro is C (hooded, red eyes), not the young man M.** M is flashback-only (29a, 29b, 30). Shot IDs are the V4 storyboard numbers + team additions 06a/06b.
+- **La Vieille (V)** — team addition 31/10: only in the dark street 06a/06b, motionless, her link to C left open; same sheet (`notion/67_V_sheet_turnaround.png`) every frame, no gore.
 - **C never moves on screen in the carriage** — position changes happen between cuts on one locked axis (14/16/17).
 - **Never regenerate or alter an approved character sheet or plate.** Every call attaches the refs printed by `tools/reflet.py prompt <id>`.
 - **No new visible characters** in inserts; no gore; no invented readable lettering (texts are composited in post).

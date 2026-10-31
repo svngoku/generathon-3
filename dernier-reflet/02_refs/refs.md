@@ -41,6 +41,17 @@ Shot mapping was done from thumbnails: a first pass to confirm by eye.
 Not found anywhere: a ghost-platform (LOC-03) image and a creature turnaround sheet in Notion → C_sheet comes from the HF bucket (`Horror Movie Image - La créature.png`); LOC-03 must be generated (`prompts/plates/LOC-03_sheet.txt` + key prompt `prompts/key/19.json`).
 No PDF on the page (as of 2026-10-31 09:00 UTC).
 
+## 2a. Notion additions — 31/10 10:05–10:53 (Marty) → `notion/66–89`
+| Files | What | Use |
+|---|---|---|
+| `67_V_sheet_turnaround.png` + `68–70_V_*` | **La Vieille** — full sheet (3 body views + 3 faces) and face/body pairs | → `locked/V_sheet.png` + `V_extra_01..03.png` candidates |
+| `66_C_fullbody_carriage_standing.png` | creature full body in the carriage | costume reference only — **blood and walking pose are not canon** |
+| `71–80_M_*` | young man behind the cracked gilded mirror, candles, 10 angles | 29a / 29b / 30 refs → `M_extra_*` candidates |
+| `81–88_N_blonde_*` | blonde second passenger, white sweater, 8 angles | if N = blonde → `N_extra_*` |
+| `89_LOC-01_entrance_metropolitain_night.png` | Métropolitain entrance, wet night street | end of the dark street (06a) · E01 · 07 |
+
+Removed from Notion by Marty in the same edit (kept here, marked `[RETIRÉ]` in `index.csv`, not used): `03_H_closeup`, `21_M_trapped`, `25/26_N_blonde`, `29–31_LOC-01_stairs/entrance`, and the bucket link `jeune-femme-character.png` (→ the H sheet is `07_H_sheet_turnaround.png`).
+
 ## 2b. Storyboard frames → `02_refs/storyboard/<id>.png`
 The 39-frame board cut into one image per shot (41 files, caption bar trimmed). Passed as reference for **composition only**: the heroine in the storyboard has a lighter skin tone than her character sheet — the sheet always wins on identity.
 

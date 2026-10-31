@@ -7,9 +7,10 @@ From Notion §F (V2), re-timed to the V4 edit. Sound carries half the fear: **th
 ## Cue sheet (V4 timecodes)
 | TC | Shots | Sound |
 |---|---|---|
-| 00:00–00:18 | 01–05 | **« The Reason » from the chorus, in her earbuds** (`02_refs/notion/54_music_opening_ssstik.mp3`, *sync + master rights to check*), distant city, keyboard, urban rain |
-| 00:18–00:21 | 06 | music **chokes off** on "no taxi available" |
-| 00:21–00:39 | E01–E03 | rain melts into a metro rumble · reverberant steps · **three neon crackles** (E02) · one amplified drop |
+| 00:00–00:14 | 01–05 | **« The Reason » from the chorus, in her earbuds** (`02_refs/notion/54_music_opening_ssstik.mp3`, *sync + master rights to check*), distant city, keyboard, urban rain |
+| 00:14–00:17 | 06 | music **chokes off** on "no taxi available" |
+| 00:17–00:23 | 06a–06b | rain, her quick steps on cobbles, one streetlight buzzing → on the old woman: **the rain seems to stop**, near-silence, one breath (same "silence when watched" rule as C) |
+| 00:23–00:39 | E01–E03 | rain melts into a metro rumble · reverberant steps · **three neon crackles** (E02) · one amplified drop |
 | 00:39–00:52 | 09–E04 | realistic braking · door hiss · rubber grips creaking |
 | 00:52–01:29 | 11–18 | low carriage vibration · dry power cut · torch click + breath · **silence when C appears** · a muffled thud at each of C's moves (**never footsteps**) · electronic click (E06) · neons back on |
 | 01:29–01:44 | 19–E08 | braking then empty air · dust, stale air · metal creak of the handle |

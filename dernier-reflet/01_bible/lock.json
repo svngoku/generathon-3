@@ -88,7 +88,15 @@
       "materials": "tarnished glass, gilded wood, marble, dust",
       "plate": "locked/plate_LOC-05.png"
     },
-    "BLACK": {}
+    "BLACK": {},
+    "LOC-00": {
+      "setting": "narrow dark Paris side street leading to a Métropolitain entrance: wet cobbles, closed shutters, deep carriage doorways (portes cochères), one failing streetlight",
+      "lighting": "one flickering sodium streetlight, cold blue spill from the metro entrance at the far end, deep black doorways",
+      "palette": "sodium amber, wet graphite, cold blue, oxblood accent (the old woman's robe)",
+      "tone": "cold blue with restrained warm highlights",
+      "materials": "wet cobblestones, stone facades, iron shutters, rain",
+      "plate": "locked/plate_LOC-00.png"
+    }
   },
   "characters": {
     "H": {
@@ -102,12 +110,12 @@
       "name": "La créature",
       "descriptor": "the SAME hooded creature from the uploaded character sheet: worn pale robe and hood, altered gaunt face, red eyes",
       "sheet": "locked/C_sheet.png",
-      "rule": "never shown moving on screen in the carriage: it only changes position between cuts (jump-cuts, same axis)",
+      "rule": "never shown moving on screen in the carriage: it only changes position between cuts (jump-cuts, same axis); N01 full-body image = costume reference only: no blood on robe or carriage, no standing/walking pose",
       "element": ""
     },
     "M": {
       "name": "Jeune homme du passé",
-      "descriptor": "the SAME young Black man from the uploaded character sheet: short hair, grey t-shirt",
+      "descriptor": "the SAME young Black man from the uploaded character sheet: short afro hair, worn dark grey t-shirt",
       "sheet": "locked/M_sheet.png",
       "rule": "flashback only (shots 29a, 29b, 30); never in the metro, no hood, no red eyes",
       "element": ""
@@ -119,6 +127,13 @@
       "rule": "BLOCKED until the team chooses the reference (shots 36, 38); never blend the two references",
       "element": ""
     },
-    "_doc": "extra identity images: drop them in locked/ as H_extra_01.png, C_extra_01.png … (picked up automatically). 'element' = Arcads Element handle without @, once created in Arcads Studio."
+    "_doc": "extra identity images: drop them in locked/ as H_extra_01.png, C_extra_01.png … (picked up automatically). 'element' = Arcads Element handle without @, once created in Arcads Studio.",
+    "V": {
+      "name": "La Vieille",
+      "descriptor": "the SAME very old woman from the uploaded character sheet: long straight silver-white hair, deeply wrinkled pale skin, milky pale-blue eyes, layered tattered oxblood-burgundy shawls over a long rust-brown dress, long wooden-bead necklace, bony hands with long yellowed nails and stone rings",
+      "sheet": "locked/V_sheet.png",
+      "rule": "introduced only in the dark street on the way to the metro (06a, 06b); motionless, watches the heroine, never touches her, never shown moving fast; same hair, robe, necklace and rings in every frame; no gore (ignore the fingers-in-mouth face crop)",
+      "element": ""
+    }
   }
 }

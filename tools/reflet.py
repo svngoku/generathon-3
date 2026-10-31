@@ -97,11 +97,11 @@ def cmd_status(rows):
 
 PRODUCT_ID = "1b5e7fe6-ac1f-414c-91a3-d9e32ff46634"  # Arcads brand JUA (only brand in the workspace)
 HERO = {"09", "22", "24", "26", "37"}
-CHAR_LABEL = {"H": "the heroine", "C": "the hooded creature", "M": "the young man (flashback victim)", "N": "the second passenger"}
+CHAR_LABEL = {"V": "the old woman (la Vieille)", "H": "the heroine", "C": "the hooded creature", "M": "the young man (flashback victim)", "N": "the second passenger"}
 
 
 def codes_of(r):
-    return [c for c in ("H", "C", "M", "N") if c in r["ref"].split("+")]
+    return [c for c in ("H", "C", "M", "N", "V") if c in r["ref"].split("+")]
 
 
 def ordered_refs(r, rows, lock):
@@ -198,7 +198,7 @@ def calls_for(r, rows, lock, base_prompt):
 
 def build(r, lock, vfx_pass):
     loc = lock["locations"].get(r["location"], {})
-    codes = [c for c in ("H", "C", "M", "N") if c in r["ref"].split("+")]
+    codes = [c for c in ("H", "C", "M", "N", "V") if c in r["ref"].split("+")]
     who = "; ".join(lock["characters"][c]["descriptor"] for c in codes) or "no human subject; environment-only shot"
     caption = f"{r['beat']} — {r['action']}."
     if codes:
@@ -249,15 +249,15 @@ def cmd_prompt(rows, sid, vfx_pass="B", soul=False, build_json=False, calls=Fals
     for n, (p, label) in enumerate(ordered_refs(r, rows, lock), 1):
         ok = "" if (ROOT / p).exists() else "   <-- MISSING: lock/approve it first"
         print(f"# ref {n}: {p}  ({label}){ok}")
-    for code in ("H", "C", "M", "N"):
+    for code in ("H", "C", "M", "N", "V"):
         if code in r["ref"].split("+"):
             print(f"# rule {code}: {lock['characters'][code]['rule']}")
     if "VFX" in r["ref"]:
         print("# VFX: generate pass A (clean plate) and pass B (characters/reflection) with IDENTICAL framing, composite in edit")
     if r.get("key_prompt"):
-        print(f"\n## KEY PROMPT (PDF V4 §5) — 01_bible/{r['key_prompt']}")
+        print(f"\n## KEY PROMPT ({'team addition' if r['story']=='new' else 'PDF V4 §5'}) — 01_bible/{r['key_prompt']}")
         print((BIBLE / r["key_prompt"]).read_text().strip())
-    print(f"\n## ARCADS PROMPT (PDF V4 §4) — 01_bible/{r['prompt']}")
+    print(f"\n## ARCADS PROMPT ({'team addition' if r['story']=='new' else 'PDF V4 §4'}) — 01_bible/{r['prompt']}")
     print((BIBLE / r["prompt"]).read_text().strip())
     if r.get("soul_json"):
         if soul:

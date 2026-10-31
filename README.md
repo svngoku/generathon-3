@@ -7,7 +7,7 @@ Paris, 31 Oct – 1 Nov 2026 · 3:00 · DV camcorder × anamorphic · 2.39:1 · 
 
 ## Quick start
 ```bash
-python3 tools/reflet.py check        # 51 shots, 146 s storyboard + 34 s inserts = 180 s
+python3 tools/reflet.py check        # 53 shots (V4 + la Vieille 06a/06b) = 180 s
 python3 tools/reflet.py next         # what to generate next (plates → inserts → acts → ending)
 python3 tools/reflet.py prompt 14    # Marty's prompts + refs to attach (IDs: 01…39, 29a/29b/32a/32b, E01…E10)
 python3 tools/reflet.py status       # progress, blocked shots
