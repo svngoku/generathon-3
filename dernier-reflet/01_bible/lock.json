@@ -146,7 +146,8 @@
         "voice_id": "HVigdwcH9s5lXiFILV4Z",
         "name": "old-woman (team voice, 31/10 11:50)",
         "model": "eleven_v4",
-        "rule": "the ONLY voice for every line of la Vieille; same voice_id; plain text, NO direction tags (tags make ElevenLabs whisper). Locked take: 06_audio/06b_voice_v01.wav = takeH (3.68 s). Rejected: designed voice IhgmsOH7Mm66KHPfp8Rm (sounded 40-60, whispered)"
+        "rule": "the ONLY voice for every line of la Vieille; same voice_id. TEAM PROMPT (31/10 11:55), eleven_v4: \"[deep, distorted voice] Le dernier métro... [pause] ne ramène PERSONNE... [snarls] ma fille. [maniacal laughter] HAHAHAHAHA! [echoing, whispering] ...personne... personne... personne...\" — locked take I (11.36 s). Lip-sync source 06_audio/06b_voice_v01.wav = line only 0-5.18 s, dry. Mix master 06b_voice_v01_fx.wav = pitch -2 st + soft clip on line/laugh, echo on whispers.",
+        "team_prompt": "[deep, distorted voice] Le dernier métro... [pause] ne ramène PERSONNE... [snarls] ma fille. [maniacal laughter] HAHAHAHAHA! [echoing, whispering] ...personne... personne... personne..."
       }
     }
   }
