@@ -16,7 +16,7 @@ ffmpeg -loglevel error -y -ss 0.5 -t 3.1 -i 05_video/06c_v03b.mp4 -an -vf "setpt
 # 06d 3.0 s — lip sync; last 0.3 s the light dies (fade to black)
 ffmpeg -loglevel error -y -ss 0.5 -t 3 -i 05_video/06b_v01.mp4 -an -vf "$LB,fade=t=out:st=2.6:d=0.25" $S/4.mp4
 # E01 2.0 s — light stutters back: the street is empty (06d_v01, darkened to match)
-ffmpeg -loglevel error -y -ss 0.5 -t 2 -i 05_video/06d_v01.mp4 -an -vf "$DARK,$LB,fade=t=in:st=0:d=0.12,fade=t=out:st=0.25:d=0.05,fade=t=in:st=0.45:d=0.08" $S/5.mp4
+ffmpeg -loglevel error -y -ss 0.5 -t 2 -i 05_video/06d_v01.mp4 -an -vf "$DARK,$LB,lutyuv=y=val*0.1:u=128+(val-128)*0.1:v=128+(val-128)*0.1:enable='lt(t,0.12)+between(t,0.28,0.42)+between(t,0.55,0.6)'" $S/5.mp4
 # 07 3.0 s — empty stairs → she bursts in running
 ffmpeg -loglevel error -y -ss 0 -t 3.6 -i "$T07" -an -vf "setpts=PTS/1.2,$LB" -t 3 $S/6.mp4
 printf "file '%s'\n" $S/1.mp4 $S/2.mp4 $S/3.mp4 $S/4.mp4 $S/5.mp4 $S/6.mp4 > $S/l.txt
