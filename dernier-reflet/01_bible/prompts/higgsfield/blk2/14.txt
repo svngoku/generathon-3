@@ -1,0 +1,16 @@
+[Generation Goal]
+A 5-second long-lens shot down the dark carriage aisle where the Hooded Passenger sits far away.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (dark carriage aisle, the hooded figure seated at the far end, red eyes). Keep its framing and light.
+@image2: the Hooded Passenger — hooded worn pale robe, shadowed face, two glowing red eyes. Full-preserve. Do not take its background.
+
+[Stage 1 — 0-5 seconds]
+Locked-off static camera on the aisle axis, long lens. The Hooded Passenger stays perfectly still, small in frame. A white torch beam from the camera position trembles slightly over the seats and the figure; blue tunnel lights flicker across the glass panes; the red eyes glow steadily.
+End state: the figure unchanged in place, the beam resting on it.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Maintain Consistency]
+The Hooded Passenger stays completely still and in the same seat for the whole shot; keep the carriage geometry and the axis identical to @image1.

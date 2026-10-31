@@ -1,0 +1,20 @@
+[Generation Goal]
+A 4-second close-up of the Traveler glancing down at her phone in the dark carriage.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler looking down at her phone, lit from below). Keep its framing and light.
+@image2: the Traveler — dark-brown complexion, slim face, long dark curls, camel coat, brown bag. Full-preserve. Not its background.
+
+[Stage 1 — 0-3 seconds]
+Locked-off static close-up. Her eyes stay down on the phone screen, brow knotted, fingers trembling; blue tunnel light sweeps across her.
+End state: her thumb stops on the screen.
+
+[Stage 2 — 3-4 seconds]
+She lifts her eyes back up toward the lens.
+End state: her eyes on the lens, breath held.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Maintain Consistency]
+Keep the Traveler's face, curls and camel coat identical to @image1 and @image2; the camera never moves.

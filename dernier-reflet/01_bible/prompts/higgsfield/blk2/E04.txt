@@ -1,0 +1,15 @@
+[Generation Goal]
+A 4-second insert of hanging hand straps swaying in an empty moving metro carriage.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (row of hanging straps and grab loops in the empty lit carriage). Keep its framing and light.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static camera. The train is moving: all the straps sway together in a slow pendulum rhythm; tunnel lights streak past the dark glass panes behind.
+End state: the straps still swinging, the carriage empty.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Maintain Consistency]
+Keep the carriage interior identical to @image1; nobody appears.

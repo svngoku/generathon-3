@@ -1,0 +1,15 @@
+[Generation Goal]
+A 4-second establishing shot of a deserted Paris metro platform at midnight.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (vaulted white-tiled platform, tracks on the left, tunnel mouth, blue fog). Keep its framing and light.
+
+[Stage 1 — 0-4 seconds]
+Very slow push-in along the platform axis. Low blue fog drifts across the rain-soaked floor; the fluorescent tubes hum steadily; a faint glow trembles deep in the tunnel mouth. The platform stays empty.
+End state: slightly closer on the tunnel mouth, fog still drifting.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light. Photographic realism, no readable text.
+
+[Maintain Consistency]
+Keep the station architecture, tracks on the left and the empty benches identical to @image1; nobody appears.
