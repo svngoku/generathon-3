@@ -1,5 +1,5 @@
 {
- "_doc": "Block 08-15 EDL. Team rule 31/10 16:45: WHOLE takes (in=0, dur=full file length), no black frames, 16:9 full frame (no crop, no bars). take = file in 05_video/ (swap a/b here). grade = normal | dark. E05 = VFX: passA (clean) cross-dissolves into passB (anomaly). Render: npm run render:blk2 | sound = video whose own Seedance audio plays under the shot (team rule 31/10 16:50); 13/14/E06 sound pending.",
+ "_doc": "Block 08-15 EDL. Team rule 31/10 16:45: WHOLE takes (in=0, dur=full file length), no black frames, 16:9 full frame (no crop, no bars). take = file in 05_video/ (swap a/b here). grade = normal | dark. E05 = VFX: passA (clean) cross-dissolves into passB (anomaly). Render: npm run render:blk2 | sound = video whose own Seedance audio plays under the shot (team rule 31/10 16:50).",
  "fps": 24,
  "shots": [
   {
@@ -73,15 +73,15 @@
    "in": 0.0,
    "dur": 4.0417,
    "grade": "normal",
-   "sound": null
+   "sound": "13_v02a.mp4"
   },
   {
    "id": "14",
-   "take": "14_v02.mp4",
+   "take": "14_v03a.mp4",
    "in": 0.0,
-   "dur": 5.0417,
+   "dur": 5.062,
    "grade": "normal",
-   "sound": null
+   "sound": "14_v03a.mp4"
   },
   {
    "id": "E05",
@@ -107,7 +107,7 @@
    "in": 0.0,
    "dur": 4.0417,
    "grade": "dark",
-   "sound": null
+   "sound": "E06_v02a.mp4"
   }
  ],
  "audio": [
