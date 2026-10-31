@@ -154,6 +154,9 @@ def cmd_prompt(rows, sid, vfx_pass="B"):
     print(f"# save: dernier-reflet/{r['frame_out']}  ·  dernier-reflet/{r['video_out']}")
     for ref in refs_for(r, lock):
         print(f"# attach: {ref}")
+    for f in r.get("notion_refs", "").split():
+        print(f"# existing Notion image for this shot: dernier-reflet/02_refs/notion/{f}")
+    print("# storyboard frame: dernier-reflet/locked/storyboard.png (original 39-frame board)")
     for code in ("H", "C", "M", "N"):
         if code in r["ref"].split("+"):
             print(f"# rule {code}: {lock['characters'][code]['rule']}")

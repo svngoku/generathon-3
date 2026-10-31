@@ -18,8 +18,8 @@ Don't generate anything yet.
 ## 1 · References → locked/
 ```
 Phase 1. Run `bash tools/fetch_refs.sh` (or fetch the Hugging Face bucket via the HF MCP if the network blocks it).
-Sort the unclassified bucket images in 02_refs/refs.md. Propose which file becomes H_sheet, C_sheet, M_sheet,
-plate_TRAIN and plate_LOC-01/05. Create the Arcads project "Le Dernier Reflet" and upload the candidates.
+The 65 Notion images are already in 02_refs/notion/ (see index.csv). Sort the unclassified bucket images in 02_refs/refs.md.
+Propose which file becomes H_sheet, C_sheet, M_sheet, plate_TRAIN and plate_LOC-01/02/04/05 (candidates are listed in refs.md). Create the Arcads project "Le Dernier Reflet" and upload the candidates.
 CHECKPOINT: show a grid with one-line verdicts. I'll say which go into locked/.
 ```
 
@@ -34,7 +34,7 @@ CHECKPOINT after each set: both variants + which one you'd lock and why (geometr
 ## 3 · Animatic (story test)
 ```
 Phase 3. Build an animatic of all 51 shots on the shotlist.csv grid: for each shot use the best existing still
-(plate, storyboard frame or a cheap draft), hold it for dur_s, black for 36 and 41. ffmpeg concat →
+(its notion_refs image, else its frame cropped from locked/storyboard.png, else a cheap draft), hold it for dur_s, black for 36 and 41. ffmpeg concat →
 dernier-reflet/07_edit/animatic_v01.mp4 (2.39:1 letterboxed in 1920x1080), no sound, exactly 180 s.
 CHECKPOINT: what does a muted stranger understand at 0:44, 1:29, 1:44, 2:43, 3:00? Flag beats that don't read.
 ```
