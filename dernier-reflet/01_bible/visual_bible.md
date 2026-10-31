@@ -11,7 +11,7 @@ Delivery: 2.39:1 picture letterboxed inside a 16:9 1920×1080 master (confirm wi
 
 ## Metro look — keep it identical to Notion « Metro » (team rule 31/10)
 Reference images: `notion/34_TRAIN_arrival_front.png` (train « 51 Pont de Sèvres »), `notion/39_LOC-01_platform_empty_blue.png` (empty platform Nation in fog), `notion/37_TRAIN_fog_side.png` (train side in fog) — locked as `plate_TRAIN`, `plate_LOC-01`, `plate_TRAIN_side`.
-**Always:** smooth curved white vault · one continuous fluorescent light strip along the ceiling · arched alcoves · cold blue fog · wet mirror-like floor · white-and-teal MF train, amber destination display · horizontal blue anamorphic flares · soft dark vignette. **Never:** classic bevelled-tile vault with separate tubes (rejected LOC-03 v1). The ghost station (LOC-03) is this same station, abandoned.
+**DECISION A (team, 31/10 12:10): the nb21 board rules the whole metro.** Always: white bevelled-tile curved vault (as `plate_LOC-03` nb21_a) · fluorescent strip(s) along the vault · arched alcoves · cold blue fog · wet mirror-like floor · white-and-teal MF train, amber destination display · horizontal blue anamorphic flares · soft dark vignette. Active station (LOC-01) = the same tiled station clean and lit; ghost station (LOC-03) = the same, abandoned (peeling posters, debris, wooden door). Entrance = Guimard green ironwork (E01). Metro images: Nano Banana 2.1 only.
 
 ## Locations
 | ID | Set | Must stay constant | Palette | Plate (locked/) |
