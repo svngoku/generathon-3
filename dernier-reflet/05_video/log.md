@@ -39,9 +39,13 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 13:04 | 06b | still wide | gpt-image-2-5-sunburst ×2 (21:9) | TEAM 13:00: full-figure reveal in the doorway (opening frame of the push-in) | V_sheet, 06b_v02, V_extra_01, plate_LOC-00, 06d_v02 | 04_frames/candidates/06b_wide_a/b.png · 07_edit/review/06b_wide_keyframes.jpg | both on model, hands + rings + necklace visible · **a: face larger → better for lip sync** · b: more street, metro sign more visible · team to pick before video |
 | 13:18 | scene 06 | rough v02 | ffmpeg | 06a_v02b (1.0–4.75 @1.25×) · 06b v01 0.5–3.5 · 06c 1.7–3.7 · 06d + hold · audio as v01 (shadow noises = team files, not yet) | — | 07_edit/rough/scene06_rough_v02.mp4 | review |
 | 13:25 | scene 06 | — | — | **TEAM 13:20 restaging: 06a walk (3 s) · 06b V bursts out, jump scare (2 s) · 06c H startles (2 s) · 06d V speaks, lip sync (3 s)** — shotlist retimed (10 s total, 180 s OK), lip sync moved 06b → 06d in CLAUDE.md / bible / delivery / score | — | — | team pick « finir sur la réplique » (empty-doorway shot dropped; laugh + whispers run on over E01) |
-| 13:25 | 06c | video startle | seedance 2.5 1080p high, 4 s ×2, audio off | violent flinch + gasp, then frozen | 06c_v02, H_sheet, plate_LOC-00 | assets a9a1667c… / bc7be62f… | pending (≈832) |
+| 13:25 | 06c | video startle | seedance 2.5 1080p high, 4 s ×2, audio off | violent flinch + gasp, then frozen | 06c_v02, H_sheet, plate_LOC-00 | assets a9a1667c… / bc7be62f… | ❌ superseded at 13:40: built on the over-the-shoulder 06c (wrong geography once V appears AHEAD of her) — not used |
 | 13:25 | 06a | still v3 | gpt-image-2-5-sunburst ×2 | edit of 06a_v02: V removed, alley much darker, heavy rain | 06a_v02, H_sheet, plate_LOC-00 | candidates/06a_walk_a/b.png | both ✔ doorway empty, very dark · **a: H more central, darker** · b: H further right |
 | 13:25 | 06b | still jump scare | gpt-image-2-5-sunburst ×2 | V bursts out of the black doorway at the lens | V_sheet, 06b_v02, V_extra_01, 06d_v02 | candidates/06b_scare_a/b.png | both on model, very scary, no gore · **a: face centred (9:16-safe)** · b: face right of centre · sheet 07_edit/review/scene06_v3_walk_scare.jpg |
+| 13:40 | scene 06 | — | — | **TEAM 13:40: eyelines must match the geography** → V appears AHEAD of H (between her and the metro); 06a/06b/06d look toward the metro; 06c = reverse (back toward where she came from, shutters LEFT, no metro). Written in 01_bible/geography.md + CLAUDE.md + visual_bible | — | — | team picks 06a a, 06b a → 04_frames/06a_v03.png (71df430d…), 06b_v03.png (3e482f82…) |
+| 13:40 | 06a | video v3 | seedance 2.5 1080p high, 4 s ×2 | walk away toward the metro, never looks back | 06a_v03, H_sheet, plate_LOC-00 | assets bcde08b9… / c48f81fe… | pending (≈832) |
+| 13:40 | 06b | video jump scare | seedance 2.5 1080p high, 4 s ×2 | H's POV toward the metro, V bursts from the left doorway and lunges at the lens | 06b_v03, V_sheet, 06b_v02, plate_LOC-00 | assets 70b1a9f4… / c92f3295… | pending (≈832) |
+| 13:41 | 06c | still reverse | gpt-image-2-5-sunburst ×2 | reverse angle: H frontal, startle, street she came from behind her (shutters LEFT, no metro glow, blue spill on her face) | 06c_v02, H_sheet, plate_LOC-00 | candidates/06c_rev_a/b.png · sheet 07_edit/review/scene06_v3_geography.jpg | both ✔ geography (shutters left, no metro), on model · **a: face centred, closer, strongest fear** · b: a touch wider |
 
 ## Credits
 | time | balance | batch |
@@ -49,6 +53,7 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 11:15 | 50 000 | before batch 1 |
 | 11:26 | 49 952 | after batch 1 (plates + 01 + voices) |
 | 12:42 | 49 328 | after 06b video (624) |
+| 13:39 | 44 960 | before 06a/06b videos v3 |
 | 12:53 | ≈46 832 | after 06a/c/d (3×416) + 06b v2 ×2 (≈1 248) |
 
 ## Locks (promotions to `locked/`)

@@ -40,6 +40,7 @@ Reference images: `notion/34_TRAIN_arrival_front.png` (train « 51 Pont de Sèvr
 (Shot numbers = V4 storyboard IDs, as in `shotlist.csv` and the PDF.) Never regenerate an approved sheet; never let a character drift. Do not use the generic Higgsfield "charcoal suit" woman for H.
 
 ## Staging rules
+- **Geography & eyelines (team rule 31/10):** one axis per scene, written in `geography.md` before generating; if she looks behind, the threat is behind; reverse shots swap backgrounds; never cross the line.
 - **Lip sync (challenge):** 06d and 37 — face centred, mouth clearly visible, voice file generated first and passed to Seedance.
 - **Loop (challenge):** 39's last frame = 01's first frame. Generate and approve 01 before 39.
 - **Vertical-safe:** close-ups keep the face in the centre third (9:16 punch-in, `delivery/social_9x16.md`).
