@@ -7,7 +7,9 @@ import present from './audio_present.json'; // names of the team audio files tha
 // sound: video file whose own Seedance audio plays under the shot (team rule 31/10 16:50).
 // Two-pass VFX (CLAUDE.md): takeB = pass B (a video in 05_video, or a still in 04_frames when it ends in .png/.jpg).
 // bMask = CSS clip-path limiting pass B to a zone (e.g. the mirror glass); bAt / bDur = when (fraction of the shot) and how long (s) B dissolves in.
-export type Shot = {id: string; take: string | null; takeB?: string; bMask?: string; bAt?: number; bDur?: number; sound?: string | null; soundVolume?: number; in: number; dur: number; grade: 'normal' | 'dark'; note?: string};
+// take 'BLACK' = intended black (storyboard 34 only). zoom = [from, to] scale of take A over the shot, around zoomOrigin (CSS).
+// blackAt = seconds into the shot where the picture cuts to black (38: the lights cut at the impact). bIn = in-point of pass B.
+export type Shot = {id: string; take: string | null; takeB?: string; bIn?: number; bMask?: string; bAt?: number; bDur?: number; zoom?: [number, number]; zoomOrigin?: string; blackAt?: number; sound?: string | null; soundVolume?: number; in: number; dur: number; grade: 'normal' | 'dark'; note?: string};
 // One transition per cut, in film order. "fade" = cross-dissolve (picture AND sound overlap);
 // "cut" = hard cut, kept for shocks (power cut, reveals, C moving between cuts). Remotion skill: TransitionSeries.
 export type Transition = {cut: string; type: 'fade' | 'cut'; frames: number; why?: string};
@@ -37,10 +39,10 @@ export const totalFrames = (edl: Edl) =>
   edl.shots.slice(0, -1).reduce((n, _s, i) => n + tFrames(transitionAt(edl, i)), 0);
 
 const isStill = (f: string) => /\.(png|jpe?g)$/i.test(f);
-const Clip: React.FC<{file: string; startFrom: number; grade: Shot['grade']; opacity?: number; mask?: string}> = ({file, startFrom, grade, opacity = 1, mask}) => {
+const Clip: React.FC<{file: string; startFrom: number; grade: Shot['grade']; opacity?: number; mask?: string; transform?: string; origin?: string}> = ({file, startFrom, grade, opacity = 1, mask, transform, origin}) => {
   const style = {width: '100%', height: '100%', objectFit: 'cover' as const, filter: GRADES[grade]};
   return (
-    <AbsoluteFill style={{opacity, clipPath: mask}}>
+    <AbsoluteFill style={{opacity, clipPath: mask, transform, transformOrigin: origin}}>
       {isStill(file)
         ? <Img src={staticFile(`frames/${file}`)} style={style} />
         : <OffthreadVideo src={staticFile(`video/${file}`)} startFrom={startFrom} muted style={{...style, objectFit: 'contain'}} />}
@@ -53,21 +55,26 @@ const ShotView: React.FC<{shot: Shot; fps: number; fadeIn: number; fadeOut: numb
   const f = useCurrentFrame();
   const d = frames(shot, fps);
   if (!shot.take) throw new Error(`Shot ${shot.id} has no take — no black placeholders allowed`);
+  if (shot.take === 'BLACK') return <AbsoluteFill style={{background: 'black'}} />;
   const start = Math.round(shot.in * fps);
+  const z = shot.zoom ? interpolate(f, [0, d], shot.zoom, {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 1;
+  const tf = shot.zoom ? `scale(${z})` : undefined;
+  const black = shot.blackAt !== undefined && f >= Math.round(shot.blackAt * fps) ? <AbsoluteFill style={{background: 'black'}} /> : null;
   const env = (t: number) => {
     const a = fadeIn > 0 ? interpolate(t, [0, fadeIn], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 1;
     const b = fadeOut > 0 ? interpolate(t, [d - fadeOut, d], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 1;
     return Math.min(a, b) * (shot.soundVolume ?? 1);
   };
   const snd = shot.sound ? <Audio src={staticFile(`video/${shot.sound}`)} startFrom={start} volume={env} /> : null;
-  if (!shot.takeB) return <>{snd}<Clip file={shot.take} startFrom={start} grade={shot.grade} /></>;
+  if (!shot.takeB) return <>{snd}<Clip file={shot.take} startFrom={start} grade={shot.grade} transform={tf} origin={shot.zoomOrigin} />{black}</>;
   // VFX two-pass: identical framing, A (clean) dissolves into B (anomaly), by default from 35 % of the shot over 1.5 s.
   const at = d * (shot.bAt ?? 0.35);
   const b = shot.bDur === 0 ? 1 : interpolate(f, [at, at + (shot.bDur ?? 1.5) * fps], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (<>
     {snd}
-    <Clip file={shot.take} startFrom={start} grade={shot.grade} />
-    <Clip file={shot.takeB} startFrom={start} grade={shot.grade} opacity={b} mask={shot.bMask} />
+    <Clip file={shot.take} startFrom={start} grade={shot.grade} transform={tf} origin={shot.zoomOrigin} />
+    <Clip file={shot.takeB} startFrom={Math.round((shot.bIn ?? shot.in) * fps)} grade={shot.grade} opacity={b} mask={shot.bMask} />
+    {black}
   </>);
 };
 

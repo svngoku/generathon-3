@@ -28,3 +28,9 @@ Renders use the sandbox Chromium headless shell (`remotion.config.ts`). Runtime 
 ## Film order (team rule 31/10 19:20 — never lose the order of the videos)
 The order is `01_bible/shotlist.csv`. `sync-audio.mjs` writes it to `src/shot_order.json`; `Root.tsx` refuses to build any composition whose shots are out of that order (ranges like `06a-07` count by their first id).
 Current Film: 01-06 Perle best version (team, 31/10 19:41; replaces 93 + 92 and the A10 music cue — it carries its own mix; its two 0.13 s dips to black at 15.0 s and 38.4 s are the team's own) → 06a-07 Higgsfield street → E02 → 08 → E03 → 09 → 10 → E04 → 11 → 12 → 13 → 14 → E05 → 15 → 16 → E06 → 17 → 18. Next blocks append after 18 (19 → 39), in shotlist order.
+
+## Blocks 3–5 (31/10 23:30) — the whole film
+- `edl_blk3.json` 19 → E10 · `edl_blk4.json` 23 → 28 · `edl_blk5.json` 29a → 39. `Film` = Blk1 → Blk5 (220.9 s; running over 3:00 was validated by the team).
+- Shot fields added: `takeB` may be a still in `04_frames` (`.png/.jpg`), `bMask` (CSS clip-path, e.g. the mirror glass), `bAt`/`bDur` (dissolve timing; `bDur: 0` = B from the first frame), `bIn` (B in-point), `zoom` + `zoomOrigin` (push-in), `blackAt` (picture cuts to black, 38), take `BLACK` (storyboard 34 only).
+- 23: the frozen reflection = frame 0 of the same take masked to the glass. 39: push into the window of 37, dissolving into frame 0 of `01-06` → the last frame is the first frame (infinite loop).
+- Team audio cues still to drop into `06_audio/team/`: `A18_whisper-place_v1.wav` (32a), `A19_aidez-moi.wav` (37), `A20_three-pulses_v1.wav` (39). They play automatically once present.

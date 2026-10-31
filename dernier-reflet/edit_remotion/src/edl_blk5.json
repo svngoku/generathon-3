@@ -1,0 +1,34 @@
+{
+ "fps": 24,
+ "note": "Block 5 = 29a -> 39 (budget plan 05_video/budget_plan.md). 29a-30 one flashback oner; 32b = still flash; 34 = intended black (storyboard); 35 = take 09 reused (the same train comes back: the loop); 38 cuts to black at the impact; 39 = push into the black window of 37, dissolving into the opening Paris shot (01) = the infinite loop.",
+ "shots": [
+  {"id": "29a-30", "take": "29a-30_v01.mp4", "in": 0, "dur": 9.0417, "grade": "normal", "sound": "29a-30_v01.mp4", "note": "flashback: M before the same mirror, drawn into the glass, palm inside, empty mirror"},
+  {"id": "31", "take": "31_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "31_v01.mp4", "note": "her reflection presses its palm on the glass on its own"},
+  {"id": "32a", "take": "32a_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "32a_v01.mp4", "note": "the whisper (team audio A18) lands here"},
+  {"id": "32b", "take": "candidates/blk5/32b_b.png", "in": 0, "dur": 0.5, "grade": "dark", "sound": null, "note": "still flash: the Hooded Figure right behind her, 12 frames"},
+  {"id": "33", "take": "33_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "33_v01.mp4", "note": "stylised clean shatter, ends in darkness"},
+  {"id": "34", "take": "BLACK", "in": 0, "dur": 2.0, "grade": "normal", "sound": null, "note": "storyboard: two seconds of absolute black"},
+  {"id": "35", "take": "09_v02a.mp4", "in": 0, "dur": 5.0417, "grade": "normal", "sound": "09_v02a.mp4", "note": "the same last metro arrives again (take 09 reused on purpose)"},
+  {"id": "36", "take": "36_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "36_v01.mp4"},
+  {"id": "37", "take": "37_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "37_v01.mp4", "note": "« Aidez-moi… » = team audio A19, muffled behind the glass"},
+  {"id": "38", "take": "38_v01.mp4", "in": 0, "dur": 4.0417, "blackAt": 2.42, "grade": "normal", "sound": "38_v01.mp4", "note": "the lights cut at the impact (2.42 s); no gore shown"},
+  {"id": "39", "take": "37_v01.mp4", "in": 2.0, "dur": 2.0417, "zoom": [1.0, 1.9], "zoomOrigin": "50% 42%", "takeB": "01-06_team_perle_best.mp4", "bIn": 0, "bAt": 0.3, "bDur": 1.0, "grade": "normal", "sound": "37_v01.mp4", "note": "push into the window -> the opening Paris aerial (first frame of the film): the loop"}
+ ],
+ "transitions": [
+  {"cut": "29a-30>31", "type": "fade", "frames": 10, "why": "out of the flashback, back to her before the same mirror"},
+  {"cut": "31>32a", "type": "cut", "frames": 0, "why": "reaction"},
+  {"cut": "32a>32b", "type": "cut", "frames": 0, "why": "flash reveal"},
+  {"cut": "32b>33", "type": "cut", "frames": 0, "why": "the glass bursts"},
+  {"cut": "33>34", "type": "cut", "frames": 0, "why": "into absolute black"},
+  {"cut": "34>35", "type": "fade", "frames": 12, "why": "out of the black: the same train arrives"},
+  {"cut": "35>36", "type": "fade", "frames": 8, "why": "a new passenger boards"},
+  {"cut": "36>37", "type": "cut", "frames": 0, "why": "reveal: the heroine trapped in her window"},
+  {"cut": "37>38", "type": "cut", "frames": 0, "why": "the figure beside the new passenger"},
+  {"cut": "38>39", "type": "cut", "frames": 0, "why": "from the black of the impact to the window"}
+ ],
+ "audio": [
+  {"file": "A18_whisper-place_v1.wav", "at": "32a", "offset": 0.8, "volume": 1, "note": "team: « Tu peux prendre sa place, maintenant. »"},
+  {"file": "A19_aidez-moi.wav", "at": "37", "offset": 0.6, "volume": 0.9, "note": "team: « Aidez-moi… » behind thick glass"},
+  {"file": "A20_three-pulses_v1.wav", "at": "39", "offset": 0, "volume": 1, "note": "team: three pulses on the push-in"}
+ ]
+}
