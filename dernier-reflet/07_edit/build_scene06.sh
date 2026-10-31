@@ -26,6 +26,18 @@ ffmpeg -loglevel error -y -f concat -safe 0 -i $S/l.txt -c copy $S/v.mp4
 # sound: line from the lip-sync take at 7.0 s, team laugh + whispers after it
 ffmpeg -loglevel error -y -ss 0.5 -t 4.7 -i 05_video/06b_v01.mp4 -vn -ar 48000 -ac 2 $S/line.wav
 ffmpeg -loglevel error -y -ss 4.8 -i 06_audio/06b_voice_team_v01.mp3 -ar 48000 -ac 2 $S/tail.wav
-ffmpeg -loglevel error -y -i $S/line.wav -i $S/tail.wav -filter_complex "[0:a]adelay=7000|7000[l];[1:a]adelay=10300|10300[t];[l][t]amix=inputs=2:normalize=0,apad[a]" -map "[a]" -t 15 $S/a.wav
+# team files (06_audio/AUDIO_REQUESTS.md) — each is mixed in at its sync point if it has been delivered
+INPUTS=(-i $S/line.wav -i $S/tail.wav); FILT="[0:a]adelay=7000|7000[a0];[1:a]adelay=10300|10300[a1];"; MIX="[a0][a1]"; n=2
+add(){ f=06_audio/team/$1; [ -f "$f" ] || return 0; INPUTS+=(-i "$f"); FILT+="[$n:a]aformat=channel_layouts=stereo,adelay=$2|$2,volume=$3[a$n];"; MIX+="[a$n]"; n=$((n+1)); }
+add A00_rain-alley_amb_v1.wav 0 0.8
+add A01_steps-splash_v1.wav 0 1.0
+add A02_streetlight-buzz_v1.wav 0 0.6
+add A03_shadow-noises_v1.wav 2500 1.0
+add A04_jumpscare-stinger_v1.wav 4100 1.0
+add A05_heroine-gasp_v1.wav 5000 1.0
+add A07_run-stairs_v1.wav 12000 1.0
+add A08_metro-rumble_v1.wav 14000 0.8
+ffmpeg -loglevel error -y "${INPUTS[@]}" -filter_complex "${FILT}${MIX}amix=inputs=$n:normalize=0,apad[a]" -map "[a]" -t 15 $S/a.wav
+echo "team audio files mixed: $((n-2))"
 ffmpeg -loglevel error -y -i $S/v.mp4 -i $S/a.wav -c:v copy -c:a aac -b:a 192k -shortest "$OUT"
 rm -rf $S; ffprobe -v error -show_entries format=duration -of csv=p=0 "$OUT"

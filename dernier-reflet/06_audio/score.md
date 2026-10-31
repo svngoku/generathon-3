@@ -26,11 +26,13 @@ From Notion §F (V2), re-timed to the V4 edit. Sound carries half the fear: **th
 ## Motif: three pulses
 Three discreet impulses recur (neon E02 → metal → mirror cracks 27/33 → three pulses on the final black 39). Keep it a texture, **not a melody**.
 
-## Voices (lip sync — record the voices BEFORE generating 06b and 37: Seedance lip-syncs to them)
-- « Le dernier métro ne ramène personne, ma fille. » (06d, **on screen, lip sync** — files keep the 06b_voice_* names) — la Vieille: very old woman, low, slow, French. **LOCKED 31/10 12:00: team-supplied file `06b_voice_team_v01.mp3` (10.45 s) — the team makes all audio from now on.** Edit: line « Le dernier métro ne ramène personne, ma fille » 0–~4.8 s, lip-synced on 06b (3 s on screen, « ma fille » over 06c = J-cut); laugh ~4.8–7.2 s over 06c→06d; whispered « personne… » ×3 7.6–10 s under 06d/E01, gone before 07. Files: `06b_voice_v01.wav` (lip-sync source, 0–5.2 s) · `06b_voice_v01_full.wav` (mix master).
+**→ Every file the team must deliver, with length, sound and sync point: `AUDIO_REQUESTS.md`** (drop them in `06_audio/team/`).
+
+## Voices (lip sync — the voice file comes BEFORE the video: Seedance lip-syncs to it — shots 06d and 37)
+- « Le dernier métro ne ramène personne, ma fille. » (06d, **on screen, lip sync** — files keep the 06b_voice_* names) — la Vieille: very old woman, low, slow, French. **LOCKED 31/10 12:00: team-supplied file `06b_voice_team_v01.mp3` (10.45 s) — the team makes all audio from now on.** Edit: line « Le dernier métro ne ramène personne, ma fille » 0–~4.8 s, lip-synced on 06d; laugh starts in the black after the light-out (E01 slot); whispered « personne… » ×3 over the run (07). See `07_edit/scene06_edl.md`. Files: `06b_voice_v01.wav` (lip-sync source, 0–5.2 s) · `06b_voice_v01_full.wav` (mix master).
 - « Tu peux prendre sa place, maintenant. » — low intimate whisper, off-screen, close to the ear (C's voice).
 - « Aidez-moi… » (37, **on screen in the window, lip sync**) → `06_audio/37_voice_v01.wav` — the heroine's voice, filtered: thick glass, slight low-pass, no reverb tail.
-- Make both with ElevenLabs (design voice → generate speech), 2 takes each; log in `../05_video/log.md`.
+- **The team supplies every voice file itself (31/10 12:00)** — see `AUDIO_REQUESTS.md` (A06 ✅, A18, A19).
 
 ## Music fallback (if the opening track can't be cleared)
 Generate an original ~21 s earbud cue: lo-fi/urban, warm, ordinary-life feeling, ends on a cut (not a fade). Export also a "heard through earbuds" version (band-passed) for shots 02–05.
