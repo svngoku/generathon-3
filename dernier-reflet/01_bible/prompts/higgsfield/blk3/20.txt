@@ -1,0 +1,19 @@
+[Generation Goal]
+A 4-second wide shot down the abandoned platform toward a lone wooden door standing ajar with an amber halo.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (empty abandoned platform, a wooden door ajar at the far end leaking amber light). Keep its framing and light.
+
+[Stage 1 — 0-4 seconds]
+Very slow push-in along the platform toward the far door. The amber slit breathes, brightening and dimming; fog drifts through the halo; the blue tubes overhead flicker; the door creaks open a little wider on its own.
+End state: the door slightly more open, the amber halo wider on the damp floor.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light with one restrained amber accent. Photographic realism, no readable text.
+
+[Audio]
+<empty stale air> <a long slow creak of old door hinges> <a fluorescent buzz cutting in and out>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the platform architecture identical to @image1; the door opens only by itself; nobody appears.

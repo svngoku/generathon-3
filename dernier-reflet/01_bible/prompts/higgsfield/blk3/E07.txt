@@ -1,0 +1,19 @@
+[Generation Goal]
+A 4-second insert on the old posters of the forgotten platform.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (torn faded posters and a pale rectangle where a sign was removed, on the curved tiled wall). Keep its framing and light.
+
+[Stage 1 — 0-4 seconds]
+Very slow lateral dolly along the tiled wall. Dust motes drift through the blue fluorescent light; a loose flap of poster paper trembles in a faint draught; low fog slides along the platform edge.
+End state: the pale empty rectangle in the centre of frame.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light with one restrained amber accent. Photographic realism, no readable text.
+
+[Audio]
+<stagnant air, a low hollow drone of the empty vault> <paper rustling faintly> <a distant drip>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the tiles, the posters and the removed-sign rectangle identical to @image1; the posters stay without readable letters; nobody appears.

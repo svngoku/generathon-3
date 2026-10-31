@@ -1,0 +1,19 @@
+[Generation Goal]
+A 4-second extreme close-up: an old brass door handle trembles by itself in amber light.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (tarnished brass handle on an old wooden door ajar, a thin amber line of light in the gap). Keep its framing and light.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static macro camera. The brass handle trembles and rattles on its own with small jerks, then goes still; dust drifts through the thin amber line of light in the gap.
+End state: the handle still, the amber line steady.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light with one restrained amber accent. Photographic realism, no readable text.
+
+[Audio]
+<a dry metallic rattle of the handle in the lock> <an old latch clicking> <then near silence>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the door, the handle and the light identical to @image1; no hand and nobody appears.

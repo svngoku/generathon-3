@@ -1,0 +1,19 @@
+[Generation Goal]
+A 4-second insert along a row of old portraits whose faces are rubbed away but whose eyes remain.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (three old portraits in gilt frames on peeling plaster, faces smeared away, eyes intact). Keep its framing and light.
+
+[Stage 1 — 0-4 seconds]
+Very slow lateral dolly along the wall past the portraits. The painted eyes stay sharp in the smeared faces and seem to follow the camera; the amber sconce flickers; dust drifts.
+End state: the last portrait in frame, its eyes on the camera.
+
+[Look]
+Early-2000s DV camcorder texture, gentle halation, MiniDV noise, crushed blacks; tobacco, dust beige and tarnished gold, unstable warm amber against cold blue shadow. Mood: hushed dread. Photographic realism, no readable text.
+
+[Audio]
+<a faint draught> <a low creak of the parquet> <the sconce bulb ticking>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep the portraits, frames and wall identical to @image1; the paintings stay paintings; nobody appears.

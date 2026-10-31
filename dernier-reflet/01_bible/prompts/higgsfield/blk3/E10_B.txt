@@ -1,0 +1,19 @@
+[Generation Goal]
+A 4-second locked-off close-up of the tarnished glass of the gilded mirror.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the same tarnished mirror glass with a faint old handprint deep inside it, behind the surface). Keep its framing and light.
+
+[Stage 1 — 0-4 seconds]
+Locked-off static camera on a tripod, no camera movement at all. Dust motes drift slowly in front of the glass; the amber light from the reflected doorway wavers softly.
+End state: the frame identical to the first frame.
+
+[Look]
+Early-2000s DV camcorder texture, gentle halation, MiniDV noise, crushed blacks; tobacco, dust beige and tarnished gold, unstable warm amber against cold blue shadow. Mood: hushed dread. Photographic realism, no readable text.
+
+[Audio]
+<a very low hum> <a faint high glassy ring>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Absolutely static framing identical to @image1; the handprint stays exactly in place inside the glass; nobody appears.

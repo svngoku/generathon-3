@@ -1,0 +1,21 @@
+[Generation Goal]
+A 4-second threshold shot: the metro doors stand open on a forgotten, abandoned platform and the Traveler stares out.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler from behind at the open carriage doors, the ghost platform beyond). Keep its framing and light.
+@image2: the Traveler — deep dark-brown complexion, slim oval face, long dark curls worn half-up, camel wool coat, brown leather bag. Full-preserve. Do not take its background.
+@image3: the same Traveler, another angle — identity only. Do not take its background.
+
+[Stage 1 — 0-4 seconds]
+Static camera behind her shoulder inside the lit carriage. She stands still on the threshold, breathing, her curls stirring slightly in a cold draught. Beyond the doors, fog drifts slowly along the empty abandoned platform; a dying blue tube flickers once; far away the small wooden door glows faint amber.
+End state: she still on the threshold, staring out, nobody on the platform.
+
+[Look]
+Early-2000s DV camcorder texture, anamorphic blue flares, MiniDV noise, crushed blacks, cold blue-teal light with one restrained amber accent. Photographic realism, no readable text.
+
+[Audio]
+<the last hiss of the brakes settling> <stale empty air> <a faint drip echoing in the vault> <a fluorescent tube buzzing and ticking>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep her face, curls, coat and bag identical to @image2; keep the carriage and the platform architecture identical to @image1; nobody else appears.

@@ -1,0 +1,21 @@
+[Generation Goal]
+A 4-second wide master: the Traveler stands in a decaying room before a huge tarnished gilded mirror.
+
+[References]
+@image1: the first frame — the video starts exactly on this image (the Traveler three-quarter back to camera before the big gilded mirror, her reflection in the glass, fireplace on the right, lit doorway on the left). Keep its framing and light.
+@image2: the Traveler — deep dark-brown complexion, slim oval face, long dark curls worn half-up, camel wool coat, brown leather bag. Full-preserve. Do not take its background.
+@image3: the same Traveler, another angle — identity only. Do not take its background.
+
+[Stage 1 — 0-4 seconds]
+Static wide camera. She stands still facing the mirror, slowly taking in the room, her shoulders rising with a held breath; her reflection in the tarnished glass matches her exactly; the amber light from the doorway wavers unsteadily.
+End state: she and her reflection face each other, motionless.
+
+[Look]
+Early-2000s DV camcorder texture, gentle halation, MiniDV noise, crushed blacks; tobacco, dust beige and tarnished gold, unstable warm amber against cold blue shadow. Mood: hushed dread. Photographic realism, no readable text.
+
+[Audio]
+<a very low hum filling the room> <her held breath> <a faint creak of the parquet>
+Diegetic sound only. No music. No dialogue.
+
+[Maintain Consistency]
+Keep her identical to @image2; her reflection moves exactly with her; keep the room and the mirror identical to @image1; nobody else appears.
