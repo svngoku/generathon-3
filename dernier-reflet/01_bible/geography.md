@@ -23,7 +23,7 @@ Every prompt for a shot with a look, a reveal or a reverse angle **states the ax
 - **Ghost station 19–20, corridor 21–23, mirror room 24–33:** map before the act block (door ahead of her, mirror on the wall she faces; reflection reverses screen direction by design).
 - **35–39:** the window/reflection axis must match 01 for the loop.
 
-## Lighting continuity — scene 06 → 07 (team rule 31/10 13:50)
+## Lighting continuity — scene 06 → 07 (team rules 31/10 13:50 + 14:16: dark from the very first frame, one grade for the whole scene)
 - Key lights never change source: **sodium-amber streetlight** (street side, flickers off/on from 06c onward) + **cold blue-teal** from the metro entrance (metro side).
 - Facing the metro (06a, 06b, 06d): blue-teal glow in the background, amber on the side. Facing away (06c): amber behind her, blue-teal spill on her face from the front.
 - 07 stairs: blue-teal from below on her face, amber flickering through the ironwork above/behind her. Rain in every shot.
