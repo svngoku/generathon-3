@@ -2,8 +2,8 @@
   "name": "dernier-reflet-edit",
   "private": true,
   "scripts": {
-    "studio": "remotion studio src/index.ts",
-    "render:blk2": "remotion render src/index.ts Blk2 ../07_edit/rough/blk2_remotion.mp4",
+    "studio": "node scripts/sync-audio.mjs && remotion studio src/index.ts",
+    "render:blk2": "node scripts/sync-audio.mjs && remotion render src/index.ts Blk2 ../07_edit/rough/blk2_remotion.mp4",
     "still": "remotion still src/index.ts"
   },
   "dependencies": {
