@@ -35,6 +35,8 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 12:43 | 06a / 06c / 06d | video | seedance 2.5 1080p high, 4 s each, audio off | animate keyframe, one discreet action | keyframes 06x_v02 + H_sheet / V_sheet / plate_LOC-00 | 05_video/06a/06c/06d_v01.mp4 | 06a: follow shot, V stays motionless in the doorway ✔ · 06c: frozen fear then turns away ✔ · 06d: street stays empty ✔ · 416 each |
 | 12:53 | 06b | video v2 | seedance 2.5 1080p high, 6 s ×2, audio ON + team line | articulation-first lip-sync prompt | keyframe 06b_v02, V_sheet, V_extra_01 | assets 0e50b58a… / 8e74969b… | pending (≈1 248 credits) |
 | 12:53 | scene 06 | rough | ffmpeg | 06a 1.0–4.0 · 06b 0.5–3.5 · 06c 1.7–3.7 · 06d 0–4 (+hold) · 2.39 letterbox · audio: 06b clip line + team laugh/whispers | — | 07_edit/rough/scene06_rough_v01.mp4 (13.4 s review) | for review only |
+| 13:04 | 06a | video v2 | seedance 2.5 1080p high, 5 s ×2, audio off | TEAM 13:00: one shot — street + black doorway (shadow, V NOT visible) → glide to a direct close shot of H stopping dead | 06d_v02 (opening frame), 06c_v02 (closing framing), H_sheet, plate_LOC-00 | assets 6e213097… / c80842d5… | pending (≈1 040) |
+| 13:04 | 06b | still wide | gpt-image-2-5-sunburst ×2 (21:9) | TEAM 13:00: full-figure reveal in the doorway (opening frame of the push-in) | V_sheet, 06b_v02, V_extra_01, plate_LOC-00, 06d_v02 | 04_frames/candidates/06b_wide_a/b.png · 07_edit/review/06b_wide_keyframes.jpg | both on model, hands + rings + necklace visible · **a: face larger → better for lip sync** · b: more street, metro sign more visible · team to pick before video |
 
 ## Credits
 | time | balance | batch |

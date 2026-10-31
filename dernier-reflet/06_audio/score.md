@@ -9,7 +9,7 @@ From Notion §F (V2), re-timed to the V4 edit. Sound carries half the fear: **th
 |---|---|---|
 | 00:00–00:14 | 01–05 | **« The Reason » from the chorus, in her earbuds** (`02_refs/notion/54_music_opening_ssstik.mp3`, *sync + master rights to check*), distant city, keyboard, urban rain |
 | 00:14–00:17 | 06 | music **chokes off** on "no taxi available" |
-| 00:17–00:20 | 06a | rain, her quick steps on cobbles, a streetlight buzzing; an old voice calls out from the doorway |
+| 00:17–00:20 | 06a | rain, her quick steps on cobbles, a streetlight buzzing; **from the black doorway: raspy breathing, wooden beads clicking, a dry scrape (team supplies these files)** — she stops dead |
 | 00:20–00:23 | 06b | **the rain goes quiet** — la Vieille, on screen, lip sync: « Le dernier métro ne ramène personne, ma fille. » |
 | 00:23–00:27 | 06c–06d | her breath, « Pardon… ? » barely audible → empty doorway: the streetlight buzzes and dies, silence |
 | 00:27–00:39 | E01–E03 | rain melts into a metro rumble · reverberant steps · **three neon crackles** (E02) · one amplified drop |
