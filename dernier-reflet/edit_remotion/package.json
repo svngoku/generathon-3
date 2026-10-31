@@ -4,7 +4,9 @@
   "scripts": {
     "studio": "node scripts/sync-audio.mjs && remotion studio src/index.ts",
     "render:blk2": "node scripts/sync-audio.mjs && remotion render src/index.ts Blk2 ../07_edit/rough/blk2_remotion.mp4",
-    "still": "remotion still src/index.ts"
+    "still": "remotion still src/index.ts",
+    "render:blk1": "node scripts/sync-audio.mjs && remotion render src/index.ts Blk1 ../07_edit/rough/blk1_remotion.mp4",
+    "render:film": "node scripts/sync-audio.mjs && remotion render src/index.ts Film ../07_edit/rough/film_remotion.mp4"
   },
   "dependencies": {
     "@remotion/cli": "4.0.539",

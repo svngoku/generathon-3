@@ -2,14 +2,15 @@ import React from 'react';
 import {AbsoluteFill, Audio, Loop, OffthreadVideo, Sequence, staticFile, useCurrentFrame, interpolate} from 'remotion';
 import {TransitionSeries, linearTiming} from '@remotion/transitions';
 import {fade} from '@remotion/transitions/fade';
-import present from './audio_present.json';
+import present from './audio_present.json'; // names of the team audio files that exist
 
 // sound: video file whose own Seedance audio plays under the shot (team rule 31/10 16:50).
 export type Shot = {id: string; take: string | null; takeB?: string; sound?: string | null; soundVolume?: number; in: number; dur: number; grade: 'normal' | 'dark'; note?: string};
 // One transition per cut, in film order. "fade" = cross-dissolve (picture AND sound overlap);
 // "cut" = hard cut, kept for shocks (power cut, reveals, C moving between cuts). Remotion skill: TransitionSeries.
 export type Transition = {cut: string; type: 'fade' | 'cut'; frames: number; why?: string};
-export type Cue = {file: string; at: string; offset: number; volume: number; loopUntil?: string};
+// keys = volume keyframes [shotId, offset s, volume]; stopAt = the cue stops dead when that shot starts.
+export type Cue = {file: string; at: string; offset: number; volume: number; loopUntil?: string; stopAt?: string; keys?: [string, number, number][]};
 export type Edl = {fps: number; shots: Shot[]; transitions?: Transition[]; audio?: Cue[]};
 
 // Cold DV grade: crushed blacks, desaturated. Full frame 16:9: no crop, no bars (team rule 31/10 16:45).
@@ -85,15 +86,17 @@ export const Edit: React.FC<{edl: Edl}> = ({edl}) => {
   });
   return (
     <AbsoluteFill style={{background: 'black'}}>
-      {(present as Cue[]).map((c) => {
+      {(edl.audio ?? []).filter((c) => (present as string[]).includes(c.file)).map((c) => {
         const at = starts[c.at] + Math.round(c.offset * edl.fps);
-        const until = c.loopUntil ? ends[c.loopUntil] : undefined;
+        const until = c.loopUntil ? ends[c.loopUntil] : c.stopAt ? starts[c.stopAt] : undefined;
         const src = staticFile(`audio/${c.file}`);
+        const k = (c.keys ?? []).map(([id, o, v]) => [starts[id] + Math.round(o * edl.fps) - at, v] as const);
+        const vol = k.length > 1 ? (f: number) => interpolate(f, k.map((x) => x[0]), k.map((x) => x[1]), {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : c.volume;
         return (<Sequence key={c.file} from={at} durationInFrames={until ? until - at : undefined} name={`♪ ${c.file}`} layout="none">
-          {until ? <Loop durationInFrames={until - at}><Audio src={src} volume={c.volume} loop /></Loop> : <Audio src={src} volume={c.volume} />}
+          {c.loopUntil ? <Loop durationInFrames={until! - at}><Audio src={src} volume={vol} loop /></Loop> : <Audio src={src} volume={vol} />}
         </Sequence>);
       })}
-      <TransitionSeries name="Block 08-15">{children}</TransitionSeries>
+      <TransitionSeries name="Edit">{children}</TransitionSeries>
     </AbsoluteFill>
   );
 };
