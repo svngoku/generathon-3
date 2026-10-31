@@ -1,0 +1,7 @@
+{
+  "shot": "P37 — Héroïne prisonnière de la vitre",
+  "reference_assets": "H + TRAIN + VFX",
+  "camera": "DV Camcorder, anamorphic lens, 2.39:1",
+  "prompt": "Dark window in same cold blue Paris metro carriage shows exact Black heroine in camel coat trapped behind black reflective glass, palm pressed toward viewer. No physical heroine in carriage; face and hand exist only in impossible reflection. Tight oblique close-up, icy fluorescents. DV anamorphic 2.39:1. Composite reflection pass.",
+  "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"
+}

@@ -107,13 +107,13 @@
       "name": "Jeune homme du passé",
       "descriptor": "the SAME young Black man from the uploaded character sheet: short hair, grey t-shirt",
       "sheet": "locked/M_sheet.png",
-      "rule": "flashback only (shots 29-31); never in the metro"
+      "rule": "flashback only (shots 29a, 29b, 30); never in the metro, no hood, no red eyes"
     },
     "N": {
       "name": "Nouvelle passagère",
       "descriptor": "the SAME second young woman from the uploaded character sheet (reference TO BE DECIDED: blonde light sweater from Notion OR brunette dark clothes from the storyboard)",
       "sheet": "locked/N_sheet.png",
-      "rule": "BLOCKED until the team chooses the reference"
+      "rule": "BLOCKED until the team chooses the reference (shots 36, 38); never blend the two references"
     }
   }
 }

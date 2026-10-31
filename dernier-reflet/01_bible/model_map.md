@@ -6,7 +6,7 @@ Tool names are the Arcads MCP tools exposed in our sessions (`mcp__Arcads__arcad
 ## 1. Stills (plates, keyframes, inserts)
 | Job | Primary | A/B · fallback | Notes |
 |---|---|---|---|
-| Location plates LOC-01…05, TRAIN | `generate_image_nano_banana` | `generate_image_gpt` | attach the existing bucket image as ref; Soul-Cinematic JSON from `prompts/S0x.json` / `LOC-0x_sheet.txt` |
+| Location plates LOC-01…05, TRAIN | `generate_image_nano_banana` | `generate_image_gpt` | attach the existing bucket image as ref; Soul-Cinematic JSON from `prompts/plates/S0x.json` / `prompts/plates/LOC-0x_sheet.txt` (+ P19 key prompt for the ghost station) |
 | Keyframes with H / C / M / N | `generate_image_nano_banana` | `generate_image_gpt` | refs = character sheet + location plate; reject any face/clothes drift |
 | Inserts E01–E10 | `generate_image_nano_banana` | `generate_image_seedream` | ref = the plate of that location; **no people** |
 | VFX two-pass frames | same model, **same seed/refs**, pass A then pass B | — | identical framing is what makes the composite work |

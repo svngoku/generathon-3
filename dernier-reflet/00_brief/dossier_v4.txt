@@ -1,0 +1,881 @@
+                                                           GÉNÉRATHON 3
+
+
+                               COURT-MÉTRAGE D’HORREUR
+                                              V4 — STORYBOARD CANON RÉCONCILIÉ
+
+                            Dossier de production · feuille de montage 180 secondes · prompts Arcads
+
+Source de vérité : storyboard original réconcilié par Marty. Cette version remplace le découpage provisoire du premier PDF. Elle
+conserve les 41 vignettes du storyboard et les 10 inserts E01–E10, soit 51 éléments de montage et 180 secondes exactement.
+Verrou technique : DV Camcorder + optique anamorphique + ratio 2.39:1. Patine DV subtile : bruit numérique léger et chroma discret,
+pas de filtre VHS ni de grain 35 mm.
+Point non arbitré : la passagère N est brune en tenue sombre sur la vignette 36, mais blonde en pull clair dans le character sheet Notion.
+Le dossier ne tranche pas et interdit de mélanger les références.
+1. Canon narratif — corrections non négociables
+• C et M sont deux personnages différents. C est la créature encapuchonnée aux yeux rouges, robe claire usée ; elle apparaît aux plans
+14, 16, 17, 24, 26, 32b et 38. M est le jeune homme noir aux cheveux courts et tee-shirt gris, uniquement dans le flashback 29a, 29b et
+30.
+• Reflet : C apparaît derrière H dans le miroir au plan 24 seulement, puis hors miroir au choc 32b. La main autonome au plan 31
+appartient au reflet de H, pas à C.
+• Décors : métro actuel bleu, humide, brumeux, rame blanche/teal ; station fantôme de même langage architectural mais vieillie ;
+corridor et chambre chauds, poussiéreux, contaminés par du bleu.
+• Inserts : E01–E10 sont des éléments narratifs, ils ne remplacent aucune vignette.
+
+
+2. Personnages et assets à importer
+H : héroïne noire, cheveux bouclés volumineux, manteau camel, sac sombre. Réutiliser son character sheet sur tous ses plans et son
+reflet.
+C : créature en robe/capuche claire usée, yeux rouges, visage altéré. Ne jamais utiliser la référence de M pour elle.
+M : jeune homme noir, cheveux courts, tee-shirt gris. Flashback uniquement ; aucun œil rouge, aucune capuche.
+N : nouvelle passagère, blonde ou brune selon arbitrage. Créer un identifiant unique seulement après décision.
+TRAIN : rame blanche/teal, quai voûté, brume bleue et reflets humides. Verrouiller l'image maîtresse.
+ENV : LOC-01 à LOC-05 et plates approuvées. VFX : clean plate + passes personnages/reflets pour les plans 23, 24, 27, 28, 29b, 30, 31,
+33 et 37.
+
+
+3. Feuille de montage canonique — 180 secondes
+TC = timecode ; les durées sont celles proposées par Marty et seront validées au premier animatic.
+   ID      Story      TC                      s   Réf.       Image / action                                     Cadre                Son
+   01      1          00:00–00:04             4   ENV        Paris presque minuit : ouverture aérienne, fleuve Large aérien          Musique dans les
+                                                             et lumières urbaines                                                    écouteurs, ville
+                                                                                                                                     distante
+   02      2          00:04–00:08             4   H          Elle termine son travail devant ordinateur,        Moyen portrait DV    Musique subjective +
+                                                             fatigue lisible                                                         clavier
+   03      3          00:08–00:10             2   PROP       Téléphone indiquant minuit                         Insert macro         Notification courte
+   04      4          00:10–00:14             4   H          Elle quitte le bâtiment vitré, manteau camel       Moyen 3/4            Pluie urbaine
+   05      5          00:14–00:18             4   H+PROP     Dernier bus supprimé, écran lisible à ajouter en   Plan moyen + écran   Pluie, trafic lointain
+                                                             postproduction
+   06      6          00:18–00:21             3   H+PROP     Aucun taxi disponible, réaction inquiète au        Gros plan            Musique s'étouffe
+                                                             téléphone
+   E01     Insert     00:21–00:25             4   ENV        Escalier métro sous la pluie, marches humides,     Détail               Pluie fondue en
+                                                             lumière bleue                                                           grondement
+   07      7          00:25–00:29             4   H          Elle descend à Nation, manteau et sac continus     Suivi dos            Pas réverbérés
+   E02     Insert     00:29–00:32             3   ENV        Néon froid clignotant trois fois                   Détail               Trois grésillements
+   08      8          00:32–00:36             4   ENV        Station déserte, quai voûté blanc, brume bleue,    Très large           Grondement lointain
+                                                             sol mouillé
+   E03     Insert     00:36–00:39             3   ENV        Goutte déformant le reflet d'un néon dans une      Macro                Goutte amplifiée
+                                                             flaque
+   09      9          00:39–00:44             5   TRAIN      Train blanc/teal arrive, afficheur ambre et phares Train 3/4            Freinage métallique
+                                                             dans brume
+
+   ID      Story      TC                      s   Réf.       Image / action                                     Cadre                Son
+   10      10         00:44–00:48             4   H          Elle traverse les portes ouvertes dans un wagon    Large axial          Portes et
+                                                             vide                                                                    bourdonnement
+   E04     Insert     00:48–00:52             4   ENV        Poignées oscillant seules dans le wagon vide       Détail               Vibration sourde
+   11      11         00:52–00:56             4   H          Elle s'assoit seule, reprend téléphone/écouteurs   Moyen fixe           Vibrations du train
+   12      12         00:56–00:59             3   H          Lumières s'éteignent, panique contenue             Plan serré           Coupure sèche
+   13      13         00:59–01:03             4   H          Elle allume la lampe torche vers l'allée           Gros plan 3/4        Clic et respiration
+   14      14         01:03–01:08             5   C          Créature encapuchonnée aux yeux rouges assise Longue focale             Silence anormal
+                                                             très loin
+   E05     Insert     01:08–01:12             4   ENV+VFX    Vitre impossible, reflet géométriquement           Détail               Ambiance étouffée
+                                                             incohérent de sièges vides
+   15      15         01:12–01:15             3   H          Elle baisse les yeux vers son téléphone            Gros plan            Souffle
+   16      16         01:15–01:19             4   C          Même créature un rang plus près, immobile          Même axe 14          Impact sourd
+   E06     Insert     01:19–01:22             3   PROP+VFX   Arrêt inconnu qui s'allume sur le plan de métro    Insert               Clic électronique
+   17      17         01:22–01:26             4   C          Même créature presque au premier plan,             Même axe 14          Silence / souffle
+                                                             immobile
+   18      18         01:26–01:29             3   H          Lumières revenues, wagon vide                      Plan large           Allumage néons
+
+   ID      Story      TC                      s   Réf.       Image / action                                     Cadre                Son
+   19      19         01:29–01:33             4   ENV        Station inconnue, quai oublié, panneaux usés       Large seuil          Freinage, air vide
+   E07     Insert     01:33–01:37             4   ENV        Anciennes publicités et poussière effacée          Détail               Air stagnant
+   20      20         01:37–01:41             4   ENV        Porte en bois entrouverte, halo ambre              Large                Grincement
+   E08     Insert     01:41–01:44             3   ENV        Poignée ancienne tremble seule                     Détail               Grincement métal
+   21      21         01:44–01:49             5   H          Elle avance dans couloir délabré, tableaux et      Travelling lent      Parquet, souffle
+                                                             moulures
+   ID      Story      TC                      s   Réf.      Image / action                                     Cadre                Son
+   E09     Insert     01:49–01:52             3   ENV       Portraits effacés dont les yeux restent visibles   Détail               Vent léger
+   22      22         01:52–01:56             4   H         Chambre et miroir ancien, trumeau doré             Large maître         Ambre instable
+                                                            au-dessus cheminée
+   E10     Insert     01:56–01:59             3   ENV+VFX   Empreinte ancienne derrière le verre               Détail               Très basse fréquence
+   23      23         01:59–02:03             4   H+VFX     Elle lève la main, reflet reste figé               Plan fixe miroir     Silence
+   24      24         02:03–02:07             4   H+C+VFX   Créature derrière son reflet seulement             Axe miroir           Basse fréquence
+   25      25         02:07–02:10             3   H         Elle se retourne : pièce vide hors miroir          Gros plan            Tissu
+   26      26         02:10–02:13             3   C         Créature lève la tête, visage décharné, capuche    Très gros plan       Craquement
+                                                            claire, yeux rouges
+
+   ID      Story      TC                      s   Réf.      Image / action                                     Cadre                Son
+   27      27         02:13–02:16             3   H+VFX     Fissure traverse miroir et reflet                  Gros plan vitre      Premier craquement
+   28      28         02:16–02:19             3   H+VFX     Sortie disparue, mur continu                       Large contrechamp    Vide, souffle
+   29a     29a        02:19–02:22             3   M         Flashback : jeune homme noir, cheveux courts,      Moyen                Texture ancienne
+                                                            tee-shirt gris
+   29b     29b        02:22–02:25             3   M+VFX     Même jeune homme se voit dans le trumeau           Miroir frontal       Montée sourde
+   30      30         02:25–02:28             3   M+VFX     Il disparaît dans le miroir                        Insert/profil        Son aspiré
+   31      31         02:28–02:32             4   H+VFX     Reflet autonome de l'héroïne pose sa main sur la Miroir fixe            Main contre vitre
+                                                            glace
+   32a     32a        02:32–02:35             3   H         Réaction à « Tu peux prendre sa place… »           Gros plan            Voix derrière
+   32b     32b        02:35–02:38             3   H+C       Brève révélation de la créature derrière elle, hors Rapproché           Fin murmure
+                                                            miroir
+   33      33         02:38–02:41             3   H+VFX     Miroir se brise, éclats stylisés, aucun gore       Gros plan            Brisure
+   34      34         02:41–02:43             2   BLACK     Noir total                                         Noir                 Coupure
+   35      35         02:43–02:47             4   TRAIN     Métro blanc/teal revient au quai bleu, boucle      Large 3/4            Rame et freins
+   36      36         02:47–02:50             3   N         Nouvelle passagère monte dans le wagon             Plan moyen           Portes
+
+   ID      Story      TC                      s   Réf.      Image / action                                     Cadre                Son
+   37      37         02:50–02:55             5   H+VFX     Héroïne prisonnière dans vitre noire, frappe et    Gros plan vitre      Voix étouffée
+                                                            murmure « Aidez-moi… »
+   38      38         02:55–02:58             3   N+C       Créature encapuchonnée s'assoit près de la         Plan moyen latéral   Poids sur siège
+                                                            passagère
+   39      39         02:58–03:00             2   BLACK     Noir final, aucun plan après                       Noir                 Trois impulsions puis
+                                                                                                                                    silence
+
+Contrôle : 180 secondes, soit 03:00 exactement. Ne pas ajouter de plan ni modifier l'ordre canonique sans validation de l'équipe.
+4. Prompts Arcads détaillés — chaque plan et chaque insert
+Un prompt distinct est fourni pour les 41 plans et les 10 inserts. Joindre les références indiquées ; pour les effets impossibles, générer les
+passes séparément puis composer au montage. Les textes exacts d'écran sont à ajouter en postproduction.
+
+01 — Story 1 | 00:00–00:04 | 4 s | Réf. ENV
+Action : Paris presque minuit : ouverture aérienne, fleuve et lumières urbaines Cadre : Large aérien Son : Musique dans les écouteurs,
+ville distante
+PROMPT ARCADS (EN)
+ Shot 01, story 1, 00:00–00:04, 4 seconds. Paris presque minuit : ouverture aérienne, fleuve et lumières urbaines. Framing: Large aérien; compose
+ for 2.39:1 anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt
+ blue, wet graphite and restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use
+ the approved location master plate; preserve architecture and environmental continuity. Preserve approved set geometry, props, wardrobe and
+ screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise,
+ subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic
+ skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+02 — Story 2 | 00:04–00:08 | 4 s | Réf. H
+Action : Elle termine son travail devant ordinateur, fatigue lisible Cadre : Moyen portrait DV Son : Musique subjective + clavier
+PROMPT ARCADS (EN)
+ Shot 02, story 2, 00:04–00:08, 4 seconds. Elle termine son travail devant ordinateur, fatigue lisible. Framing: Moyen portrait DV; compose for
+ 2.39:1 anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt
+ blue, wet graphite and restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use
+ the exact H character sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve
+ approved set geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle
+ MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no
+ VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no
+ logos, no unmotivated camera movement.
+
+03 — Story 3 | 00:08–00:10 | 2 s | Réf. PROP
+Action : Téléphone indiquant minuit Cadre : Insert macro Son : Notification courte
+PROMPT ARCADS (EN)
+ Shot 03, story 3, 00:08–00:10, 2 seconds. Téléphone indiquant minuit. Framing: Insert macro; compose for 2.39:1 anamorphic widescreen.
+ Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and restrained
+ amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the same phone/prop design; add
+ exact screen text in postproduction. Preserve approved set geometry, props, wardrobe and screen direction. Photorealistic live-action
+ psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle
+ halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no
+ duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+04 — Story 4 | 00:10–00:14 | 4 s | Réf. H
+Action : Elle quitte le bâtiment vitré, manteau camel Cadre : Moyen 3/4 Son : Pluie urbaine
+PROMPT ARCADS (EN)
+ Shot 04, story 4, 00:10–00:14, 4 seconds. Elle quitte le bâtiment vitré, manteau camel. Framing: Moyen 3/4; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the exact H character
+ sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve approved set geometry,
+ props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and
+ mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+05 — Story 5 | 00:14–00:18 | 4 s | Réf. H+PROP
+Action : Dernier bus supprimé, écran lisible à ajouter en postproduction Cadre : Plan moyen + écran Son : Pluie, trafic lointain
+PROMPT ARCADS (EN)
+ Shot 05, story 5, 00:14–00:18, 4 seconds. Dernier bus supprimé, écran lisible à ajouter en postproduction. Framing: Plan moyen + écran;
+ compose for 2.39:1 anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette:
+ Cold cobalt blue, wet graphite and restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks.
+ Continuity: Use only the approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve
+ approved set geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle
+ MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no
+ VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no
+ logos, no unmotivated camera movement.
+
+06 — Story 6 | 00:18–00:21 | 3 s | Réf. H+PROP
+Action : Aucun taxi disponible, réaction inquiète au téléphone Cadre : Gros plan Son : Musique s'étouffe
+PROMPT ARCADS (EN)
+ Shot 06, story 6, 00:18–00:21, 3 seconds. Aucun taxi disponible, réaction inquiète au téléphone. Framing: Gros plan; compose for 2.39:1
+ anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet
+ graphite and restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the
+ approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry, props,
+ wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild
+ chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI
+ look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera
+ movement.
+E01 — Story Insert | 00:21–00:25 | 4 s | Réf. ENV
+Action : Escalier métro sous la pluie, marches humides, lumière bleue Cadre : Détail Son : Pluie fondue en grondement
+PROMPT ARCADS (EN)
+ Shot E01, story Insert, 00:21–00:25, 4 seconds. Escalier métro sous la pluie, marches humides, lumière bleue. Framing: Détail; compose for
+ 2.39:1 anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt
+ blue, wet graphite and restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use
+ the approved location master plate; preserve architecture and environmental continuity. Preserve approved set geometry, props, wardrobe and
+ screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise,
+ subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic
+ skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+07 — Story 7 | 00:25–00:29 | 4 s | Réf. H
+Action : Elle descend à Nation, manteau et sac continus Cadre : Suivi dos Son : Pas réverbérés
+PROMPT ARCADS (EN)
+ Shot 07, story 7, 00:25–00:29, 4 seconds. Elle descend à Nation, manteau et sac continus. Framing: Suivi dos; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the exact H character
+ sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve approved set geometry,
+ props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and
+ mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+E02 — Story Insert | 00:29–00:32 | 3 s | Réf. ENV
+Action : Néon froid clignotant trois fois Cadre : Détail Son : Trois grésillements
+PROMPT ARCADS (EN)
+ Shot E02, story Insert, 00:29–00:32, 3 seconds. Néon froid clignotant trois fois. Framing: Détail; compose for 2.39:1 anamorphic widescreen.
+ Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and restrained
+ amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the approved location master
+ plate; preserve architecture and environmental continuity. Preserve approved set geometry, props, wardrobe and screen direction. Photorealistic
+ live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic
+ streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no
+ extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+08 — Story 8 | 00:32–00:36 | 4 s | Réf. ENV
+Action : Station déserte, quai voûté blanc, brume bleue, sol mouillé Cadre : Très large Son : Grondement lointain
+PROMPT ARCADS (EN)
+ Shot 08, story 8, 00:32–00:36, 4 seconds. Station déserte, quai voûté blanc, brume bleue, sol mouillé. Framing: Très large; compose for 2.39:1
+ anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet
+ graphite and restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the
+ approved location master plate; preserve architecture and environmental continuity. Preserve approved set geometry, props, wardrobe and
+ screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise,
+ subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic
+ skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+E03 — Story Insert | 00:36–00:39 | 3 s | Réf. ENV
+Action : Goutte déformant le reflet d'un néon dans une flaque Cadre : Macro Son : Goutte amplifiée
+PROMPT ARCADS (EN)
+ Shot E03, story Insert, 00:36–00:39, 3 seconds. Goutte déformant le reflet d'un néon dans une flaque. Framing: Macro; compose for 2.39:1
+ anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet
+ graphite and restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the
+ approved location master plate; preserve architecture and environmental continuity. Preserve approved set geometry, props, wardrobe and
+ screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise,
+ subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic
+ skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+09 — Story 9 | 00:39–00:44 | 5 s | Réf. TRAIN
+Action : Train blanc/teal arrive, afficheur ambre et phares dans brume Cadre : Train 3/4 Son : Freinage métallique
+PROMPT ARCADS (EN)
+ Shot 09, story 9, 00:39–00:44, 5 seconds. Train blanc/teal arrive, afficheur ambre et phares dans brume. Framing: Train 3/4; compose for 2.39:1
+ anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet
+ graphite and restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the
+ approved white-and-teal train and exact master carriage geometry. Preserve approved set geometry, props, wardrobe and screen direction.
+ Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal
+ anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped
+ anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+10 — Story 10 | 00:44–00:48 | 4 s | Réf. H
+Action : Elle traverse les portes ouvertes dans un wagon vide Cadre : Large axial Son : Portes et bourdonnement
+PROMPT ARCADS (EN)
+ Shot 10, story 10, 00:44–00:48, 4 seconds. Elle traverse les portes ouvertes dans un wagon vide. Framing: Large axial; compose for 2.39:1
+ anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet
+ graphite and restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the exact
+ H character sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve approved set
+ geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor
+ noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+E04 — Story Insert | 00:48–00:52 | 4 s | Réf. ENV
+Action : Poignées oscillant seules dans le wagon vide Cadre : Détail Son : Vibration sourde
+PROMPT ARCADS (EN)
+ Shot E04, story Insert, 00:48–00:52, 4 seconds. Poignées oscillant seules dans le wagon vide. Framing: Détail; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the approved location
+ master plate; preserve architecture and environmental continuity. Preserve approved set geometry, props, wardrobe and screen direction.
+ Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal
+ anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped
+ anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+11 — Story 11 | 00:52–00:56 | 4 s | Réf. H
+Action : Elle s'assoit seule, reprend téléphone/écouteurs Cadre : Moyen fixe Son : Vibrations du train
+PROMPT ARCADS (EN)
+ Shot 11, story 11, 00:52–00:56, 4 seconds. Elle s'assoit seule, reprend téléphone/écouteurs. Framing: Moyen fixe; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the exact H character
+ sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve approved set geometry,
+ props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and
+ mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+12 — Story 12 | 00:56–00:59 | 3 s | Réf. H
+Action : Lumières s'éteignent, panique contenue Cadre : Plan serré Son : Coupure sèche
+PROMPT ARCADS (EN)
+ Shot 12, story 12, 00:56–00:59, 3 seconds. Lumières s'éteignent, panique contenue. Framing: Plan serré; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the exact H character
+ sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve approved set geometry,
+ props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and
+ mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+13 — Story 13 | 00:59–01:03 | 4 s | Réf. H
+Action : Elle allume la lampe torche vers l'allée Cadre : Gros plan 3/4 Son : Clic et respiration
+PROMPT ARCADS (EN)
+ Shot 13, story 13, 00:59–01:03, 4 seconds. Elle allume la lampe torche vers l'allée. Framing: Gros plan 3/4; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the exact H character
+ sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve approved set geometry,
+ props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and
+ mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+14 — Story 14 | 01:03–01:08 | 5 s | Réf. C
+Action : Créature encapuchonnée aux yeux rouges assise très loin Cadre : Longue focale Son : Silence anormal
+PROMPT ARCADS (EN)
+ Shot 14, story 14, 01:03–01:08, 5 seconds. Créature encapuchonnée aux yeux rouges assise très loin. Framing: Longue focale; compose for
+ 2.39:1 anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold
+ cobalt/teal blue, worn ivory cloth, tiny restrained ruby-red eye highlights. Motivated practical sources, realistic exposure and readable blacks.
+ Continuity: Use the exact C character sheet: pale worn hooded robe, altered gaunt face, restrained glowing red eyes. Never substitute M.
+ Preserve approved set geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and
+ materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion.
+ Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no
+ subtitles, no logos, no unmotivated camera movement.
+
+E05 — Story Insert | 01:08–01:12 | 4 s | Réf. ENV+VFX
+Action : Vitre impossible, reflet géométriquement incohérent de sièges vides Cadre : Détail Son : Ambiance étouffée
+PROMPT ARCADS (EN)
+ Shot E05, story Insert, 01:08–01:12, 4 seconds. Vitre impossible, reflet géométriquement incohérent de sièges vides. Framing: Détail; compose
+ for 2.39:1 anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt
+ blue, wet graphite and restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use
+ only the approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set
+ geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor
+ noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+15 — Story 15 | 01:12–01:15 | 3 s | Réf. H
+Action : Elle baisse les yeux vers son téléphone Cadre : Gros plan Son : Souffle
+PROMPT ARCADS (EN)
+ Shot 15, story 15, 01:12–01:15, 3 seconds. Elle baisse les yeux vers son téléphone. Framing: Gros plan; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the exact H character
+ sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve approved set geometry,
+ props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and
+ mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+16 — Story 16 | 01:15–01:19 | 4 s | Réf. C
+Action : Même créature un rang plus près, immobile Cadre : Même axe 14 Son : Impact sourd
+PROMPT ARCADS (EN)
+ Shot 16, story 16, 01:15–01:19, 4 seconds. Même créature un rang plus près, immobile. Framing: Même axe 14; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt/teal blue, worn ivory
+ cloth, tiny restrained ruby-red eye highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the exact C
+ character sheet: pale worn hooded robe, altered gaunt face, restrained glowing red eyes. Never substitute M. Preserve approved set geometry,
+ props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and
+ mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+E06 — Story Insert | 01:19–01:22 | 3 s | Réf. PROP+VFX
+Action : Arrêt inconnu qui s'allume sur le plan de métro Cadre : Insert Son : Clic électronique
+PROMPT ARCADS (EN)
+ Shot E06, story Insert, 01:19–01:22, 3 seconds. Arrêt inconnu qui s'allume sur le plan de métro. Framing: Insert; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the approved
+ references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry, props, wardrobe
+ and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma
+ noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no
+ plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera
+ movement.
+
+17 — Story 17 | 01:22–01:26 | 4 s | Réf. C
+Action : Même créature presque au premier plan, immobile Cadre : Même axe 14 Son : Silence / souffle
+PROMPT ARCADS (EN)
+ Shot 17, story 17, 01:22–01:26, 4 seconds. Même créature presque au premier plan, immobile. Framing: Même axe 14; compose for 2.39:1
+ anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt/teal blue,
+ worn ivory cloth, tiny restrained ruby-red eye highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the
+ exact C character sheet: pale worn hooded robe, altered gaunt face, restrained glowing red eyes. Never substitute M. Preserve approved set
+ geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor
+ noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+18 — Story 18 | 01:26–01:29 | 3 s | Réf. H
+Action : Lumières revenues, wagon vide Cadre : Plan large Son : Allumage néons
+PROMPT ARCADS (EN)
+ Shot 18, story 18, 01:26–01:29, 3 seconds. Lumières revenues, wagon vide. Framing: Plan large; compose for 2.39:1 anamorphic widescreen.
+ Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and restrained
+ amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the exact H character sheet: Black
+ woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve approved set geometry, props,
+ wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild
+ chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI
+ look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera
+ movement.
+
+19 — Story 19 | 01:29–01:33 | 4 s | Réf. ENV
+Action : Station inconnue, quai oublié, panneaux usés Cadre : Large seuil Son : Freinage, air vide
+PROMPT ARCADS (EN)
+ Shot 19, story 19, 01:29–01:33, 4 seconds. Station inconnue, quai oublié, panneaux usés. Framing: Large seuil; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the approved location
+ master plate; preserve architecture and environmental continuity. Preserve approved set geometry, props, wardrobe and screen direction.
+ Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal
+ anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped
+ anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+E07 — Story Insert | 01:33–01:37 | 4 s | Réf. ENV
+Action : Anciennes publicités et poussière effacée Cadre : Détail Son : Air stagnant
+PROMPT ARCADS (EN)
+ Shot E07, story Insert, 01:33–01:37, 4 seconds. Anciennes publicités et poussière effacée. Framing: Détail; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the approved location
+ master plate; preserve architecture and environmental continuity. Preserve approved set geometry, props, wardrobe and screen direction.
+ Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal
+ anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped
+ anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+20 — Story 20 | 01:37–01:41 | 4 s | Réf. ENV
+Action : Porte en bois entrouverte, halo ambre Cadre : Large Son : Grincement
+PROMPT ARCADS (EN)
+ Shot 20, story 20, 01:37–01:41, 4 seconds. Porte en bois entrouverte, halo ambre. Framing: Large; compose for 2.39:1 anamorphic widescreen.
+ Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and restrained
+ amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the approved location master
+ plate; preserve architecture and environmental continuity. Preserve approved set geometry, props, wardrobe and screen direction. Photorealistic
+ live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic
+ streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no
+ extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+E08 — Story Insert | 01:41–01:44 | 3 s | Réf. ENV
+Action : Poignée ancienne tremble seule Cadre : Détail Son : Grincement métal
+PROMPT ARCADS (EN)
+ Shot E08, story Insert, 01:41–01:44, 3 seconds. Poignée ancienne tremble seule. Framing: Détail; compose for 2.39:1 anamorphic widescreen.
+ Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and restrained
+ amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the approved location master
+ plate; preserve architecture and environmental continuity. Preserve approved set geometry, props, wardrobe and screen direction. Photorealistic
+ live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic
+ streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no
+ extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+21 — Story 21 | 01:44–01:49 | 5 s | Réf. H
+Action : Elle avance dans couloir délabré, tableaux et moulures Cadre : Travelling lent Son : Parquet, souffle
+PROMPT ARCADS (EN)
+ Shot 21, story 21, 01:44–01:49, 5 seconds. Elle avance dans couloir délabré, tableaux et moulures. Framing: Travelling lent; compose for 2.39:1
+ anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber and
+ dusty gold contaminated by cold cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the
+ exact H character sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve
+ approved set geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle
+ MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no
+ VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no
+ logos, no unmotivated camera movement.
+
+E09 — Story Insert | 01:49–01:52 | 3 s | Réf. ENV
+Action : Portraits effacés dont les yeux restent visibles Cadre : Détail Son : Vent léger
+PROMPT ARCADS (EN)
+ Shot E09, story Insert, 01:49–01:52, 3 seconds. Portraits effacés dont les yeux restent visibles. Framing: Détail; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the approved location
+ master plate; preserve architecture and environmental continuity. Preserve approved set geometry, props, wardrobe and screen direction.
+ Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal
+ anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped
+ anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+22 — Story 22 | 01:52–01:56 | 4 s | Réf. H
+Action : Chambre et miroir ancien, trumeau doré au-dessus cheminée Cadre : Large maître Son : Ambre instable
+PROMPT ARCADS (EN)
+ Shot 22, story 22, 01:52–01:56, 4 seconds. Chambre et miroir ancien, trumeau doré au-dessus cheminée. Framing: Large maître; compose for
+ 2.39:1 anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber
+ and dusty gold contaminated by cold cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use
+ the exact H character sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve
+ approved set geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle
+ MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no
+ VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no
+ logos, no unmotivated camera movement.
+
+E10 — Story Insert | 01:56–01:59 | 3 s | Réf. ENV+VFX
+Action : Empreinte ancienne derrière le verre Cadre : Détail Son : Très basse fréquence
+PROMPT ARCADS (EN)
+ Shot E10, story Insert, 01:56–01:59, 3 seconds. Empreinte ancienne derrière le verre. Framing: Détail; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the approved
+ references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry, props, wardrobe
+ and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma
+ noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no
+ plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera
+ movement.
+23 — Story 23 | 01:59–02:03 | 4 s | Réf. H+VFX
+Action : Elle lève la main, reflet reste figé Cadre : Plan fixe miroir Son : Silence
+PROMPT ARCADS (EN)
+ Shot 23, story 23, 01:59–02:03, 4 seconds. Elle lève la main, reflet reste figé. Framing: Plan fixe miroir; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber and dusty gold
+ contaminated by cold cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the
+ approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry, props,
+ wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild
+ chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI
+ look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera
+ movement.
+
+24 — Story 24 | 02:03–02:07 | 4 s | Réf. H+C+VFX
+Action : Créature derrière son reflet seulement Cadre : Axe miroir Son : Basse fréquence
+PROMPT ARCADS (EN)
+ Shot 24, story 24, 02:03–02:07, 4 seconds. Créature derrière son reflet seulement. Framing: Axe miroir; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt/teal blue, worn ivory
+ cloth, tiny restrained ruby-red eye highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the
+ approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry, props,
+ wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild
+ chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI
+ look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera
+ movement.
+
+25 — Story 25 | 02:07–02:10 | 3 s | Réf. H
+Action : Elle se retourne : pièce vide hors miroir Cadre : Gros plan Son : Tissu
+PROMPT ARCADS (EN)
+ Shot 25, story 25, 02:07–02:10, 3 seconds. Elle se retourne : pièce vide hors miroir. Framing: Gros plan; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber and dusty gold
+ contaminated by cold cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the exact H
+ character sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve approved set
+ geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor
+ noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+26 — Story 26 | 02:10–02:13 | 3 s | Réf. C
+Action : Créature lève la tête, visage décharné, capuche claire, yeux rouges Cadre : Très gros plan Son : Craquement
+PROMPT ARCADS (EN)
+ Shot 26, story 26, 02:10–02:13, 3 seconds. Créature lève la tête, visage décharné, capuche claire, yeux rouges. Framing: Très gros plan; compose
+ for 2.39:1 anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold
+ cobalt/teal blue, worn ivory cloth, tiny restrained ruby-red eye highlights. Motivated practical sources, realistic exposure and readable blacks.
+ Continuity: Use the exact C character sheet: pale worn hooded robe, altered gaunt face, restrained glowing red eyes. Never substitute M.
+ Preserve approved set geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and
+ materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion.
+ Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no
+ subtitles, no logos, no unmotivated camera movement.
+
+27 — Story 27 | 02:13–02:16 | 3 s | Réf. H+VFX
+Action : Fissure traverse miroir et reflet Cadre : Gros plan vitre Son : Premier craquement
+PROMPT ARCADS (EN)
+ Shot 27, story 27, 02:13–02:16, 3 seconds. Fissure traverse miroir et reflet. Framing: Gros plan vitre; compose for 2.39:1 anamorphic widescreen.
+ Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber and dusty gold contaminated
+ by cold cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the approved references
+ for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry, props, wardrobe and screen
+ direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle
+ horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no
+ warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+28 — Story 28 | 02:16–02:19 | 3 s | Réf. H+VFX
+Action : Sortie disparue, mur continu Cadre : Large contrechamp Son : Vide, souffle
+PROMPT ARCADS (EN)
+ Shot 28, story 28, 02:16–02:19, 3 seconds. Sortie disparue, mur continu. Framing: Large contrechamp; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber and dusty gold
+ contaminated by cold cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the
+ approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry, props,
+ wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild
+ chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI
+ look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera
+ movement.
+29a — Story 29a | 02:19–02:22 | 3 s | Réf. M
+Action : Flashback : jeune homme noir, cheveux courts, tee-shirt gris Cadre : Moyen Son : Texture ancienne
+PROMPT ARCADS (EN)
+ Shot 29a, story 29a, 02:19–02:22, 3 seconds. Flashback : jeune homme noir, cheveux courts, tee-shirt gris. Framing: Moyen; compose for 2.39:1
+ anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber and
+ dusty gold contaminated by cold cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the
+ exact M flashback sheet: young Black man, short hair, grey T-shirt; ordinary human, no hood and no red eyes. Preserve approved set geometry,
+ props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and
+ mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+29b — Story 29b | 02:22–02:25 | 3 s | Réf. M+VFX
+Action : Même jeune homme se voit dans le trumeau Cadre : Miroir frontal Son : Montée sourde
+PROMPT ARCADS (EN)
+ Shot 29b, story 29b, 02:22–02:25, 3 seconds. Même jeune homme se voit dans le trumeau. Framing: Miroir frontal; compose for 2.39:1
+ anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber and
+ dusty gold contaminated by cold cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only
+ the approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry,
+ props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and
+ mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+30 — Story 30 | 02:25–02:28 | 3 s | Réf. M+VFX
+Action : Il disparaît dans le miroir Cadre : Insert/profil Son : Son aspiré
+PROMPT ARCADS (EN)
+ Shot 30, story 30, 02:25–02:28, 3 seconds. Il disparaît dans le miroir. Framing: Insert/profil; compose for 2.39:1 anamorphic widescreen. Camera:
+ early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber and dusty gold contaminated by cold
+ cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the approved references for all
+ listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry, props, wardrobe and screen
+ direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle
+ horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no
+ warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+31 — Story 31 | 02:28–02:32 | 4 s | Réf. H+VFX
+Action : Reflet autonome de l'héroïne pose sa main sur la glace Cadre : Miroir fixe Son : Main contre vitre
+PROMPT ARCADS (EN)
+ Shot 31, story 31, 02:28–02:32, 4 seconds. Reflet autonome de l'héroïne pose sa main sur la glace. Framing: Miroir fixe; compose for 2.39:1
+ anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber and
+ dusty gold contaminated by cold cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only
+ the approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry,
+ props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and
+ mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+32a — Story 32a | 02:32–02:35 | 3 s | Réf. H
+Action : Réaction à « Tu peux prendre sa place… » Cadre : Gros plan Son : Voix derrière
+PROMPT ARCADS (EN)
+ Shot 32a, story 32a, 02:32–02:35, 3 seconds. Réaction à « Tu peux prendre sa place… ». Framing: Gros plan; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber and dusty gold
+ contaminated by cold cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the exact H
+ character sheet: Black woman, voluminous dark curls, camel coat, dark bag; preserve face, hair, skin tone and costume. Preserve approved set
+ geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor
+ noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+
+32b — Story 32b | 02:35–02:38 | 3 s | Réf. H+C
+Action : Brève révélation de la créature derrière elle, hors miroir Cadre : Rapproché Son : Fin murmure
+PROMPT ARCADS (EN)
+ Shot 32b, story 32b, 02:35–02:38, 3 seconds. Brève révélation de la créature derrière elle, hors miroir. Framing: Rapproché; compose for 2.39:1
+ anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt/teal blue,
+ worn ivory cloth, tiny restrained ruby-red eye highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only
+ the approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry,
+ props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and
+ mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no
+ videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no
+ unmotivated camera movement.
+33 — Story 33 | 02:38–02:41 | 3 s | Réf. H+VFX
+Action : Miroir se brise, éclats stylisés, aucun gore Cadre : Gros plan Son : Brisure
+PROMPT ARCADS (EN)
+ Shot 33, story 33, 02:38–02:41, 3 seconds. Miroir se brise, éclats stylisés, aucun gore. Framing: Gros plan; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Tobacco amber and dusty gold
+ contaminated by cold cobalt-blue shadows. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the
+ approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry, props,
+ wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild
+ chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI
+ look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera
+ movement.
+
+34 — Story 34 | 02:41–02:43 | 2 s | Réf. BLACK
+Action : Noir total Cadre : Noir Son : Coupure
+PROMPT ARCADS (EN)
+ Shot 34, story 34, 02:41–02:43, 2 seconds. Noir total. Framing: Noir; compose for 2.39:1 anamorphic widescreen. Camera: early-2000s DV
+ camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and restrained amber practical highlights.
+ Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the approved references for all listed assets; generate
+ clean plate and VFX passes separately where needed. Preserve approved set geometry, props, wardrobe and screen direction. Photorealistic
+ live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic
+ streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no
+ extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+35 — Story 35 | 02:43–02:47 | 4 s | Réf. TRAIN
+Action : Métro blanc/teal revient au quai bleu, boucle Cadre : Large 3/4 Son : Rame et freins
+PROMPT ARCADS (EN)
+ Shot 35, story 35, 02:43–02:47, 4 seconds. Métro blanc/teal revient au quai bleu, boucle. Framing: Large 3/4; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use the approved
+ white-and-teal train and exact master carriage geometry. Preserve approved set geometry, props, wardrobe and screen direction. Photorealistic
+ live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic
+ streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no
+ extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+
+36 — Story 36 | 02:47–02:50 | 3 s | Réf. N
+Action : Nouvelle passagère monte dans le wagon Cadre : Plan moyen Son : Portes
+PROMPT ARCADS (EN)
+ Shot 36, story 36, 02:47–02:50, 3 seconds. Nouvelle passagère monte dans le wagon. Framing: Plan moyen; compose for 2.39:1 anamorphic
+ widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and
+ restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the final approved
+ N passenger sheet. Blonde-versus-brunette conflict is unresolved; do not invent or blend identities. Preserve approved set geometry, props,
+ wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild
+ chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI
+ look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera
+ movement.
+
+37 — Story 37 | 02:50–02:55 | 5 s | Réf. H+VFX
+Action : Héroïne prisonnière dans vitre noire, frappe et murmure « Aidez-moi… » Cadre : Gros plan vitre Son : Voix étouffée
+PROMPT ARCADS (EN)
+ Shot 37, story 37, 02:50–02:55, 5 seconds. Héroïne prisonnière dans vitre noire, frappe et murmure « Aidez-moi… ». Framing: Gros plan vitre;
+ compose for 2.39:1 anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette:
+ Cold cobalt blue, wet graphite and restrained amber practical highlights. Motivated practical sources, realistic exposure and readable blacks.
+ Continuity: Use only the approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve
+ approved set geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle
+ MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no
+ VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no
+ logos, no unmotivated camera movement.
+
+38 — Story 38 | 02:55–02:58 | 3 s | Réf. N+C
+Action : Créature encapuchonnée s'assoit près de la passagère Cadre : Plan moyen latéral Son : Poids sur siège
+PROMPT ARCADS (EN)
+ Shot 38, story 38, 02:55–02:58, 3 seconds. Créature encapuchonnée s'assoit près de la passagère. Framing: Plan moyen latéral; compose for
+ 2.39:1 anamorphic widescreen. Camera: early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold
+ cobalt/teal blue, worn ivory cloth, tiny restrained ruby-red eye highlights. Motivated practical sources, realistic exposure and readable blacks.
+ Continuity: Use only the approved references for all listed assets; generate clean plate and VFX passes separately where needed. Preserve
+ approved set geometry, props, wardrobe and screen direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle
+ MiniDV sensor noise and mild chroma noise, subtle horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no
+ VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no
+ logos, no unmotivated camera movement.
+
+39 — Story 39 | 02:58–03:00 | 2 s | Réf. BLACK
+Action : Noir final, aucun plan après Cadre : Noir Son : Trois impulsions puis silence
+PROMPT ARCADS (EN)
+ Shot 39, story 39, 02:58–03:00, 2 seconds. Noir final, aucun plan après. Framing: Noir; compose for 2.39:1 anamorphic widescreen. Camera:
+ early-2000s DV camcorder, controlled movement, stable geometry. Lighting and palette: Cold cobalt blue, wet graphite and restrained amber
+ practical highlights. Motivated practical sources, realistic exposure and readable blacks. Continuity: Use only the approved references for all
+ listed assets; generate clean plate and VFX passes separately where needed. Preserve approved set geometry, props, wardrobe and screen
+ direction. Photorealistic live-action psychological horror, realistic skin and materials, subtle MiniDV sensor noise and mild chroma noise, subtle
+ horizontal anamorphic streaks, gentle halation, physically believable motion. Negative: no VHS filter, no videogame/CGI look, no plastic skin, no
+ warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+5. 17 prompts-clés Soul Cinematic / JSON
+Ces blocs structurés reprennent les 17 plans-clés indiqués par Marty. Les champs sont des gabarits éditables à adapter aux champs
+réellement disponibles dans votre outil. La caméra, le format et les identités suivent le canon V4.
+
+P01 — Paris avant minuit
+ {"shot": "P01 — Paris avant minuit", "reference_assets": "ENV", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "Wide aerial of
+ Paris above the Seine, illuminated bridges and distant Eiffel Tower shortly before midnight; wet rooftops, nocturnal isolation, no character. Slow
+ elevated drift. Deep cobalt blue, warm amber windows, graphite. Early-2000s DV camcorder, wide anamorphic, 2.39:1, subtle MiniDV noise and
+ gentle halation. Photorealistic in-camera realism; no fantasy skyline.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no
+ warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P05 — Dernier bus supprimé
+ {"shot": "P05 — Dernier bus supprimé", "reference_assets": "H", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "The exact same
+ young Black heroine from the uploaded character sheet waits alone under a Paris bus shelter after midnight, camel wool coat and dark bag,
+ checking her smartphone with worried attention. Wet pavement and distant lights through rain-streaked glass. Medium environmental shot,
+ eye-level. Amber street practicals and cold blue spill. DV camcorder, anamorphic 2.39:1. Preserve identity; add readable phone interface in
+ post.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random
+ text, no subtitles, no logos, no unmotivated camera movement"}
+
+P09 — Arrivée du métro blanc/teal
+ {"shot": "P09 — Arrivée du métro blanc/teal", "reference_assets": "TRAIN", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "The
+ identical approved white-and-teal Paris metro train emerges from blue fog beneath a curved white-tile vault; amber destination sign, headlights
+ diffused through humidity, wet deserted platform. Wide train hero shot, low three-quarter angle. Cold fluorescents, teal, graphite, amber. DV
+ camcorder anamorphic 2.39:1. Preserve exact train nose and platform geometry.", "negative_prompt": "no VHS filter, no CGI/game look, no
+ plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera
+ movement"}
+
+P10 — Héroïne dans la rame vide
+ {"shot": "P10 — Héroïne dans la rame vide", "reference_assets": "H + TRAIN", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt":
+ "The same young Black heroine with curly dark hair, camel coat and dark bag stands alone inside the identical approved Paris metro carriage;
+ striped seats and metal poles converge into cold blue background. Medium-wide from second seat row. Cold practical fluorescents and dark
+ reflective windows. DV anamorphic 2.39:1. Preserve H identity and train geometry; no passengers.", "negative_prompt": "no VHS filter, no
+ CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated
+ camera movement"}
+
+P12–P13 — Extinction et lampe
+ {"shot": "P12–P13 — Extinction et lampe", "reference_assets": "H + TRAIN", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt":
+ "Inside the same moving Paris metro carriage, the young Black heroine raises her smartphone flashlight near her face as overhead fluorescents
+ fail. Tight expressive close-up, dark aisle in negative space. Phone light is the key, faint blue practicals only. DV anamorphic 2.39:1. Preserve H
+ identity; no creature visible yet.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no
+ duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P14 — Première apparition de C
+ {"shot": "P14 — Première apparition de C", "reference_assets": "C + TRAIN", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "At
+ the far end of the same empty Paris metro carriage sits the exact hooded creature: tattered pale hooded robe, weathered inhuman face, small
+ piercing red eyes. Completely still, distant, framed by empty seats. Locked centered aisle view. Icy blue fluorescents, restrained ruby highlights.
+ DV anamorphic 2.39:1. Not a man in a grey T-shirt.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no
+ extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P16 — C plus proche
+ {"shot": "P16 — C plus proche", "reference_assets": "C + TRAIN", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "The identical
+ pale-hooded red-eyed creature is now seated two rows closer in the same carriage, exact same rigid posture. All seats, poles, lighting and
+ camera alignment unchanged from P14. Locked eye-level axis. Cold blue fluorescents. DV anamorphic 2.39:1. No walking or visible movement;
+ reveal only by cut.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated
+ faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P17 — Dernier rapprochement
+ {"shot": "P17 — Dernier rapprochement", "reference_assets": "C + TRAIN", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "The
+ same decayed hooded creature with faint red eyes is now seated disturbingly close in the same metro carriage, tattered hood near camera,
+ utterly motionless. Same aisle axis as P14 and P16. Medium close-up, cold blue rim, deep shadow. DV anamorphic 2.39:1. No lunge, no
+ redesign.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no
+ random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P19 — Station fantôme
+ {"shot": "P19 — Station fantôme", "reference_assets": "ENV + TRAIN", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "A
+ forgotten Paris metro platform beyond open train doors, same vaulted tiled architecture as approved master but decayed: cracked ivory tiles,
+ cold mist, rusted benches, faded posters and wooden door glowing weak amber. Ultra-wide threshold view. Dying blue fluorescents and amber
+ slit. DV anamorphic 2.39:1. No people.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra
+ fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P21 — Couloir
+ {"shot": "P21 — Couloir", "reference_assets": "H + ENV", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "The exact Black
+ heroine in camel coat and dark bag walks away into a narrow decayed Paris Haussmannian hallway, peeling mouldings, crooked oil portraits,
+ dusty floorboards, weak sconces; faint cold blue glow behind. Slow rear follow. Tobacco amber, charcoal shadows, cobalt contamination. DV
+ anamorphic 2.39:1. Preserve H identity.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra
+ fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P22 — Chambre et trumeau
+ {"shot": "P22 — Chambre et trumeau", "reference_assets": "H + ENV", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "The same
+ heroine enters a forgotten Paris bedroom and stops before a towering tarnished gilded trumeau mirror above a marble fireplace. Dusty parquet,
+ cracked mouldings, dim amber practicals and cold blue window spill. Wide master, mirror dominant. DV anamorphic 2.39:1. Mirror reflection
+ normal at this stage.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated
+ faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P23 — Reflet retardé
+ {"shot": "P23 — Reflet retardé", "reference_assets": "H + VFX", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "Fixed view of
+ heroine in camel coat before old gilded mirror. Her real hand has begun to lift, while her exact reflection remains still with arm down. Medium
+ locked composition, both hands readable. Warm amber and cold blue glints. DV anamorphic 2.39:1. No creature. Generate clean plate and actor
+ pass; composite mismatch.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no
+ duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P24 — C dans le miroir seulement
+ {"shot": "P24 — C dans le miroir seulement", "reference_assets": "H + C + VFX", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt":
+ "Over heroine's shoulder, antique mirror reveals her reflection and exact hooded decaying red-eyed creature behind that reflection. Physical
+ room beyond mirror is empty. Locked mirror shot, amber wall light and icy blue rim. DV anamorphic 2.39:1. Creature visible only in reflection;
+ separate compositing pass.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no
+ duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P29a–P30 — Flashback M
+ {"shot": "P29a–P30 — Flashback M", "reference_assets": "M + VFX", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "In same old
+ Paris bedroom decades earlier, exact young Black man from character sheet, short hair and worn grey T-shirt, stands before giant antique
+ trumeau and watches his reflection. Ordinary human victim, not hooded creature. Medium then mirror frontal. Older amber practical light, faint
+ cold blue mirror glow. DV anamorphic 2.39:1. Composite disappearance separately.", "negative_prompt": "no VHS filter, no CGI/game look, no
+ plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera
+ movement"}
+
+P31 — Main autonome du reflet
+ {"shot": "P31 — Main autonome du reflet", "reference_assets": "H + VFX", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "Fixed
+ medium view of antique mirror: real heroine recoils with hand low, while exact mirrored double independently presses an open palm against
+ inside of glass and smiles faintly. Identical face and curls, impossible hand mismatch. Dim amber and cold cyan. DV anamorphic 2.39:1.
+ Composite real and reflection separately.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra
+ fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P37 — Héroïne prisonnière de la vitre
+ {"shot": "P37 — Héroïne prisonnière de la vitre", "reference_assets": "H + TRAIN + VFX", "camera": "DV Camcorder, anamorphic lens, 2.39:1",
+ "prompt": "Dark window in same cold blue Paris metro carriage shows exact Black heroine in camel coat trapped behind black reflective glass,
+ palm pressed toward viewer. No physical heroine in carriage; face and hand exist only in impossible reflection. Tight oblique close-up, icy
+ fluorescents. DV anamorphic 2.39:1. Composite reflection pass.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped
+ anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+
+P38 — C près de N
+ {"shot": "P38 — C près de N", "reference_assets": "N + C + TRAIN", "camera": "DV Camcorder, anamorphic lens, 2.39:1", "prompt": "Inside
+ identical Paris metro carriage, red-eyed hooded creature in filthy pale robe sits silently beside the second young woman who has just boarded.
+ Use exact C and finalized N assets; do not blend identities. Medium-wide lateral two-shot, cold blue fluorescents. DV anamorphic 2.39:1. Creature
+ already seated after cut.", "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no
+ duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"}
+6. Raccords et motifs visuels
+Reflet : E03 flaque → E05 vitre trompeuse → E10 empreinte derrière le verre → Story 23 reflet autonome → Story 31 main du double →
+Story 37 reflet prisonnier.
+Trois impulsions : E02 trois clignotements → déplacement hors champ de C → craquements Story 27/33 → trois impulsions sur noir final.
+Seuils : entrée métro → portes de rame → porte de bois → porte disparue → vitre-prison.
+Couleur : Paris bleu nuit + ambre ; quai bleu froid ; rame bleu froid ; station fantôme désaturée ; intérieur ambre sale contaminé de bleu
+; retour bleu métro.
+Caméra lock : plans 14/16/17 : même axe, focale, géométrie et pose de C ; seul son emplacement change entre les cuts.
+
+
+7. Plan de production par lots
+1. PLATES : approuver les images maîtresses du train extérieur, quai, intérieur rame, station fantôme, couloir et chambre.
+2. INSERTS : produire E01–E10 à partir des plates et du camera lock ; les garder dans le montage.
+3. ACTES 1–2 : générer H et C séparément ; verrouiller les axes 14/16/17 ; révéler C par jump-cuts, pas par déplacement animé.
+4. ACTE 3 : clean plate du miroir, pass H, pass C ou reflet décalé ; compositing pour les plans 23, 24, 27, 28, 29b, 30, 31, 33 et 37.
+5. FIN : arbitrer N avant génération des plans 36/38 ; reproduire le même train et l'étalonnage bleu.
+6. MONTAGE : animatic muet sur les timecodes, puis son, contrôle de 03:00 exact.
+
+
+8. Points à valider avant verrouillage
+Décision obligatoire — N : la vignette storyboard 36 montre une passagère brune en tenue sombre ; le character sheet Notion montre
+une blonde en pull clair. Choisir une seule référence avant de créer l'asset N. Le dossier ne tranche pas.
+Lien M/C : la V4 ne définit pas complètement le lien entre le jeune homme du flashback et la créature. Ne pas inventer l'explication dans
+les prompts.
+Musique : conserver le départ sur le refrain dans les écouteurs ; vérifier les droits de synchronisation et d'enregistrement pour toute
+diffusion publique de The Reason. Marty gère la conception sonore.
+
+
+9. Contrôle qualité
+☐ 180 secondes exactes et aucun plan ajouté.
+☐ 2.39:1, DV Camcorder et anamorphique constants.
+☐ H, C, M et N jamais confondus.
+☐ C encapuchonnée aux yeux rouges uniquement dans les plans indiqués.
+☐ M uniquement en tee-shirt gris dans le flashback.
+☐ C dans le miroir au 24 ; hors miroir au 32b ; main autonome de H au 31.
+☐ Même géométrie de rame et axe en 14/16/17.
+☐ Inserts E01–E10 présents.
+☐ Reflets, mains, portes et textes vérifiés plan par plan.
+☐ Identité N arbitrée avant les plans 36 et 38.
+Ce document devient la nouvelle référence de production V4. Il remplace le premier découpage provisoire. Les prompts JSON sont des gabarits à adapter à l'interface
+Arcads, pas une garantie de rendu automatique.

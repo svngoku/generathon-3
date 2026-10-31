@@ -1,0 +1,7 @@
+{
+  "shot": "P31 — Main autonome du reflet",
+  "reference_assets": "H + VFX",
+  "camera": "DV Camcorder, anamorphic lens, 2.39:1",
+  "prompt": "Fixed medium view of antique mirror: real heroine recoils with hand low, while exact mirrored double independently presses an open palm against inside of glass and smiles faintly. Identical face and curls, impossible hand mismatch. Dim amber and cold cyan. DV anamorphic 2.39:1. Composite real and reflection separately.",
+  "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"
+}

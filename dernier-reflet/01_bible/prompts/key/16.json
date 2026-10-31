@@ -1,0 +1,7 @@
+{
+  "shot": "P16 — C plus proche",
+  "reference_assets": "C + TRAIN",
+  "camera": "DV Camcorder, anamorphic lens, 2.39:1",
+  "prompt": "The identical pale-hooded red-eyed creature is now seated two rows closer in the same carriage, exact same rigid posture. All seats, poles, lighting and camera alignment unchanged from P14. Locked eye-level axis. Cold blue fluorescents. DV anamorphic 2.39:1. No walking or visible movement; reveal only by cut.",
+  "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"
+}

@@ -3,12 +3,14 @@
 
   python3 tools/reflet.py check              # timeline = 180 s exact, no gaps/overlaps, files referenced exist
   python3 tools/reflet.py status             # progress per status / per location / blocked shots
-  python3 tools/reflet.py prompt 14          # prompt JSON for a shot + refs to attach (verbatim Notion prompt if any)
-  python3 tools/reflet.py prompt E05 --pass B  # VFX shots: pass A = clean plate, pass B = with the anomaly
+  python3 tools/reflet.py prompt 14          # Marty's V4 prompts for a shot + refs to attach
+  python3 tools/reflet.py prompt 29a --soul  # also print the Notion Soul-Cinematic JSON when one exists
+  python3 tools/reflet.py prompt 23 --build --pass A  # extra: JSON built from lock.json (VFX pass A clean / B anomaly)
   python3 tools/reflet.py next               # next shots to generate, in batch order (plates -> inserts -> acts)
 
-Verbatim prompts in dernier-reflet/01_bible/prompts/ always win. Otherwise a prompt is
-built from shotlist.csv + lock.json and tagged "_source": "built" — review it before spending credits.
+IDs are the V4 storyboard numbers (01..39 with 29a/29b/32a/32b) + inserts E01..E10.
+Prompt sources (all verbatim): KEY = PDF V4 §5 (17 key shots), ARCADS = PDF V4 §4 (every shot),
+SOUL = Notion Soul-Cinematic JSON (01, 05, 09, 10, E01-E10).
 """
 import csv
 import json
@@ -24,10 +26,14 @@ TOTAL_S = 180
 BATCHES = [
     ("1 PLATES", lambda r: False),  # plates are not shots; see visual_bible.md
     ("2 INSERTS", lambda r: r["id"].startswith("E")),
-    ("3 ACTE 1-2", lambda r: r["id"].isdigit() and 1 <= int(r["id"]) <= 20),
-    ("4 ACTE 3", lambda r: r["id"].isdigit() and 21 <= int(r["id"]) <= 36),
-    ("5 FIN", lambda r: r["id"].isdigit() and int(r["id"]) >= 37),
+    ("3 ACTE 1-2", lambda r: not r["id"].startswith("E") and 1 <= num(r["id"]) <= 20),
+    ("4 ACTE 3", lambda r: not r["id"].startswith("E") and 21 <= num(r["id"]) <= 34),
+    ("5 FIN", lambda r: not r["id"].startswith("E") and num(r["id"]) >= 35),
 ]
+
+
+def num(sid):
+    return int("".join(ch for ch in sid if ch.isdigit()) or 0)
 
 
 def load_rows():
@@ -40,11 +46,11 @@ def load_lock():
 
 
 def find(rows, sid):
-    sid = sid.upper()
-    if sid.isdigit():
-        sid = sid.zfill(2)
+    sid = sid.strip()
+    if sid[:1].isdigit() and len(sid.rstrip("abAB")) == 1:
+        sid = "0" + sid
     for r in rows:
-        if r["id"] == sid:
+        if r["id"].lower() == sid.lower():
             return r
     sys.exit(f"unknown shot id: {sid}")
 
@@ -59,9 +65,12 @@ def cmd_check(rows):
         if e - s != d:
             errors.append(f"{r['id']}: duration {d}s but TC span is {e - s}s")
         t = e
-        p = r["prompt"]
-        if p not in ("build", "") and not (BIBLE / p).exists():
-            errors.append(f"{r['id']}: prompt file missing: {p}")
+        for col in ("prompt", "key_prompt", "soul_json"):
+            p = r.get(col, "")
+            if p and not (BIBLE / p).exists():
+                errors.append(f"{r['id']}: {col} file missing: {p}")
+        if not r["prompt"] and r["ref"] != "BLACK":
+            errors.append(f"{r['id']}: no prompt")
     if t != TOTAL_S:
         errors.append(f"total = {t}s, expected {TOTAL_S}s")
     story = sum(int(r["dur_s"]) for r in rows if not r["id"].startswith("E"))
@@ -138,18 +147,14 @@ def build(r, lock, vfx_pass):
     }
 
 
-def cmd_prompt(rows, sid, vfx_pass="B"):
+def cmd_prompt(rows, sid, vfx_pass="B", soul=False, build_json=False):
     r = find(rows, sid)
     lock = load_lock()
     if r["ref"] == "BLACK":
         print(f"{r['id']}: black frame ({r['dur_s']}s) — made in the edit, nothing to generate.")
         return 0
-    if r["prompt"] not in ("build", ""):
-        prompt = json.loads((BIBLE / r["prompt"]).read_text())
-        prompt["_source"] = f"verbatim Notion — 01_bible/{r['prompt']}"
-    else:
-        prompt = build(r, lock, vfx_pass)
     print(f"# shot {r['id']} ({r['story']}) {r['tc_start']}–{r['tc_end']} · {r['dur_s']}s · {r['ref']} · {r['location']}")
+    print(f"# action: {r['beat']} — {r['action']} | cadre: {r['frame']} | son: {r['sound']}")
     print(f"# image: {r['image_model']}  ->  video: {r['video_model']}")
     print(f"# save: dernier-reflet/{r['frame_out']}  ·  dernier-reflet/{r['video_out']}")
     for ref in refs_for(r, lock):
@@ -160,7 +165,22 @@ def cmd_prompt(rows, sid, vfx_pass="B"):
     for code in ("H", "C", "M", "N"):
         if code in r["ref"].split("+"):
             print(f"# rule {code}: {lock['characters'][code]['rule']}")
-    print(json.dumps(prompt, ensure_ascii=False, indent=2))
+    if "VFX" in r["ref"]:
+        print("# VFX: generate pass A (clean plate) and pass B (characters/reflection) with IDENTICAL framing, composite in edit")
+    if r.get("key_prompt"):
+        print(f"\n## KEY PROMPT (PDF V4 §5) — 01_bible/{r['key_prompt']}")
+        print((BIBLE / r["key_prompt"]).read_text().strip())
+    print(f"\n## ARCADS PROMPT (PDF V4 §4) — 01_bible/{r['prompt']}")
+    print((BIBLE / r["prompt"]).read_text().strip())
+    if r.get("soul_json"):
+        if soul:
+            print(f"\n## SOUL JSON (Notion) — 01_bible/{r['soul_json']}")
+            print((BIBLE / r["soul_json"]).read_text().strip())
+        else:
+            print(f"\n# also available: Notion Soul JSON 01_bible/{r['soul_json']} (--soul to print)")
+    if build_json:
+        print("\n## BUILT JSON (lock.json) — review before use")
+        print(json.dumps(build(r, lock, vfx_pass), ensure_ascii=False, indent=2))
     return 0
 
 
@@ -197,7 +217,7 @@ def main(argv):
         p = "B"
         if "--pass" in argv:
             p = argv[argv.index("--pass") + 1].upper()
-        return cmd_prompt(rows, argv[2], p)
+        return cmd_prompt(rows, argv[2], p, soul="--soul" in argv, build_json="--build" in argv)
     print(__doc__)
     return 2
 

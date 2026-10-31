@@ -1,0 +1,7 @@
+{
+  "shot": "P23 — Reflet retardé",
+  "reference_assets": "H + VFX",
+  "camera": "DV Camcorder, anamorphic lens, 2.39:1",
+  "prompt": "Fixed view of heroine in camel coat before old gilded mirror. Her real hand has begun to lift, while her exact reflection remains still with arm down. Medium locked composition, both hands readable. Warm amber and cold blue glints. DV anamorphic 2.39:1. No creature. Generate clean plate and actor pass; composite mismatch.",
+  "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"
+}

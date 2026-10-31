@@ -21,20 +21,20 @@ Delivery: 2.39:1 picture letterboxed inside a 16:9 1920×1080 master (confirm wi
 
 **Geography (proposition):** carriage doors open straight onto the ghost platform; the service door leads into the Haussmann corridor, then the room. **Never show a walk between these spaces** — the impossible join is part of the horror.
 
-**Plate workflow:** one master image per set → derive every angle from it with the plate as image reference. Text alone never gives continuity. Location-sheet prompts: `prompts/LOC-0x_sheet.txt`. Priority plates with full prompts: `S01` train front · `S02` doors · `S03` corridor · `S04` room/mirror · `S05` hand under the glass (only after S04 is approved, from S04).
+**Plate workflow:** one master image per set → derive every angle from it with the plate as image reference. Text alone never gives continuity. Location-sheet prompts: `prompts/plates/LOC-0x_sheet.txt`. Priority plates (`prompts/plates/`): `S01` train front · `S02` doors · `S03` corridor · `S04` room/mirror · `S05` hand under the glass (only after S04 is approved, from S04).
 
 ## Characters
 | Code | Who | Reference sheet (→ `locked/`) | Shots |
 |---|---|---|---|
-| **H** | Heroine — young Black woman, voluminous curly hair, camel coat, dark crossbody bag; tired → disbelief → contained fear → panic | `H_sheet.png` ← `jeune-femme-character.png` | 02, 04–07, 10–13, 15, 18, 21–25, 27–28, 32–35, 39 |
-| **C** | Creature — hooded, worn pale robe, altered face, red eyes | `C_sheet.png` ← `Horror Movie Image - La créature.png` | 14, 16, 17, 24, 26, 34, 40 |
-| **M** | Young man, past victim — Black, short hair, grey t-shirt | `M_sheet.png` ← `Jeune Homme Character Horror Movie.png` | 29, 30, 31 |
-| **N** | New passenger — ⚠️ **undecided** (blonde/light sweater vs brunette/dark) | `N_sheet.png` (after decision) | 38, 40 |
+| **H** | Heroine — young Black woman, voluminous curly hair, camel coat, dark crossbody bag; tired → disbelief → contained fear → panic | `H_sheet.png` ← `notion/07_H_sheet_turnaround.png` or bucket `jeune-femme-character.png` | 02, 04–07, 10–13, 15, 18, 21–25, 27–28, 31, 32a, 32b, 33, 37 |
+| **C** | Creature — hooded, worn pale robe, altered face, red eyes | `C_sheet.png` ← bucket `Horror Movie Image - La créature.png` (+ `notion/44–48_C_carriage_*`) | 14, 16, 17, 24, 26, 32b, 38 |
+| **M** | Young man, past victim — Black, short hair, grey t-shirt; no hood, no red eyes | `M_sheet.png` ← bucket `Jeune Homme Character Horror Movie.png` | 29a, 29b, 30 |
+| **N** | New passenger — ⚠️ **undecided** (blonde/light sweater vs brunette/dark) | `N_sheet.png` (after decision; blonde option = `notion/24_N_blonde_turnaround.png`) | 36, 38 |
 
-(Shot numbers = edit order in `shotlist.csv`, not storyboard numbers.) Never regenerate an approved sheet; never let a character drift. Do not use the generic Higgsfield "charcoal suit" woman for H.
+(Shot numbers = V4 storyboard IDs, as in `shotlist.csv` and the PDF.) Never regenerate an approved sheet; never let a character drift. Do not use the generic Higgsfield "charcoal suit" woman for H.
 
 ## Staging rules
 - **C never moves on screen in the carriage.** It changes position *between cuts* on the **same locked axis** (14 → 16 → 17): jump-cuts, not animation.
-- **VFX shots** (`ref` contains VFX: E05, E06, E10, 23, 24, 27, 28, 30, 31, 32, 35, 39): generate **two passes of the identical framing** — A clean plate, B with the anomaly — and composite in the edit. `tools/reflet.py prompt <id> --pass A|B`.
+- **VFX shots** (E05, E06, E10, 23, 24, 27, 28, 29b, 30, 31, 33, 37): clean plate + character/reflection passes with the **identical framing**, composited in the edit.
 - **One discreet action per insert** (drop, flicker, grip, dust, reflection); simple camera moves.
 - **Post-production, not generation:** bus-cancelled notification, phone clock, impossible station on the line map, station names, the delayed reflection, the presence behind the mirror.

@@ -1,0 +1,7 @@
+{
+  "shot": "P22 — Chambre et trumeau",
+  "reference_assets": "H + ENV",
+  "camera": "DV Camcorder, anamorphic lens, 2.39:1",
+  "prompt": "The same heroine enters a forgotten Paris bedroom and stops before a towering tarnished gilded trumeau mirror above a marble fireplace. Dusty parquet, cracked mouldings, dim amber practicals and cold blue window spill. Wide master, mirror dominant. DV anamorphic 2.39:1. Mirror reflection normal at this stage.",
+  "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"
+}

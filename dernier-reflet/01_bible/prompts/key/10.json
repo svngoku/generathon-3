@@ -1,0 +1,7 @@
+{
+  "shot": "P10 — Héroïne dans la rame vide",
+  "reference_assets": "H + TRAIN",
+  "camera": "DV Camcorder, anamorphic lens, 2.39:1",
+  "prompt": "The same young Black heroine with curly dark hair, camel coat and dark bag stands alone inside the identical approved Paris metro carriage; striped seats and metal poles converge into cold blue background. Medium-wide from second seat row. Cold practical fluorescents and dark reflective windows. DV anamorphic 2.39:1. Preserve H identity and train geometry; no passengers.",
+  "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"
+}

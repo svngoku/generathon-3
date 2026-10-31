@@ -34,26 +34,26 @@ CHECKPOINT after each set: both variants + which one you'd lock and why (geometr
 ## 3 · Animatic (story test)
 ```
 Phase 3. Build an animatic of all 51 shots on the shotlist.csv grid: for each shot use the best existing still
-(its notion_refs image, else its frame cropped from locked/storyboard.png, else a cheap draft), hold it for dur_s, black for 36 and 41. ffmpeg concat →
+(its notion_refs image, else its frame cropped from locked/storyboard.png, else a cheap draft), hold it for dur_s, black for 34 and 39. ffmpeg concat →
 dernier-reflet/07_edit/animatic_v01.mp4 (2.39:1 letterboxed in 1920x1080), no sound, exactly 180 s.
 CHECKPOINT: what does a muted stranger understand at 0:44, 1:29, 1:44, 2:43, 3:00? Flag beats that don't read.
 ```
 
 ## 4 · Inserts E01–E10
 ```
-Phase 4. For E01…E10: `python3 tools/reflet.py prompt E0x` → still (2 variants, plate attached, no people) →
-image-to-video with ONE discreet action (the "Physics & Effects" line). For E05/E06/E10 do pass A and pass B.
+Phase 4. For E01…E10: `python3 tools/reflet.py prompt E0x --soul` → still (2 variants, plate attached, no people) →
+image-to-video with ONE discreet action. For E05/E06/E10 do a clean plate + an anomaly pass.
 Save to 04_frames/ and 05_video/, update shotlist.csv status (todo → draft → approved), log every call.
 CHECKPOINT: contact sheet of all ten + verdicts.
 ```
 
 ## 5 · Acts — one block at a time
 ```
-Phase 5 — shots [10–18 | 21–28 | 29–35 | 37–40].
-For each shot: `python3 tools/reflet.py prompt <id>`; translate built captions to English and fill Layout;
+Phase 5 — shots [10–18 | 21–28 | 29a–33 | 35–38].
+For each shot: `python3 tools/reflet.py prompt <id>`; use the KEY prompt when there is one, else the ARCADS prompt;
 attach exactly the refs it prints. Still first (2 variants) → I approve → motion with the video model in the row.
 C never moves on screen in the carriage: 14/16/17 share one locked framing; only its seat changes.
-VFX shots: pass A and pass B with identical framing.
+VFX shots: clean plate + character/reflection passes with identical framing.
 CHECKPOINT per block: stills grid, then takes + which to keep.
 ```
 Fix a nearly-good take:

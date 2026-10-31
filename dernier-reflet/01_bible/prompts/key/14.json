@@ -1,0 +1,7 @@
+{
+  "shot": "P14 — Première apparition de C",
+  "reference_assets": "C + TRAIN",
+  "camera": "DV Camcorder, anamorphic lens, 2.39:1",
+  "prompt": "At the far end of the same empty Paris metro carriage sits the exact hooded creature: tattered pale hooded robe, weathered inhuman face, small piercing red eyes. Completely still, distant, framed by empty seats. Locked centered aisle view. Icy blue fluorescents, restrained ruby highlights. DV anamorphic 2.39:1. Not a man in a grey T-shirt.",
+  "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"
+}

@@ -25,14 +25,26 @@ After her last bus is cancelled, a young woman takes a near-empty night metro. A
 5. Proud of: [TODO]
 6. Next: [TODO]
 
-## Checklist before upload (Notion §I + V4)
+## QA — PDF V4 §9 (must all be ticked)
+- [ ] exactly 180 s, no shot added
+- [ ] 2.39:1, DV camcorder and anamorphic look constant
+- [ ] H, C, M and N never confused
+- [ ] hooded red-eyed C only in 14, 16, 17, 24, 26, 32b, 38
+- [ ] M only in the grey T-shirt, only in the flashback (29a, 29b, 30)
+- [ ] C in the mirror at 24; outside the mirror at 32b; H's autonomous hand at 31
+- [ ] same carriage geometry and axis in 14/16/17
+- [ ] inserts E01–E10 present
+- [ ] reflections, hands, doors and texts checked shot by shot
+- [ ] N decided before shots 36 and 38
+
+## Checklist before upload (Notion §I)
 - [ ] 5 master sets + train approved, architecture continuous
 - [ ] 4 character sheets reused, never regenerated; N decided
 - [ ] 10 environment inserts, no extra characters
 - [ ] ghost platform → Haussmann corridor join reads as impossible, not as a mistake
 - [ ] bus notification + unknown station composited in post
 - [ ] both passes of the impossible window and the dissociated reflection
-- [ ] opening music rights checked (or replaced)
+- [ ] « The Reason » sync + master rights checked (or replaced)
 - [ ] light, rain, dust, door, seat, mirror continuity checked
 - [ ] `python3 tools/reflet.py check` → OK, export is **exactly 03:00**
 - [ ] prompts used are set to **Approuvé** in Notion and resources linked to their prompt

@@ -1,0 +1,7 @@
+{
+  "shot": "P24 — C dans le miroir seulement",
+  "reference_assets": "H + C + VFX",
+  "camera": "DV Camcorder, anamorphic lens, 2.39:1",
+  "prompt": "Over heroine's shoulder, antique mirror reveals her reflection and exact hooded decaying red-eyed creature behind that reflection. Physical room beyond mirror is empty. Locked mirror shot, amber wall light and icy blue rim. DV anamorphic 2.39:1. Creature visible only in reflection; separate compositing pass.",
+  "negative_prompt": "no VHS filter, no CGI/game look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement"
+}

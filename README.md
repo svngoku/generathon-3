@@ -9,7 +9,7 @@ Paris, 31 Oct – 1 Nov 2026 · 3:00 · DV camcorder × anamorphic · 2.39:1 · 
 ```bash
 python3 tools/reflet.py check        # 51 shots, 146 s storyboard + 34 s inserts = 180 s
 python3 tools/reflet.py next         # what to generate next (plates → inserts → acts → ending)
-python3 tools/reflet.py prompt 14    # ready-to-send prompt + refs to attach for any shot
+python3 tools/reflet.py prompt 14    # Marty's prompts + refs to attach (IDs: 01…39, 29a/29b/32a/32b, E01…E10)
 python3 tools/reflet.py status       # progress, blocked shots
 bash tools/fetch_refs.sh             # pull the existing reference images from the HF bucket
 ```
@@ -30,9 +30,10 @@ CLAUDE.md                       agent rules (read first)
 tools/reflet.py                 timeline check · status · next batch · prompt builder
 tools/fetch_refs.sh             download reference assets from the HF bucket
 dernier-reflet/
-  00_brief/                     official_rules.md · brief.md · notion_snapshot.md (full Notion text)
-  01_bible/                     shotlist.csv · visual_bible.md · lock.json · prompts.md · prompts/*.json|txt · model_map.md
-  02_refs/                      refs.md (HF bucket + Notion assets) · hf/ & notion/ downloads (git-ignored)
+  00_brief/                     official_rules.md · brief.md · Dossier_Generathon3_V4_reconcilie.pdf (Marty's V4 reference) + dossier_v4.txt · notion_snapshot.md
+  01_bible/                     shotlist.csv · visual_bible.md · lock.json · model_map.md · prompts.md
+    prompts/                    key/ (17 PDF key JSON) · shots/ (51 PDF prompts) · soul/ (Notion JSON) · plates/
+  02_refs/                      refs.md · notion/ (65 Notion images/videos/music + index.csv) · hf/ (bucket download, git-ignored)
   locked/                       approved character sheets + location plates — the only refs generation uses
   03_plates/                    location plate candidates
   04_frames/                    keyframe stills per shot ({id}_v01.png)
@@ -44,5 +45,6 @@ dernier-reflet/
 ```
 
 ## Sources
+PDF: `Dossier_Generathon3_V4_reconcilie.pdf` (Marty, V4 canon — the production reference).
 Notion: [Generathon 3 × Paris Creator Week — Prompts & ressources](https://app.notion.com/p/3fd132c9cb37809b9ceff5fe9e711d32) → Bibliothèque de prompts → *Le Dernier Reflet* (dossier V2 → Master Lock V3 → storyboard canon V4) and *Miroir* (earlier draft).
 Assets: Hugging Face bucket `Svngoku/generathon-tech-arcads`.

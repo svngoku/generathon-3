@@ -28,7 +28,7 @@ Shot mapping was done from thumbnails: a first pass to confirm by eye.
 | `07_H_sheet_turnaround.png` | heroine turnaround (4 views + 3 faces) | → `locked/H_sheet.png` candidate |
 | `24_N_blonde_turnaround.png` | blonde second passenger sheet | → `locked/N_sheet.png` *if* the team picks blonde |
 | `44/46/47/48_C_carriage_*.png` | creature in the carriage, far → near (red eyes) | shots 14 → 16 → 17, 26 |
-| `21/22_M_*` | young man trapped in the mirror | shots 30–31 |
+| `21/22_M_*` | young man trapped in the mirror | shots 29b–30 |
 | `34_TRAIN_arrival_front.png` | white/teal train, amber display | → `locked/plate_TRAIN.png` candidate |
 | `36_LOC-01_sheet_nation_blue.png` | station Nation location sheet, blue (V3 palette) | → `locked/plate_LOC-01.png` candidate (32/33 = older yellow palette) |
 | `42_LOC-02_carriage_axis_empty-a.png` | empty carriage on the creature axis | → `locked/plate_LOC-02.png` candidate |
@@ -38,7 +38,7 @@ Shot mapping was done from thumbnails: a first pass to confirm by eye.
 | `61/62_seq2_test_*.mp4` | sequence-2 test renders, 854×480 | reference only |
 | `65_creature_dark-wraith_concept.png` | dark wraith concept | **not canon** — C is the pale-hooded creature |
 
-Not found anywhere: a ghost-platform (LOC-03) image and a creature turnaround sheet in Notion → C_sheet comes from the HF bucket (`Horror Movie Image - La créature.png`); LOC-03 must be generated (`prompts/LOC-03_sheet.txt`).
+Not found anywhere: a ghost-platform (LOC-03) image and a creature turnaround sheet in Notion → C_sheet comes from the HF bucket (`Horror Movie Image - La créature.png`); LOC-03 must be generated (`prompts/plates/LOC-03_sheet.txt` + key prompt `prompts/key/19.json`).
 No PDF on the page (as of 2026-10-31 09:00 UTC).
 
 ## 3. `locked/` — the only folder generation calls read from

@@ -1,42 +1,43 @@
 # Prompts — index
 
-Every prompt is a file in `prompts/`, copied verbatim from Notion (`00_brief/notion_snapshot.md`). Get the ready-to-send version of any shot, with the refs to attach, with:
+All prompts are verbatim copies. **Marty's PDF V4 is the reference**; the Notion JSONs are kept as richer alternatives.
+Get everything for one shot, with the refs to attach:
 
 ```bash
-python3 tools/reflet.py prompt 14          # any shot id from shotlist.csv
-python3 tools/reflet.py prompt E05 --pass A  # VFX clean plate
+python3 tools/reflet.py prompt 14          # KEY + ARCADS prompts, refs, rules
+python3 tools/reflet.py prompt E05 --soul  # + the Notion Soul-Cinematic JSON
 ```
 
-Shots with no verbatim prompt get one **built** from `shotlist.csv` + `lock.json` (`"_source": "built…"`). Before sending a built prompt: write the Caption in English, fill `Layout`, keep the camera block untouched.
+## Folders
+| Folder | What | Source | Count |
+|---|---|---|---|
+| `prompts/key/` | **key-shot JSON** (`shot`, `reference_assets`, `camera`, `prompt`, `negative_prompt`) — use first when present | PDF V4 §5 | 17 (01, 05, 09, 10, 12-13, 14, 16, 17, 19, 21, 22, 23, 24, 29a-30, 31, 37, 38) |
+| `prompts/shots/` | **one Arcads prompt per shot** (EN, action line in FR) | PDF V4 §4 | 51 (every shot, incl. inserts and blacks) |
+| `prompts/soul/` | Soul-Cinematic JSON (full STYLE/COMPOSITION/CAMERA blocks) | Notion V2 + V4.1 | 14 (E01–E10, P01, P05, P09, P10) |
+| `prompts/plates/` | location sheets LOC-01…05 + priority plates S01–S05 | Notion | 10 |
+| `prompts/_camera_lock.json` | canonical camera block | Notion Master Lock V3 | 1 |
+
+`shotlist.csv` points each shot to its files (`prompt`, `key_prompt`, `soul_json`).
 
 ## Prompt rules (every generation)
-1. **Format:** Soul Cinematic JSON (`Caption`, `STYLE`, `COMPOSITION`, `SCENE`, `CINEMATOGRAPHY_AND_LIGHTING`, `CAMERA_AND_LENS`, `PHYSICAL_ATTRIBUTES`, `BRANDED_OBJECTS`).
-2. **Camera block = `_camera_lock.json`** (DV camcorder · anamorphic · 2.39:1). V3 wins over any older 35 mm / 16:9 wording.
-3. **Identity lock:** "the SAME … from the uploaded character sheet" + attach the sheet. Never describe a face from scratch.
-4. **Location lock:** attach the location plate; say "IDENTICAL approved …".
-5. **No extra people.** Inserts are environment-only.
-6. **No readable invented text:** screens, signs and line maps are composited in post.
-7. A still is one instant: flicker, drift, swing are written as *intentions* for image-to-video.
+1. **Camera:** DV camcorder · anamorphic · 2.39:1 · subtle MiniDV noise + mild chroma, gentle halation. No VHS filter, no 35 mm grain.
+2. **Identity lock:** "the exact … from the uploaded character sheet" + attach the sheet. C ≠ M: never give C's prompt M's reference or vice versa.
+3. **Location lock:** attach the approved plate; "preserve approved set geometry, props, wardrobe and screen direction".
+4. **Negative (always):** no VHS filter, no videogame/CGI look, no plastic skin, no warped anatomy, no extra fingers, no duplicated faces, no random text, no subtitles, no logos, no unmotivated camera movement.
+5. **No readable text generated** — screens, signs, line map are composited in post.
+6. **VFX shots** (E05, E06, E10, 23, 24, 27, 28, 29b, 30, 31, 33, 37): clean plate + separate character/reflection passes, composited in the edit.
+7. **C in 14/16/17:** same axis, focal length, geometry and pose — only its seat changes, reveal by cut.
+8. Prompts are templates (PDF §9): adapt the French action line to English if the model needs it; never touch camera or identity clauses. Don't invent the C ↔ M link.
 
-## Files
-| File | Shot(s) | Source |
-|---|---|---|
-| `_camera_lock.json` | all | Master Lock V3 |
-| `LOC-01_sheet.txt` | metro station corridors | Notion "Prompt Scénario Scene" 1 |
-| `LOC-03_sheet.txt` | ghost station | idem 2 |
-| `LOC-02_sheet.txt` | carriage | idem 3 |
-| `LOC-04_sheet.txt` | Haussmann corridor | idem 4 |
-| `LOC-05_sheet.txt` | mirror room | idem 5 |
-| `S01.json` | plate TRAIN (front, fog) | Master Lock V3 |
-| `S02.json` | plate TRAIN (open doors) | V3 |
-| `S03.json` | plate LOC-04 | V3 |
-| `S04.json` | plate LOC-05 (mirror) | V3 |
-| `S05.json` | E10 base (hand under glass) — only from approved S04 | V3 |
-| `E01.json` … `E10.json` | inserts E01–E10 | V2 library (apply V3 camera lock) |
-| `P01.json` | shot 01 Paris before midnight | V4.1 |
-| `P05.json` | shot 05 last bus cancelled (H) | V4.1 |
-| `P09.json` | shot 09 blue metro arriving (TRAIN) | V4.1 |
-| `P10.json` | shot 10 heroine in the empty carriage (H) | V4.1 |
-| *missing* | 13 more V4.1 key shots | Notion export truncated after P10 → copy from Notion as `P<id>.json` and set the `prompt` column in `shotlist.csv` |
-
-Location sheets use the `{{variables}}` convention when you customise them; the uploaded reference image is the plate.
+## Plate files (`prompts/plates/`)
+| File | Set |
+|---|---|
+| `LOC-01_sheet.txt` | metro station corridors |
+| `LOC-02_sheet.txt` | carriage |
+| `LOC-03_sheet.txt` | ghost station |
+| `LOC-04_sheet.txt` | Haussmann corridor |
+| `LOC-05_sheet.txt` | mirror room |
+| `S01.json` / `S02.json` | TRAIN front in fog / open doors |
+| `S03.json` | LOC-04 vanishing-point corridor |
+| `S04.json` | LOC-05 room + mirror |
+| `S05.json` | hand under the glass (E10 base) — only from the approved S04 |
