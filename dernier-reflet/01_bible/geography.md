@@ -14,9 +14,9 @@ Every prompt for a shot with a look, a reveal or a reverse angle **states the ax
 |---|---|---|---|---|
 | 06a walk | behind H | toward the metro | metro glow at the far end, doorway left, shutters right | H looks ahead (never back) |
 | 06b jump scare | H's POV | toward the metro | street toward the metro, shutters right | V lunges AT the lens (= at H) |
-| 06c startle | V's side (reverse) | back toward where H came from | dark street, **shutters LEFT, no metro glow**; blue spill on her face from the metro behind camera | H looks forward, just off-lens (at V) — **not over her shoulder** |
+| 06c startle → backs away | V's side (reverse) | back toward where H came from | dark street, **shutters LEFT, no metro glow**; blue spill on her face from the metro behind camera; streetlight flickers off/on | H looks forward, just off-lens (at V) — **not over her shoulder**; she backs away FROM the camera |
 | 06d V speaks | H's POV | toward the metro | street toward the metro | V looks at the lens (= at H) |
-| E01 → 07 | — | the metro entrance she runs into | — | — |
+| E01 → 07 | — | the metro entrance | — | **run (proposal)**: after the line the light dies, V is gone → H runs forward past where V stood, down the metro stairs (07), face petrified — she flees INTO the last metro |
 
 ## Scenes to map before generating (same rule)
 - **Carriage 10–18 (LOC-02):** one locked axis — H on her seat facing the aisle, C at the far end of the carriage on the same axis in 14 → 16 → 17 (closer each time, never moving on screen); her glances toward C = toward the back of the carriage, always the same screen side.

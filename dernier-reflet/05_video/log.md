@@ -46,6 +46,7 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 13:40 | 06a | video v3 | seedance 2.5 1080p high, 4 s ×2 | walk away toward the metro, never looks back | 06a_v03, H_sheet, plate_LOC-00 | assets bcde08b9… / c48f81fe… | pending (≈832) |
 | 13:40 | 06b | video jump scare | seedance 2.5 1080p high, 4 s ×2 | H's POV toward the metro, V bursts from the left doorway and lunges at the lens | 06b_v03, V_sheet, 06b_v02, plate_LOC-00 | assets 70b1a9f4… / c92f3295… | pending (≈832) |
 | 13:41 | 06c | still reverse | gpt-image-2-5-sunburst ×2 | reverse angle: H frontal, startle, street she came from behind her (shutters LEFT, no metro glow, blue spill on her face) | 06c_v02, H_sheet, plate_LOC-00 | candidates/06c_rev_a/b.png · sheet 07_edit/review/scene06_v3_geography.jpg | both ✔ geography (shutters left, no metro), on model · **a: face centred, closer, strongest fear** · b: a touch wider |
+| 13:45 | 06c | video back-away | seedance 2.5 1080p high, 5 s ×2, audio off | TEAM 13:44: startle → petrified, backs away step by step from V (away from camera), streetlight flickers off/on, very dark | 06c_v03 (= 06c_rev_a, 667aaf1b…), H_sheet, plate_LOC-00 | assets 5ee030be… / 9ef7c9e9… | pending (≈1 040) · the RUN is proposed in 07 (after V's line, light dies, V gone, she runs past into the metro) — team to confirm |
 
 ## Credits
 | time | balance | batch |
