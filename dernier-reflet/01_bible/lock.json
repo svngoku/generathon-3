@@ -143,10 +143,10 @@
       "element": "",
       "voice": {
         "provider": "ElevenLabs",
-        "voice_id": "IhgmsOH7Mm66KHPfp8Rm",
-        "name": "Le Dernier Reflet — La Vieille",
+        "voice_id": "HVigdwcH9s5lXiFILV4Z",
+        "name": "old-woman (team voice, 31/10 11:50)",
         "model": "eleven_v4",
-        "rule": "the ONLY voice for every line of la Vieille; same voice_id, same tags [low, hoarse, ominous whisper]"
+        "rule": "the ONLY voice for every line of la Vieille; same voice_id; plain text, NO direction tags (tags make ElevenLabs whisper). Locked take: 06_audio/06b_voice_v01.wav = takeH (3.68 s). Rejected: designed voice IhgmsOH7Mm66KHPfp8Rm (sounded 40-60, whispered)"
       }
     }
   }

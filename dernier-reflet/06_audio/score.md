@@ -26,7 +26,7 @@ From Notion §F (V2), re-timed to the V4 edit. Sound carries half the fear: **th
 Three discreet impulses recur (neon E02 → metal → mirror cracks 27/33 → three pulses on the final black 39). Keep it a texture, **not a melody**.
 
 ## Voices (lip sync — record the voices BEFORE generating 06b and 37: Seedance lip-syncs to them)
-- « Le dernier métro ne ramène personne, ma fille. » (06b, **on screen, lip sync**) — la Vieille: very old woman, low, hoarse, slow, intimate, French. ElevenLabs design voice → `06_audio/06b_voice_v01.wav` (≤ 3 s, the line must fit the 3 s shot).
+- « Le dernier métro ne ramène personne, ma fille. » (06b, **on screen, lip sync**) — la Vieille: very old woman, low, slow, French. **LOCKED 31/10: team voice « old-woman » `HVigdwcH9s5lXiFILV4Z`, eleven_v4, plain text (no tags) → `06_audio/06b_voice_v01.wav` = take H, 3.68 s** (J-cut: the tail runs ~0.7 s under 06c).
 - « Tu peux prendre sa place, maintenant. » — low intimate whisper, off-screen, close to the ear (C's voice).
 - « Aidez-moi… » (37, **on screen in the window, lip sync**) → `06_audio/37_voice_v01.wav` — the heroine's voice, filtered: thick glass, slight low-pass, no reverb tail.
 - Make both with ElevenLabs (design voice → generate speech), 2 takes each; log in `../05_video/log.md`.

@@ -22,6 +22,7 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 11:43 | 06b voice | — | ElevenLabs eleven_v4 ×2 each, library voices Grandma Clo / michelle.ia / Seer Morganna, tag `[slow, ominous, low]` | 06b line | — | voice_previews/lib_*_A/B.mp3 | ❌ Gemini 20–45 y., whispered: the v4 tags push every voice into a whisper |
 | 11:45 | 06b voice | — | ElevenLabs eleven_multilingual_v2 ×2 each, **no tags**, Grandma Clo `EMuO6fFLrXKOryHzij6K` + michelle.ia | 06b line | — | voice_previews/lib_clo_v2_A/B.mp3, lib_michelle_v2_A.mp3 | **clo_v2_A: Gemini 60–75 y., full voice, not whispered (best)** · clo_v2_B / michelle: whispered |
 | 11:46 | 06b voice | — | ffmpeg post (vibrato/tremolo/pitch) | — | — | *_aged.wav, lib_clo_v2_A_light.wav | heavy pass = worse (reads as whisper) · light tremor = 40–55 y., full, « éraillée » · team listens: 06_audio/review/06b_vieille_voice_compare.mp3 |
+| 11:52 | 06b voice | — | ElevenLabs team voice « old-woman » `HVigdwcH9s5lXiFILV4Z`, multilingual_v2 ×2 + eleven_v4 ×2, plain text | 06b line | — | 06_audio/06b_voice_takeE..H_ow_*.mp3 | Gemini 50–75 y., full voice, no whisper · E 3/10 · F/G « ma fille » missing · **H 5/10, clear → 06b_voice_v01.wav (LOCKED)** · old V2 take → 06b_voice_V2-rejected.wav |
 
 ## Credits
 | time | balance | batch |
