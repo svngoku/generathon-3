@@ -149,5 +149,79 @@
    "offset": 0.5,
    "volume": 1
   }
+ ],
+ "transitions": [
+  {
+   "cut": "E02>08",
+   "type": "fade",
+   "frames": 12,
+   "why": "same space: corridor opens onto the platform"
+  },
+  {
+   "cut": "08>E03",
+   "type": "fade",
+   "frames": 10,
+   "why": "platform → detail on its floor"
+  },
+  {
+   "cut": "E03>09",
+   "type": "fade",
+   "frames": 10,
+   "why": "ripple settles as the train light arrives"
+  },
+  {
+   "cut": "09>10",
+   "type": "fade",
+   "frames": 20,
+   "why": "team note: entering the carriage was too abrupt — long dissolve, brake hiss bridges into the carriage"
+  },
+  {
+   "cut": "10>E04",
+   "type": "fade",
+   "frames": 12,
+   "why": "doors close → train moving"
+  },
+  {
+   "cut": "E04>11",
+   "type": "fade",
+   "frames": 12,
+   "why": "straps swaying → she sits, same ride"
+  },
+  {
+   "cut": "11>12",
+   "type": "cut",
+   "frames": 0,
+   "why": "power cut: the shock IS the cut"
+  },
+  {
+   "cut": "12>13",
+   "type": "cut",
+   "frames": 0,
+   "why": "torch click, tension"
+  },
+  {
+   "cut": "13>14",
+   "type": "cut",
+   "frames": 0,
+   "why": "reveal along the beam (POV)"
+  },
+  {
+   "cut": "14>E05",
+   "type": "fade",
+   "frames": 12,
+   "why": "she looks away: the window"
+  },
+  {
+   "cut": "E05>15",
+   "type": "fade",
+   "frames": 10,
+   "why": "back to her face"
+  },
+  {
+   "cut": "15>E06",
+   "type": "fade",
+   "frames": 8,
+   "why": "phone → the line map (placeholder order until 16-18 land)"
+  }
  ]
 }

@@ -12,3 +12,9 @@ npm run studio          # preview / scrub, tweak the EDL live
 npm run render:blk2     # → ../07_edit/rough/blk2_remotion.mp4
 ```
 Renders use the sandbox Chromium headless shell (`remotion.config.ts`). Runtime of a block = sum of `dur`; the film total must stay 180 s (`python3 tools/reflet.py check`).
+
+## Transitions (team note 31/10 17:30 — cuts were too strict; Remotion skill `remotion-best-practices` → `remotion-markup/transitions.md`)
+`edl_blk2.json` → `transitions`: one entry per cut, in shot order (`"A>B"`, checked at render).
+- `fade` (TransitionSeries + `fade()`, linearTiming): continuity of place/time — corridor→platform, platform→detail, **train arrival → inside the carriage (20 frames)**, doors closing → ride. The two takes overlap, so the block gets shorter by the sum of the fades.
+- `cut`: kept for shocks — power cut (11>12), torch/reveal (12>13>14), every move of C (15>16, E06>17) and the lights coming back (17>18).
+- Sound follows the picture: each take's own audio gets a volume envelope that fades in/out over the same frames as the dissolve (no audio jump at a dissolve, a clean jump at a hard cut).

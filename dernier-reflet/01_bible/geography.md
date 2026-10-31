@@ -45,3 +45,5 @@ Every prompt for a shot with a look, a reveal or a reverse angle **states the ax
 | 15 phone | close, frontal (same as 12) | her | front end | eyes drop to the phone for one second |
 | 18 gone | same locked axis as 14 | the rear | rear door | lights back, the seats where C was are empty |
 Rule: every shot of C is the **14 axis**; every reaction of H is the **reverse** (camera on the aisle looking at her, front door behind her). Never show C and H in the same frame here.
+
+**Team rule 31/10 17:35 — C STANDS.** In 14/16/17 the creature stands upright in the centre aisle, both feet on the floor, arms hanging, facing the lens (pose ref `notion/66_C_fullbody_carriage_standing.png`, asset `b56265e1…`, pose only — never its blood). Never seated on nothing; never floating. Far (14) → mid (16) → near (17), same locked axis, still within each shot.
