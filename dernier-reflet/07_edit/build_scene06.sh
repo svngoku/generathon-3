@@ -18,7 +18,7 @@ ffmpeg -loglevel error -y -ss 0.5 -t 3 -i 05_video/06b_v01.mp4 -an -vf "$LB,fade
 # E01 2.0 s — light stutters back: the street is empty (06d_v01, darkened to match)
 ffmpeg -loglevel error -y -ss 0.5 -t 2 -i 05_video/06d_v01.mp4 -an -vf "$DARK,$LB,lutyuv=y=val*0.1:u=128+(val-128)*0.1:v=128+(val-128)*0.1:enable='lt(t,0.12)+between(t,0.28,0.42)+between(t,0.55,0.6)'" $S/5.mp4
 # 07 3.0 s — empty stairs → she bursts in running
-ffmpeg -loglevel error -y -ss 0 -t 3.6 -i "$T07" -an -vf "setpts=PTS/1.2,$LB" -t 3 $S/6.mp4
+ffmpeg -loglevel error -y -ss 0.9 -t 3.6 -i "$T07" -an -vf "setpts=PTS/1.2,$LB" -t 3 $S/6.mp4
 printf "file '%s'\n" $S/1.mp4 $S/2.mp4 $S/3.mp4 $S/4.mp4 $S/5.mp4 $S/6.mp4 > $S/l.txt
 ffmpeg -loglevel error -y -f concat -safe 0 -i $S/l.txt -c copy $S/v.mp4
 # sound: line from the lip-sync take at 7.0 s, team laugh + whispers after it
