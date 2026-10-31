@@ -51,3 +51,6 @@ Consistency comes from **the same uploaded references on every call**, not from 
 
 ## Prompt structure (team rule 31/10 14:40)
 Generate on Arcads, write like Higgsfield: Seedance 2.5 calls on Arcads use the Higgsfield skill's staged structure (`.claude/skills/higgsfield/skills/higgsfield-seedance-2-5/SKILL.md` § Core Prompt Formula, § Reference Roles, § Long Video, § Audio). On Arcads the **first referenceImage is the approved keyframe** (there is no start_image field) — declare it in the prompt as `@image1: the first frame`; then the character sheets, then the plates, in the order they are passed. Lint before every call (`seedance_lint.py --preflight --model seedance_2_5`).
+
+### Identity lock — no storyboard faces (team rule 31/10 15:05)
+Never attach a storyboard / Notion frame that shows a person to a generation of that character: the model copies the storyboard face (shots 12/13/15 v1 drifted this way). For H the refs are **H_sheet + an approved film frame of H** (06c_v03 `667aaf1b…`, then the approved 12) + an empty plate — composition goes in words only. Every close-up is checked side by side against the sheet front face before approval.

@@ -74,3 +74,12 @@ One line per call (stills and video). `verdict`: keep / reject (why) / fix (what
 | 11:20 | H_sheet, V_sheet (+V_extra_01/02), N_sheet (+N_extra_01), C_extra_01, plates TRAIN/LOC-01/02/04/05, refs 01 + LOC-00 | notion/07, 67–69, 24, 87, 48, 34, 36, 42, 51, 52, 56, 89 | Marty (« valide tout ») |
 | 11:18 | C_sheet | HF bucket `Horror Movie Image - La créature.png` (fetched by Arcads) | Marty |
 | 11:20 | M_sheet, M_extra_01 | notion/74, 77 — bucket M sheet rejected by Arcads (> 10 MB) | Marty |
+| 14:50 | 06d | lip-sync relaunch ×2 | seedance_25 1080p audio on 6 s | hf-skill prompt B | 06b_v02, V_sheet, audio 2d2545fc | 05_video/06d_v02a.mp4 (0d62f297), 06d_v02b.mp4 (9662b45b) | Gemini 2/10 and 3/10: mouth barely articulates, b adds a drone and mishears the line → v01 stays in the cut; lip sync still open |
+| 14:53 | 08 | still ×2 | nano-banana-2-1 | platform wide, tracks left | E03_nb21_a, plate_LOC-03 | blk2/08_a, 08_b | both on-axis; b has more wet floor (sets up E03) |
+| 14:53 | 09 | still ×2 | nano-banana-2-1 | train arrives from left tunnel | plate_TRAIN, E03_nb21_a, LOC-03 | blk2/09_a, 09_b | a: less burnt-in text; display lettering to blur in post |
+| 14:53 | 10,11 | still ×2 each | gpt-2.5-sunburst | doors / seated | H_sheet, notion 13 (10), notion 45/40, TRAIN_side | blk2/10_*, 11_* | 10_a ✓ (back view), 11_b ✓ |
+| 14:53 | 12,13,15 | still ×2 each | gpt-2.5-sunburst | close-ups | H_sheet + storyboard notion 03/16 | rejected_identity/ | ✗ IDENTITY DRIFT: storyboard faces copied (slim long face) → new rule in model_map « Identity lock » |
+| 14:53 | 14 | still ×2 | gpt-2.5-sunburst | C far, locked axis | C_sheet, notion 46, notion 45 | blk2/14_a, 14_b | b: clearer axis + torch beam |
+| 14:53 | E04,E06 | still ×2 each | nano-banana-2-1 | inserts | notion 40, 45 | blk2/E04_*, E06_* | E04_b has invented readable map → a; E06 both need post lettering |
+| 15:01 | 12 | still ×2 v3 | gpt-2.5-sunburst | lights out, identity-locked | H_sheet, 06c_v03 (approved), notion 45 | blk2/12v3_a (10b33f66), 12v3_b | ✓ same face as sheet + 06c → 12v3_a = anchor |
+| 15:02 | 13,15 | edit ×2 each v3 | gpt-2.5-sunburst | edits of 12v3_a | 12v3_a, H_sheet | blk2/13v3_a (6e338904), 15v3_b (84571f5a) | ✓ identity held on all four |

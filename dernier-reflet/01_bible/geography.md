@@ -27,3 +27,21 @@ Every prompt for a shot with a look, a reveal or a reverse angle **states the ax
 - Key lights never change source: **sodium-amber streetlight** (street side, flickers off/on from 06c onward) + **cold blue-teal** from the metro entrance (metro side).
 - Facing the metro (06a, 06b, 06d): blue-teal glow in the background, amber on the side. Facing away (06c): amber behind her, blue-teal spill on her face from the front.
 - 07 stairs: blue-teal from below on her face, amber flickering through the ironwork above/behind her. Rain in every shot.
+
+## Scenes 08 → 18 — platform, train, carriage (mapped 31/10 14:55, before generating)
+**Platform (LOC-01, decision A = the nb21 tiled station, clean and in service):** she arrives from the stairs (E01/07) onto the platform; the train arrives from the dark tunnel on the **left** of frame toward the right (08 → 09). Blue-teal fluorescent strips, fog, wet floor — same two-tone light: cold blue-teal fluorescents + the amber destination display of the train.
+**Carriage (LOC-02, refs notion 42/45 axis, 46/44/47/48 C):**
+```
+  [front door — H's end]                                              [rear door — C's end]
+   H sits here, facing the rear  ────────── centre aisle (camera axis) ──────────►  C: far (14) → mid (16) → near (17)
+```
+| Shot | Camera | Faces | Behind the subject | Eyeline |
+|---|---|---|---|---|
+| 10 doors | platform side → into the carriage | the carriage interior | empty seats, aisle to the rear door | she steps in, looks down the aisle |
+| 11 seated | medium, side-on | her across the aisle | dark tunnel windows streaking | she looks at her phone, earbuds |
+| 12 lights out | close, frontal (camera on the aisle, rear side) | her | the front door, dark | she looks up, then toward the rear (lens side) |
+| 13 torch | close 3/4 | her + phone torch | front end, dark | torch and eyes aim down the aisle toward the rear (lens side) |
+| **14 / 16 / 17 C** | **ONE locked axis: her seat → down the aisle toward the rear door, long lens** | the rear of the carriage | the rear door | C on the aisle axis, facing her (lens): far → mid → near; **C never moves on screen** |
+| 15 phone | close, frontal (same as 12) | her | front end | eyes drop to the phone for one second |
+| 18 gone | same locked axis as 14 | the rear | rear door | lights back, the seats where C was are empty |
+Rule: every shot of C is the **14 axis**; every reaction of H is the **reverse** (camera on the aisle looking at her, front door behind her). Never show C and H in the same frame here.
