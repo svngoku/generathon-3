@@ -25,9 +25,11 @@ const join = (blocks: Edl[], bridges: Transition[]): Edl => ({
 const checkOrder = (name: string, edl: Edl) => {
   let last = -1;
   edl.shots.forEach((s) => {
-    const i = (order as string[]).indexOf(s.id.split('-')[0]);
+    // "27.2" = second segment of the same take (team-requested trims): same position as its parent, never earlier.
+    const cont = s.id.includes('.');
+    const i = (order as string[]).indexOf(s.id.split('.')[0].split('-')[0]);
     if (i < 0) throw new Error(`${name}: shot "${s.id}" is not in shotlist.csv`);
-    if (i <= last) throw new Error(`${name}: shot "${s.id}" is out of film order (see shotlist.csv)`);
+    if (cont ? i < last : i <= last) throw new Error(`${name}: shot "${s.id}" is out of film order (see shotlist.csv)`);
     last = i;
   });
   return edl;

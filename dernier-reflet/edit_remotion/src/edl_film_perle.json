@@ -1,24 +1,24 @@
 {
  "fps": 24,
- "note": "Film v06 (01/11): team notes on v05 — P5/P6 swapped (2:28), the young man's engulfment (flashback N2) right after she is engulfed and meets him (2:44); team scenes N1-N5 (1080p) integrated in story order, no duplicated beat between consecutive scenes. Previous: edl_film_v05.json.",
+ "note": "Film v07 (01/11 team notes): HD scenes H1/H2/H3 replace P8/P10/P1; remaining 640x360 scenes lanczos-upscaled; team scenes ungraded (grade none); monster passages trimmed (P5 from 6 s, fight 28→18.5 s), the mud fall comes right after the seizure; fight → final scene dissolve. Previous: edl_film_v06.json.",
  "shots": [
   {
    "id": "01-06",
    "take": "01-06_team_perle_best_HD.mp4",
    "in": 0,
    "dur": 48.3,
-   "grade": "normal",
+   "grade": "none",
    "sound": "01-06_team_perle_best_HD.mp4",
    "note": "team best Perle opening — HD 1920x1080 export (HF 'Mon film 9.MOV', 01/11), same cut as the 640x360 version"
   },
   {
    "id": "06a-07",
-   "take": "perle_P1.mp4",
+   "take": "perle_H3_ruelle_HD.mp4",
    "in": 0,
    "dur": 20.0,
-   "grade": "normal",
-   "sound": "perle_P1.mp4",
-   "note": "Perle P1: rain alley, phone torch, red-cloaked figure, la Vieille close-up, she runs"
+   "grade": "none",
+   "sound": "perle_H3_ruelle_HD.mp4",
+   "note": "H3 HD (team 01/11 'ruelle vieille dame v3'): replaces P1 640x360"
   },
   {
    "id": "E02",
@@ -71,127 +71,154 @@
   },
   {
    "id": "11-18",
-   "take": "perle_P2.mp4",
+   "take": "perle_P2_up1080.mp4",
    "in": 0,
    "dur": 25.0,
-   "grade": "normal",
-   "sound": "perle_P2.mp4",
-   "note": "Perle P2: seated, power cut, phone light, creature flash, creature behind a seat, lights back on the empty carriage"
+   "grade": "none",
+   "sound": "perle_P2_up1080.mp4",
+   "note": "P2 (640x360 source, lanczos-upscaled to 1080 + light denoise/sharpen)"
   },
   {
    "id": "19",
-   "take": "perle_P3.mp4",
+   "take": "perle_P3_up1080.mp4",
    "in": 0,
    "dur": 10.0,
-   "grade": "normal",
-   "sound": "perle_P3.mp4",
-   "note": "Perle P3: standing, hand on chest, clutching the pole — the train stops"
+   "grade": "none",
+   "sound": "perle_P3_up1080.mp4",
+   "note": "P3 upscaled"
   },
   {
    "id": "E07-21",
-   "take": "perle_P4.mp4",
+   "take": "perle_P4_up1080.mp4",
    "in": 0,
    "dur": 20.0,
-   "grade": "normal",
-   "sound": "perle_P4.mp4",
-   "note": "Perle P4: off the train onto the ghost platform, torch on the wooden door, through it into the corridor"
+   "grade": "none",
+   "sound": "perle_P4_up1080.mp4",
+   "note": "P4 upscaled"
   },
   {
    "id": "22-23",
-   "take": "perle_P6.mp4",
+   "take": "perle_P6_up1080.mp4",
    "in": 0,
    "dur": 15.0,
-   "grade": "normal",
-   "sound": "perle_P6.mp4",
-   "note": "Perle P6: filming herself, clawed hand with red eyes, scream, searching rooms for the exit, crack, terrified face"
+   "grade": "none",
+   "sound": "perle_P6_up1080.mp4",
+   "note": "P6 upscaled: phone, clawed hand, scream, search for the exit"
   },
   {
    "id": "24-25",
    "take": "perle_N3_poursuite.mp4",
    "in": 0,
    "dur": 15.0,
-   "grade": "normal",
+   "grade": "none",
    "sound": "perle_N3_poursuite.mp4",
-   "note": "N3 poursuite: phone light, the creature behind her shoulder, she flees through the rooms, fangs close-up"
+   "note": "N3 chase (1080p)"
   },
   {
    "id": "26",
-   "take": "perle_P5.mp4",
-   "in": 0,
-   "dur": 15.0,
-   "grade": "normal",
-   "sound": "perle_P5.mp4",
-   "note": "Perle P5: mirror room, the creature appears behind her in the mirror and grabs her reflection, empty room, crack"
+   "take": "perle_P5_up1080.mp4",
+   "in": 6.0,
+   "dur": 9.0,
+   "grade": "none",
+   "sound": "perle_P5_up1080.mp4",
+   "note": "P5 trimmed (team 01/11 'cut le passage avant 3:00' + monster loops): starts at 6.0 s — the creature appears behind her reflection, grabs, empty room"
   },
   {
    "id": "27",
    "take": "perle_N5_absorption_boue.mp4",
    "in": 0,
-   "dur": 15.0,
-   "grade": "normal",
+   "dur": 2.0,
+   "grade": "none",
    "sound": "perle_N5_absorption_boue.mp4",
-   "note": "N5: bleeding, at the mirror; her reflection reaches out, the creature seizes her, she falls into the black mud (engulfed)"
+   "note": "N5 part 1: bleeding, at the mirror"
+  },
+  {
+   "id": "27.2",
+   "take": "perle_N5_absorption_boue.mp4",
+   "in": 9.4,
+   "dur": 5.6,
+   "grade": "none",
+   "sound": "perle_N5_absorption_boue.mp4",
+   "note": "N5 part 2 (team 01/11: she must fall into the mud right away — the 9.4 s of her pleading reflection between 3:11 and 3:20 removed): the creature seizes her, she falls into the mud"
   },
   {
    "id": "28",
    "take": "perle_N4_monde_miroir_jh.mp4",
    "in": 0,
    "dur": 15.0,
-   "grade": "normal",
+   "grade": "none",
    "sound": "perle_N4_monde_miroir_jh.mp4",
-   "note": "N4: on all fours in the mud of the mirror world; the young man's silhouette in a doorway; he cries (she meets him)"
+   "note": "N4: mirror world, « Je suis désolé » at 0:09"
   },
   {
    "id": "29a-30",
    "take": "perle_N2_flashback_jh.mp4",
    "in": 0,
    "dur": 20.0,
-   "grade": "normal",
+   "grade": "none",
    "sound": "perle_N2_flashback_jh.mp4",
-   "note": "N2 flashback: the young man at the candle-lit mirror, clawed hands seize him and draw him into the glass (team note 01/11: right after she meets him)"
+   "note": "N2: the young man's engulfment (flashback)"
   },
   {
    "id": "31",
    "take": "perle_N1_salle_miroirs_v3.mp4",
    "in": 0,
    "dur": 15.0,
-   "grade": "normal",
+   "grade": "none",
    "sound": "perle_N1_salle_miroirs_v3.mp4",
-   "note": "N1 v3 (team rework 01/11 'miroirs v5 v3 blonde dans le métro'): the blue Haussmann room, one gilded mirror showing the metro with the blonde inside; replaces v2 (gallery of frames)"
+   "note": "N1 v3: « Pourquoi il y a autant de miroirs ? » … « Cours, ne reste pas là ! », the blonde in the metro mirror"
   },
   {
    "id": "32a-32b",
-   "take": "perle_P8.mp4",
+   "take": "perle_H1_miroirs_p1_HD.mp4",
    "in": 0,
    "dur": 10.0,
-   "grade": "normal",
-   "sound": "perle_P8.mp4",
-   "note": "Perle P8: the young man appears, wounded, struggle, the mirror splits"
+   "grade": "none",
+   "sound": "perle_H1_miroirs_p1_HD.mp4",
+   "note": "H1 HD (team 01/11 'miroirs v2 partie 1 — il faut qu'on brise les miroirs'): replaces P8 640x360"
   },
   {
    "id": "33",
-   "take": "perle_P9.mp4",
+   "take": "perle_P9_up1080.mp4",
    "in": 0,
    "dur": 10.0,
-   "grade": "normal",
-   "sound": "perle_P9.mp4",
-   "note": "Perle P9: she smashes the mirror with a poker, he punches the glass, clawed hands reach out of the mirror"
+   "grade": "none",
+   "sound": "perle_P9_up1080.mp4",
+   "note": "P9 (960x540 source, upscaled): she smashes the mirror, hands reach out"
   },
   {
    "id": "34-38",
-   "take": "perle_P10_fight.mp4",
+   "take": "perle_H2_combat_HD.mp4",
    "in": 0,
-   "dur": 28.0,
-   "grade": "normal",
-   "sound": "perle_P10_fight.mp4",
-   "note": "Perle P10 final fight: the creature attacks, she is dragged, glass shards, the creature over them both, red flash, white flash, faces pressed against the glass"
+   "dur": 5.0,
+   "grade": "none",
+   "sound": "perle_H2_combat_HD.mp4",
+   "note": "H2 HD fight (team 01/11 'combat v2 — bras-araignées, explosion lumière'), trimmed (team: the monster passage loops): part 1 — candles, the creature, the arm"
+  },
+  {
+   "id": "34-38.2",
+   "take": "perle_H2_combat_HD.mp4",
+   "in": 10.0,
+   "dur": 3.5,
+   "grade": "none",
+   "sound": "perle_H2_combat_HD.mp4",
+   "note": "H2 part 2 — she is seized by the throat (5–10 s floor crawl removed)"
+  },
+  {
+   "id": "34-38.3",
+   "take": "perle_H2_combat_HD.mp4",
+   "in": 18.0,
+   "dur": 10.0,
+   "grade": "none",
+   "sound": "perle_H2_combat_HD.mp4",
+   "note": "H2 part 3 — the creature over them, red flash, black, white burst, faces in the glass (13.5–18 s shard chaos removed)"
   },
   {
    "id": "39",
    "take": "perle_P11_final.mp4",
    "in": 0,
    "dur": 7.3333,
-   "grade": "normal",
+   "grade": "none",
    "sound": "perle_P11_final.mp4",
    "note": "Perle P11 FINAL SCENE: a hand opens the wooden door onto a crowded metro platform; she and the young man come out, dirty and stunned"
   }
@@ -279,10 +306,16 @@
    "cut": "26>27",
    "type": "cut",
    "frames": 0,
-   "why": "the room empties -> back at the mirror, she is seized and engulfed"
+   "why": "the room empties -> back at the mirror"
   },
   {
-   "cut": "27>28",
+   "cut": "27>27.2",
+   "type": "cut",
+   "frames": 0,
+   "why": "jump cut straight to the seizure (team note)"
+  },
+  {
+   "cut": "27.2>28",
    "type": "fade",
    "frames": 8,
    "why": "she falls into the mud -> on all fours in the mud of the mirror world"
@@ -303,7 +336,7 @@
    "cut": "31>32a-32b",
    "type": "cut",
    "frames": 0,
-   "why": "her scream -> the two of them, the struggle"
+   "why": "« Cours ! » -> she sees him, the struggle"
   },
   {
    "cut": "32a-32b>33",
@@ -318,10 +351,22 @@
    "why": "the hands seize them -> the creature strikes"
   },
   {
-   "cut": "34-38>39",
+   "cut": "34-38>34-38.2",
    "type": "cut",
    "frames": 0,
-   "why": "faces in the glass -> the door opens onto the crowded metro"
+   "why": "fight trim"
+  },
+  {
+   "cut": "34-38.2>34-38.3",
+   "type": "cut",
+   "frames": 0,
+   "why": "fight trim"
+  },
+  {
+   "cut": "34-38.3>39",
+   "type": "fade",
+   "frames": 10,
+   "why": "faces in the glass / white burst -> the door opens onto the crowded metro (light into light)"
   }
  ],
  "audio": []

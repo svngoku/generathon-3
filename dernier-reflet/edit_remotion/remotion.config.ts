@@ -4,3 +4,4 @@ Config.setBrowserExecutable('/opt/pw-browsers/chromium_headless_shell-1243/chrom
 Config.setVideoImageFormat('jpeg');
 Config.setCodec('h264');
 Config.setCrf(16);
+Config.setJpegQuality(100); // team note 01/11: keep the delivered scenes' quality

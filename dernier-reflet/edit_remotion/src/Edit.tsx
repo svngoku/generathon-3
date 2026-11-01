@@ -9,7 +9,7 @@ import present from './audio_present.json'; // names of the team audio files tha
 // bMask = CSS clip-path limiting pass B to a zone (e.g. the mirror glass); bAt / bDur = when (fraction of the shot) and how long (s) B dissolves in.
 // take 'BLACK' = intended black (storyboard 34 only). zoom = [from, to] scale of take A over the shot, around zoomOrigin (CSS).
 // blackAt = seconds into the shot where the picture cuts to black (38: the lights cut at the impact). bIn = in-point of pass B.
-export type Shot = {id: string; take: string | null; takeB?: string; bIn?: number; bMask?: string; bAt?: number; bDur?: number; zoom?: [number, number]; zoomOrigin?: string; blackAt?: number; sound?: string | null; soundVolume?: number; in: number; dur: number; grade: 'normal' | 'dark'; note?: string};
+export type Shot = {id: string; take: string | null; takeB?: string; bIn?: number; bMask?: string; bAt?: number; bDur?: number; zoom?: [number, number]; zoomOrigin?: string; blackAt?: number; sound?: string | null; soundVolume?: number; in: number; dur: number; grade: 'normal' | 'dark' | 'none'; note?: string};
 // One transition per cut, in film order. "fade" = cross-dissolve (picture AND sound overlap);
 // "cut" = hard cut, kept for shocks (power cut, reveals, C moving between cuts). Remotion skill: TransitionSeries.
 export type Transition = {cut: string; type: 'fade' | 'cut'; frames: number; why?: string};
@@ -21,6 +21,7 @@ export type Edl = {fps: number; shots: Shot[]; transitions?: Transition[]; audio
 const GRADES: Record<Shot['grade'], string> = {
   normal: 'brightness(0.9) contrast(1.06) saturate(0.85)',
   dark: 'brightness(0.68) contrast(1.12) saturate(0.8)',
+  none: 'none', // the team's own scenes: shown exactly as delivered (team note 01/11 — quality)
 };
 const frames = (s: Shot, fps: number) => Math.round(s.dur * fps);
 
