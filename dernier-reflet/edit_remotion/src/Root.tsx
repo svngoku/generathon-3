@@ -9,6 +9,8 @@ import blk4 from './edl_blk4.json';
 import blk5json from './edl_blk5.json';
 import perleJson from './edl_film_perle.json';
 import v05Json from './edl_film_v05.json';
+import min3Json from './edl_film_3min.json';
+const min3 = min3Json as unknown as Edl;
 const v05 = v05Json as unknown as Edl;
 const perle = perleJson as unknown as Edl;
 const blk5 = blk5json as unknown as Edl;
@@ -46,4 +48,4 @@ const comp = (id: string, edl: Edl) => (
   <Composition key={id} id={id} component={Edit} width={1920} height={1080}
     fps={edl.fps} durationInFrames={totalFrames(edl)} defaultProps={{edl}} />
 );
-export const Root: React.FC = () => <>{comp('Film', checkOrder('Film', perle))}{comp('FilmV05', checkOrder('FilmV05', v05))}{comp('FilmV03', checkOrder('FilmV03', film))}{comp('Blk1', checkOrder('Blk1', blk1))}{comp('Blk2', checkOrder('Blk2', blk2 as Edl))}{comp('Blk3', checkOrder('Blk3', blk3 as Edl))}{comp('Blk4', checkOrder('Blk4', blk4 as Edl))}{comp('Blk5', checkOrder('Blk5', blk5))}</>;
+export const Root: React.FC = () => <>{comp('Film', checkOrder('Film', perle))}{comp('Film3min', checkOrder('Film3min', min3))}{comp('FilmV05', checkOrder('FilmV05', v05))}{comp('FilmV03', checkOrder('FilmV03', film))}{comp('Blk1', checkOrder('Blk1', blk1))}{comp('Blk2', checkOrder('Blk2', blk2 as Edl))}{comp('Blk3', checkOrder('Blk3', blk3 as Edl))}{comp('Blk4', checkOrder('Blk4', blk4 as Edl))}{comp('Blk5', checkOrder('Blk5', blk5))}</>;

@@ -1,0 +1,425 @@
+{
+ "fps": 24,
+ "note": "3:00 cut (01/11, after the hackathon — lessons from the winner HARU!): exactly 180 s; cold open hook; one story line; one chase; P9 (duplicate smash, low-res, gore) dropped; loop ending (another girl, the creature beside her). Team scenes ungraded.",
+ "shots": [
+  {
+   "id": "01",
+   "take": "perle_Q5_miroir_fissure_HD.mp4",
+   "in": 10.0,
+   "dur": 3.5,
+   "grade": "none",
+   "sound": "perle_Q5_miroir_fissure_HD.mp4",
+   "note": "COLD OPEN (lesson from HARU!: hook in 5 s): her face screaming behind the cracked glass — flash-forward"
+  },
+  {
+   "id": "01.2",
+   "take": "01-06_team_perle_best_HD.mp4",
+   "in": 0.0,
+   "dur": 4.5,
+   "grade": "none",
+   "sound": "01-06_team_perle_best_HD.mp4",
+   "note": "stormy Paris, the office window"
+  },
+  {
+   "id": "01.3",
+   "take": "01-06_team_perle_best_HD.mp4",
+   "in": 13.0,
+   "dur": 10.0,
+   "grade": "none",
+   "sound": "01-06_team_perle_best_HD.mp4",
+   "note": "tired at her desk — « Il est tard. Je devais appeler ma mère. »"
+  },
+  {
+   "id": "01.4",
+   "take": "01-06_team_perle_best_HD.mp4",
+   "in": 27.0,
+   "dur": 3.0,
+   "grade": "none",
+   "sound": "01-06_team_perle_best_HD.mp4",
+   "note": "she grabs her coat"
+  },
+  {
+   "id": "01.5",
+   "take": "01-06_team_perle_best_HD.mp4",
+   "in": 41.0,
+   "dur": 4.0,
+   "grade": "none",
+   "sound": "01-06_team_perle_best_HD.mp4",
+   "note": "the lift, the call nobody answers"
+  },
+  {
+   "id": "06a-07",
+   "take": "perle_H3_ruelle_HD.mp4",
+   "in": 2.5,
+   "dur": 17.5,
+   "grade": "none",
+   "sound": "perle_H3_ruelle_HD.mp4",
+   "note": "rain alley — « Madame, vous allez bien ? » — the red cloak turns: la Vieille — « Le dernier métro ne ramène personne, ma fille. » — she runs"
+  },
+  {
+   "id": "09",
+   "take": "09_v02a.mp4",
+   "in": 0.0,
+   "dur": 5.0417,
+   "grade": "normal",
+   "sound": "09_v02a.mp4",
+   "note": "the last train arrives"
+  },
+  {
+   "id": "10",
+   "take": "10_v02a.mp4",
+   "in": 0.0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "10_v02a.mp4",
+   "note": "she boards"
+  },
+  {
+   "id": "11-18",
+   "take": "perle_Q2_metro_coupure_HD.mp4",
+   "in": 0.0,
+   "dur": 3.0,
+   "grade": "none",
+   "sound": "perle_Q2_metro_coupure_HD.mp4",
+   "note": "alone in the carriage"
+  },
+  {
+   "id": "11-18.2",
+   "take": "perle_Q2_metro_coupure_HD.mp4",
+   "in": 4.5,
+   "dur": 6.5,
+   "grade": "none",
+   "sound": "perle_Q2_metro_coupure_HD.mp4",
+   "note": "blackout, her face in the phone light, the creature flash"
+  },
+  {
+   "id": "11-18.3",
+   "take": "perle_Q2_metro_coupure_HD.mp4",
+   "in": 18.5,
+   "dur": 6.5,
+   "grade": "none",
+   "sound": "perle_Q2_metro_coupure_HD.mp4",
+   "note": "the creature behind the seat — lights back, the carriage empty"
+  },
+  {
+   "id": "19",
+   "take": "perle_Q1_metro_panique_HD.mp4",
+   "in": 0.0,
+   "dur": 3.5,
+   "grade": "none",
+   "sound": "perle_Q1_metro_panique_HD.mp4",
+   "note": "panic as the train stops"
+  },
+  {
+   "id": "E07-21",
+   "take": "perle_P4_up1080.mp4",
+   "in": 0.0,
+   "dur": 3.5,
+   "grade": "none",
+   "sound": "perle_P4_up1080.mp4",
+   "note": "the ghost platform"
+  },
+  {
+   "id": "E07-21.2",
+   "take": "perle_P4_up1080.mp4",
+   "in": 9.0,
+   "dur": 9.5,
+   "grade": "none",
+   "sound": "perle_P4_up1080.mp4",
+   "note": "the wooden door, the corridor"
+  },
+  {
+   "id": "22-23",
+   "take": "perle_Q4_poursuite_v2_HD.mp4",
+   "in": 0.0,
+   "dur": 5.5,
+   "grade": "none",
+   "sound": "perle_Q4_poursuite_v2_HD.mp4",
+   "note": "phone camera, the clawed hand, the scream (the ONLY chase kept)"
+  },
+  {
+   "id": "24-25",
+   "take": "perle_N3_poursuite.mp4",
+   "in": 11.5,
+   "dur": 3.5,
+   "grade": "none",
+   "sound": "perle_N3_poursuite.mp4",
+   "note": "the fangs"
+  },
+  {
+   "id": "26",
+   "take": "perle_Q5_miroir_fissure_HD.mp4",
+   "in": 1.0,
+   "dur": 8.5,
+   "grade": "none",
+   "sound": "perle_Q5_miroir_fissure_HD.mp4",
+   "note": "she pounds the mirror, it cracks"
+  },
+  {
+   "id": "27",
+   "take": "perle_N5_absorption_boue.mp4",
+   "in": 0.0,
+   "dur": 2.0,
+   "grade": "none",
+   "sound": "perle_N5_absorption_boue.mp4",
+   "note": "bleeding at the mirror"
+  },
+  {
+   "id": "27.2",
+   "take": "perle_N5_absorption_boue.mp4",
+   "in": 9.4,
+   "dur": 5.6,
+   "grade": "none",
+   "sound": "perle_N5_absorption_boue.mp4",
+   "note": "seized, she falls into the mud"
+  },
+  {
+   "id": "28",
+   "take": "perle_N4_monde_miroir_jh.mp4",
+   "in": 4.5,
+   "dur": 7.0,
+   "grade": "none",
+   "sound": "perle_N4_monde_miroir_jh.mp4",
+   "note": "the mirror world — he appears — « Je suis désolé. »"
+  },
+  {
+   "id": "29a-30",
+   "take": "perle_N2_flashback_jh.mp4",
+   "in": 5.0,
+   "dur": 13.0,
+   "grade": "none",
+   "sound": "perle_N2_flashback_jh.mp4",
+   "note": "how he was taken (flashback)"
+  },
+  {
+   "id": "31",
+   "take": "perle_N1_salle_miroirs_v3.mp4",
+   "in": 0.5,
+   "dur": 14.5,
+   "grade": "none",
+   "sound": "perle_N1_salle_miroirs_v3.mp4",
+   "note": "« Pourquoi il y a autant de miroirs ? » … « Cours ! » — the blonde in the mirror"
+  },
+  {
+   "id": "32a-32b",
+   "take": "perle_H1_miroirs_p1_HD.mp4",
+   "in": 0.0,
+   "dur": 10.0,
+   "grade": "none",
+   "sound": "perle_H1_miroirs_p1_HD.mp4",
+   "note": "« J'ai une idée. Il faut qu'on brise les miroirs. » — « OK. »"
+  },
+  {
+   "id": "34-38",
+   "take": "perle_H2_combat_HD.mp4",
+   "in": 2.0,
+   "dur": 3.0,
+   "grade": "none",
+   "sound": "perle_H2_combat_HD.mp4",
+   "note": "the creature strikes"
+  },
+  {
+   "id": "34-38.2",
+   "take": "perle_H2_combat_HD.mp4",
+   "in": 10.0,
+   "dur": 3.0,
+   "grade": "none",
+   "sound": "perle_H2_combat_HD.mp4",
+   "note": "seized by the throat"
+  },
+  {
+   "id": "34-38.3",
+   "take": "perle_H2_combat_HD.mp4",
+   "in": 18.0,
+   "dur": 10.0,
+   "grade": "none",
+   "sound": "perle_H2_combat_HD.mp4",
+   "note": "the creature over them, red, black, white burst, faces in the glass"
+  },
+  {
+   "id": "39",
+   "take": "perle_P11_final.mp4",
+   "in": 0.0,
+   "dur": 7.5,
+   "grade": "none",
+   "sound": "perle_P11_final.mp4",
+   "note": "the door opens onto the crowded metro — they are out"
+  },
+  {
+   "id": "39.2",
+   "take": "36_v01.mp4",
+   "in": 0.0,
+   "dur": 3.0,
+   "grade": "normal",
+   "sound": "36_v01.mp4",
+   "note": "LOOP: another night, another girl alone in the last metro"
+  },
+  {
+   "id": "39.3",
+   "take": "38_v01.mp4",
+   "in": 0.0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "38_v01.mp4",
+   "note": "the creature beside her turns, surges — picture cuts to black at the impact, sound carries on",
+   "blackAt": 2.42
+  },
+  {
+   "id": "39.4",
+   "take": "BLACK",
+   "in": 0,
+   "dur": 0.9583,
+   "grade": "normal",
+   "sound": null,
+   "note": "black (duration set to land exactly on 3:00)"
+  }
+ ],
+ "transitions": [
+  {
+   "cut": "01>01.2",
+   "type": "fade",
+   "frames": 12
+  },
+  {
+   "cut": "01.2>01.3",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "01.3>01.4",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "01.4>01.5",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "01.5>06a-07",
+   "type": "fade",
+   "frames": 8
+  },
+  {
+   "cut": "06a-07>09",
+   "type": "fade",
+   "frames": 10
+  },
+  {
+   "cut": "09>10",
+   "type": "fade",
+   "frames": 20
+  },
+  {
+   "cut": "10>11-18",
+   "type": "fade",
+   "frames": 12
+  },
+  {
+   "cut": "11-18>11-18.2",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "11-18.2>11-18.3",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "11-18.3>19",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "19>E07-21",
+   "type": "fade",
+   "frames": 10
+  },
+  {
+   "cut": "E07-21>E07-21.2",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "E07-21.2>22-23",
+   "type": "fade",
+   "frames": 10
+  },
+  {
+   "cut": "22-23>24-25",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "24-25>26",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "26>27",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "27>27.2",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "27.2>28",
+   "type": "fade",
+   "frames": 8
+  },
+  {
+   "cut": "28>29a-30",
+   "type": "fade",
+   "frames": 12
+  },
+  {
+   "cut": "29a-30>31",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "31>32a-32b",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "32a-32b>34-38",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "34-38>34-38.2",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "34-38.2>34-38.3",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "34-38.3>39",
+   "type": "fade",
+   "frames": 10
+  },
+  {
+   "cut": "39>39.2",
+   "type": "fade",
+   "frames": 12
+  },
+  {
+   "cut": "39.2>39.3",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "39.3>39.4",
+   "type": "cut",
+   "frames": 0
+  }
+ ],
+ "audio": []
+}
