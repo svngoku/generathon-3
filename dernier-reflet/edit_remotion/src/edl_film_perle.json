@@ -1,6 +1,6 @@
 {
  "fps": 24,
- "note": "Film v07 (01/11 team notes): HD scenes H1/H2/H3 replace P8/P10/P1; remaining 640x360 scenes lanczos-upscaled; team scenes ungraded (grade none); monster passages trimmed (P5 from 6 s, fight 28→18.5 s), the mud fall comes right after the seizure; fight → final scene dissolve. Previous: edl_film_v06.json.",
+ "note": "Film v08 (01/11 12:5x): HD Q1/Q2/Q4/Q5 replace P3/P2/P6/P5. Previous: edl_film_v07.json.",
  "shots": [
   {
    "id": "01-06",
@@ -71,21 +71,21 @@
   },
   {
    "id": "11-18",
-   "take": "perle_P2_up1080.mp4",
+   "take": "perle_Q2_metro_coupure_HD.mp4",
    "in": 0,
    "dur": 25.0,
    "grade": "none",
-   "sound": "perle_P2_up1080.mp4",
-   "note": "P2 (640x360 source, lanczos-upscaled to 1080 + light denoise/sharpen)"
+   "sound": "perle_Q2_metro_coupure_HD.mp4",
+   "note": "Q2 HD 'metro coupure' (replaces P2)"
   },
   {
    "id": "19",
-   "take": "perle_P3_up1080.mp4",
+   "take": "perle_Q1_metro_panique_HD.mp4",
    "in": 0,
    "dur": 10.0,
    "grade": "none",
-   "sound": "perle_P3_up1080.mp4",
-   "note": "P3 upscaled"
+   "sound": "perle_Q1_metro_panique_HD.mp4",
+   "note": "Q1 HD 'metro panique' (replaces P3)"
   },
   {
    "id": "E07-21",
@@ -98,12 +98,12 @@
   },
   {
    "id": "22-23",
-   "take": "perle_P6_up1080.mp4",
+   "take": "perle_Q4_poursuite_v2_HD.mp4",
    "in": 0,
    "dur": 15.0,
    "grade": "none",
-   "sound": "perle_P6_up1080.mp4",
-   "note": "P6 upscaled: phone, clawed hand, scream, search for the exit"
+   "sound": "perle_Q4_poursuite_v2_HD.mp4",
+   "note": "Q4 HD 'poursuite v2 portes piège' (replaces P6)"
   },
   {
    "id": "24-25",
@@ -116,12 +116,12 @@
   },
   {
    "id": "26",
-   "take": "perle_P5_up1080.mp4",
-   "in": 6.0,
-   "dur": 9.0,
+   "take": "perle_Q5_miroir_fissure_HD.mp4",
+   "in": 0,
+   "dur": 15.0,
    "grade": "none",
-   "sound": "perle_P5_up1080.mp4",
-   "note": "P5 trimmed (team 01/11 'cut le passage avant 3:00' + monster loops): starts at 6.0 s — the creature appears behind her reflection, grabs, empty room"
+   "sound": "perle_Q5_miroir_fissure_HD.mp4",
+   "note": "Q5 HD 'miroir fissure' (replaces P5): she pounds the mirror, it cracks across her face"
   },
   {
    "id": "27",
