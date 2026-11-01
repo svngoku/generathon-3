@@ -152,12 +152,12 @@
   },
   {
    "id": "31",
-   "take": "perle_N1_salle_miroirs.mp4",
+   "take": "perle_N1_salle_miroirs_v3.mp4",
    "in": 0,
    "dur": 15.0,
    "grade": "normal",
-   "sound": "perle_N1_salle_miroirs.mp4",
-   "note": "N1 hall of mirrors: his face in a mirror, the metro seen through the mirrors, she screams"
+   "sound": "perle_N1_salle_miroirs_v3.mp4",
+   "note": "N1 v3 (team rework 01/11 'miroirs v5 v3 blonde dans le métro'): the blue Haussmann room, one gilded mirror showing the metro with the blonde inside; replaces v2 (gallery of frames)"
   },
   {
    "id": "32a-32b",
