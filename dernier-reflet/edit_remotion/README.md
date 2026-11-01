@@ -34,3 +34,7 @@ Current Film: 01-06 Perle best version (team, 31/10 19:41; replaces 93 + 92 and 
 - Shot fields added: `takeB` may be a still in `04_frames` (`.png/.jpg`), `bMask` (CSS clip-path, e.g. the mirror glass), `bAt`/`bDur` (dissolve timing; `bDur: 0` = B from the first frame), `bIn` (B in-point), `zoom` + `zoomOrigin` (push-in), `blackAt` (picture cuts to black, 38), take `BLACK` (storyboard 34 only).
 - 23: the frozen reflection = frame 0 of the same take masked to the glass. 39: push into the window of 37, dissolving into frame 0 of `01-06` → the last frame is the first frame (infinite loop).
 - Team audio cues still to drop into `06_audio/team/`: `A18_whisper-place_v1.wav` (32a), `A19_aidez-moi.wav` (37), `A20_three-pulses_v1.wav` (39). They play automatically once present.
+
+## Film v04 (01/11) — the team's Perle scenes as the backbone
+`src/edl_film_perle.json` (composition `Film`; the previous cut stays as `FilmV03`). Story order, whole takes, each with its own sound:
+01-06 Perle opening → P1 rain alley / la Vieille (06a-07) → E02→E04 station + train (mine) → P2 carriage power cut / creature (11-18) → P3 she panics as the train stops (19) → P4 ghost platform, door, corridor (E07-21) → P5 mirror, creature behind her reflection (22-26) → P6 phone, clawed hand, scream, search for the exit (27-28) → P8 the young man (29a-30) → P9 mirror smashed, hands out of the glass (31-33) → 34 black → 35-39 (mine: same train, new passenger, trapped window, attack, loop to the opening).

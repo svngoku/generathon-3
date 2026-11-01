@@ -1,0 +1,337 @@
+{
+ "fps": 24,
+ "note": "Film v04 = the team's Perle scenes (31/10-01/11) as the backbone, whole takes with their own sound, in story order; my takes only where Perle has none: E02→E04 (station, train arrival, boarding) and 34→39 (black, the train returns, the new passenger, the trapped window, the attack, the loop). Previous cut = composition FilmV03.",
+ "shots": [
+  {
+   "id": "01-06",
+   "take": "01-06_team_perle_best.mp4",
+   "in": 0,
+   "dur": 48.3,
+   "grade": "normal",
+   "sound": "01-06_team_perle_best.mp4",
+   "note": "team best version: Paris storm -> office -> phone -> coat -> corridor -> lift, phone call. Low res (640x360) - ask the team for the full-res export"
+  },
+  {
+   "id": "06a-07",
+   "take": "perle_P1.mp4",
+   "in": 0,
+   "dur": 20.0,
+   "grade": "normal",
+   "sound": "perle_P1.mp4",
+   "note": "Perle P1: rain alley, phone torch, red-cloaked figure, la Vieille close-up, she runs"
+  },
+  {
+   "id": "E02",
+   "take": "E02_v01.mp4",
+   "in": 0.0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "E02_v02a.mp4"
+  },
+  {
+   "id": "08",
+   "take": "08_v02a.mp4",
+   "in": 0.0,
+   "dur": 4.086,
+   "grade": "normal",
+   "sound": "08_v02a.mp4"
+  },
+  {
+   "id": "E03",
+   "take": "E03_v02a.mp4",
+   "in": 0.0,
+   "dur": 4.086,
+   "grade": "normal",
+   "note": "take b (53bcea46) — natural drop speed, team pick",
+   "sound": "E03_v02a.mp4"
+  },
+  {
+   "id": "09",
+   "take": "09_v02a.mp4",
+   "in": 0.0,
+   "dur": 5.0417,
+   "grade": "normal",
+   "sound": "09_v02a.mp4"
+  },
+  {
+   "id": "10",
+   "take": "10_v02a.mp4",
+   "in": 0.0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "10_v02a.mp4"
+  },
+  {
+   "id": "E04",
+   "take": "E04_v01.mp4",
+   "in": 0.0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "E04_v02a.mp4"
+  },
+  {
+   "id": "11-18",
+   "take": "perle_P2.mp4",
+   "in": 0,
+   "dur": 25.0,
+   "grade": "normal",
+   "sound": "perle_P2.mp4",
+   "note": "Perle P2: seated, power cut, phone light, creature flash, creature behind a seat, lights back on the empty carriage"
+  },
+  {
+   "id": "19",
+   "take": "perle_P3.mp4",
+   "in": 0,
+   "dur": 10.0,
+   "grade": "normal",
+   "sound": "perle_P3.mp4",
+   "note": "Perle P3: standing, hand on chest, clutching the pole — the train stops"
+  },
+  {
+   "id": "E07-21",
+   "take": "perle_P4.mp4",
+   "in": 0,
+   "dur": 20.0,
+   "grade": "normal",
+   "sound": "perle_P4.mp4",
+   "note": "Perle P4: off the train onto the ghost platform, torch on the wooden door, through it into the corridor"
+  },
+  {
+   "id": "22-26",
+   "take": "perle_P5.mp4",
+   "in": 0,
+   "dur": 15.0,
+   "grade": "normal",
+   "sound": "perle_P5.mp4",
+   "note": "Perle P5: mirror room, the creature appears behind her in the mirror and grabs her reflection, empty room, crack"
+  },
+  {
+   "id": "27-28",
+   "take": "perle_P6.mp4",
+   "in": 0,
+   "dur": 15.0,
+   "grade": "normal",
+   "sound": "perle_P6.mp4",
+   "note": "Perle P6: filming herself, clawed hand with red eyes, scream, searching rooms for the exit, crack, terrified face"
+  },
+  {
+   "id": "29a-30",
+   "take": "perle_P8.mp4",
+   "in": 0,
+   "dur": 10.0,
+   "grade": "normal",
+   "sound": "perle_P8.mp4",
+   "note": "Perle P8: the young man appears, wounded, struggle, the mirror splits"
+  },
+  {
+   "id": "31-33",
+   "take": "perle_P9.mp4",
+   "in": 0,
+   "dur": 10.0,
+   "grade": "normal",
+   "sound": "perle_P9.mp4",
+   "note": "Perle P9: she smashes the mirror with a poker, he punches the glass, clawed hands reach out of the mirror"
+  },
+  {
+   "id": "34",
+   "take": "BLACK",
+   "in": 0,
+   "dur": 2.0,
+   "grade": "normal",
+   "sound": null,
+   "note": "storyboard: two seconds of absolute black"
+  },
+  {
+   "id": "35",
+   "take": "09_v02a.mp4",
+   "in": 0,
+   "dur": 5.0417,
+   "grade": "normal",
+   "sound": "09_v02a.mp4",
+   "note": "the same last metro arrives again (take 09 reused on purpose)"
+  },
+  {
+   "id": "36",
+   "take": "36_v01.mp4",
+   "in": 0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "36_v01.mp4"
+  },
+  {
+   "id": "37",
+   "take": "37_v01.mp4",
+   "in": 0,
+   "dur": 4.0417,
+   "grade": "normal",
+   "sound": "37_v01.mp4",
+   "note": "« Aidez-moi… » = team audio A19, muffled behind the glass"
+  },
+  {
+   "id": "38",
+   "take": "38_v01.mp4",
+   "in": 0,
+   "dur": 4.0417,
+   "blackAt": 2.42,
+   "grade": "normal",
+   "sound": "38_v01.mp4",
+   "note": "the lights cut at the impact (2.42 s); no gore shown"
+  },
+  {
+   "id": "39",
+   "take": "37_v01.mp4",
+   "in": 2.0,
+   "dur": 2.0417,
+   "zoom": [
+    1.0,
+    1.9
+   ],
+   "zoomOrigin": "50% 42%",
+   "takeB": "01-06_team_perle_best.mp4",
+   "bIn": 0,
+   "bAt": 0.3,
+   "bDur": 1.0,
+   "grade": "normal",
+   "sound": "37_v01.mp4",
+   "note": "push into the window -> the opening Paris aerial (first frame of the film): the loop"
+  }
+ ],
+ "transitions": [
+  {
+   "cut": "01-06>06a-07",
+   "type": "fade",
+   "frames": 8,
+   "why": "lift -> rain alley"
+  },
+  {
+   "cut": "06a-07>E02",
+   "type": "fade",
+   "frames": 10,
+   "why": "she runs from the alley -> the station corridor"
+  },
+  {
+   "cut": "E02>08",
+   "type": "fade",
+   "frames": 12,
+   "why": "same space: corridor opens onto the platform"
+  },
+  {
+   "cut": "08>E03",
+   "type": "fade",
+   "frames": 10,
+   "why": "platform → detail on its floor"
+  },
+  {
+   "cut": "E03>09",
+   "type": "fade",
+   "frames": 10,
+   "why": "ripple settles as the train light arrives"
+  },
+  {
+   "cut": "09>10",
+   "type": "fade",
+   "frames": 20,
+   "why": "team note: entering the carriage was too abrupt — long dissolve, brake hiss bridges into the carriage"
+  },
+  {
+   "cut": "10>E04",
+   "type": "fade",
+   "frames": 12,
+   "why": "doors close → train moving"
+  },
+  {
+   "cut": "E04>11-18",
+   "type": "fade",
+   "frames": 12,
+   "why": "the line map -> she sits in the carriage (continuity)"
+  },
+  {
+   "cut": "11-18>19",
+   "type": "cut",
+   "frames": 0,
+   "why": "lights back, empty carriage -> she is on her feet, panicking (shock)"
+  },
+  {
+   "cut": "19>E07-21",
+   "type": "fade",
+   "frames": 10,
+   "why": "the train stops -> she steps out onto the ghost platform"
+  },
+  {
+   "cut": "E07-21>22-26",
+   "type": "fade",
+   "frames": 10,
+   "why": "through the door -> the mirror room"
+  },
+  {
+   "cut": "22-26>27-28",
+   "type": "cut",
+   "frames": 0,
+   "why": "crack -> she films herself (shock)"
+  },
+  {
+   "cut": "27-28>29a-30",
+   "type": "cut",
+   "frames": 0,
+   "why": "terrified face -> she sees him"
+  },
+  {
+   "cut": "29a-30>31-33",
+   "type": "cut",
+   "frames": 0,
+   "why": "the mirror splits -> she strikes it"
+  },
+  {
+   "cut": "31-33>34",
+   "type": "cut",
+   "frames": 0,
+   "why": "the hands seize them -> absolute black"
+  },
+  {
+   "cut": "34>35",
+   "type": "fade",
+   "frames": 12,
+   "why": "out of the black: the same train arrives"
+  },
+  {
+   "cut": "35>36",
+   "type": "fade",
+   "frames": 8,
+   "why": "a new passenger boards"
+  },
+  {
+   "cut": "36>37",
+   "type": "cut",
+   "frames": 0,
+   "why": "reveal: the heroine trapped in her window"
+  },
+  {
+   "cut": "37>38",
+   "type": "cut",
+   "frames": 0,
+   "why": "the figure beside the new passenger"
+  },
+  {
+   "cut": "38>39",
+   "type": "cut",
+   "frames": 0,
+   "why": "from the black of the impact to the window"
+  }
+ ],
+ "audio": [
+  {
+   "file": "A19_aidez-moi.wav",
+   "at": "37",
+   "offset": 0.6,
+   "volume": 0.9,
+   "note": "team: « Aidez-moi… » behind thick glass"
+  },
+  {
+   "file": "A20_three-pulses_v1.wav",
+   "at": "39",
+   "offset": 0,
+   "volume": 1,
+   "note": "team: three pulses on the push-in"
+  }
+ ]
+}
