@@ -116,15 +116,6 @@
   },
   {
    "id": "26",
-   "take": "perle_Q5_miroir_fissure_HD.mp4",
-   "in": 0,
-   "dur": 15.0,
-   "grade": "none",
-   "sound": "perle_Q5_miroir_fissure_HD.mp4",
-   "note": "Q5 HD 'miroir fissure' (replaces P5): she pounds the mirror, it cracks across her face"
-  },
-  {
-   "id": "27",
    "take": "perle_N5_absorption_boue.mp4",
    "in": 0,
    "dur": 2.0,
@@ -133,7 +124,7 @@
    "note": "N5 part 1: bleeding, at the mirror"
   },
   {
-   "id": "27.2",
+   "id": "26.2",
    "take": "perle_N5_absorption_boue.mp4",
    "in": 9.4,
    "dur": 5.6,
@@ -142,7 +133,7 @@
    "note": "N5 part 2 (team 01/11: she must fall into the mud right away — the 9.4 s of her pleading reflection between 3:11 and 3:20 removed): the creature seizes her, she falls into the mud"
   },
   {
-   "id": "28",
+   "id": "27-28",
    "take": "perle_N4_monde_miroir_jh.mp4",
    "in": 0,
    "dur": 15.0,
@@ -169,7 +160,16 @@
    "note": "N1 v3: « Pourquoi il y a autant de miroirs ? » … « Cours, ne reste pas là ! », the blonde in the metro mirror"
   },
   {
-   "id": "32a-32b",
+   "id": "32a",
+   "take": "perle_Q5_miroir_fissure_HD.mp4",
+   "in": 0,
+   "dur": 15.0,
+   "grade": "none",
+   "sound": "perle_Q5_miroir_fissure_HD.mp4",
+   "note": "Q5 HD 'miroir fissure' (replaces P5): she pounds the mirror, it cracks across her face"
+  },
+  {
+   "id": "32b",
    "take": "perle_H1_miroirs_p1_HD.mp4",
    "in": 0,
    "dur": 10.0,
@@ -303,28 +303,22 @@
    "why": "fangs -> at the mirror, the creature behind her reflection"
   },
   {
-   "cut": "26>27",
+   "cut": "26>26.2",
    "type": "cut",
    "frames": 0,
-   "why": "the room empties -> back at the mirror"
+   "why": "continuity order (team 01/11: clean → seized at the mirror → mud → mirror world → pounding the glass from inside)"
   },
   {
-   "cut": "27>27.2",
-   "type": "cut",
-   "frames": 0,
-   "why": "jump cut straight to the seizure (team note)"
-  },
-  {
-   "cut": "27.2>28",
+   "cut": "26.2>27-28",
    "type": "fade",
    "frames": 8,
-   "why": "she falls into the mud -> on all fours in the mud of the mirror world"
+   "why": "continuity"
   },
   {
-   "cut": "28>29a-30",
+   "cut": "27-28>29a-30",
    "type": "fade",
    "frames": 12,
-   "why": "his tears -> how he was taken (flashback)"
+   "why": "continuity"
   },
   {
    "cut": "29a-30>31",
@@ -333,16 +327,22 @@
    "why": "out of the flashback black -> the hall of mirrors"
   },
   {
-   "cut": "31>32a-32b",
+   "cut": "31>32a",
    "type": "cut",
    "frames": 0,
-   "why": "« Cours ! » -> she sees him, the struggle"
+   "why": "continuity order (team 01/11: clean → seized at the mirror → mud → mirror world → pounding the glass from inside)"
   },
   {
-   "cut": "32a-32b>33",
+   "cut": "32a>32b",
    "type": "cut",
    "frames": 0,
-   "why": "the mirror splits -> she strikes it"
+   "why": "continuity order (team 01/11: clean → seized at the mirror → mud → mirror world → pounding the glass from inside)"
+  },
+  {
+   "cut": "32b>33",
+   "type": "cut",
+   "frames": 0,
+   "why": "continuity order (team 01/11: clean → seized at the mirror → mud → mirror world → pounding the glass from inside)"
   },
   {
    "cut": "33>34-38",
