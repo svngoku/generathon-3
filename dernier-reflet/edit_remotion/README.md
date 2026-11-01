@@ -39,3 +39,6 @@ Current Film: 01-06 Perle best version (team, 31/10 19:41; replaces 93 + 92 and 
 `src/edl_film_perle.json` (composition `Film`; the previous cut stays as `FilmV03`). Story order, whole takes, each with its own sound:
 01-06 Perle opening → P1 rain alley / la Vieille (06a-07) → E02→E04 station + train (mine) → P2 carriage power cut / creature (11-18) → P3 she panics as the train stops (19) → P4 ghost platform, door, corridor (E07-21) → P5 mirror, creature behind her reflection (22-26) → P6 phone, clawed hand, scream, search for the exit (27-28) → P8 the young man (29a-30) → P9 mirror smashed, hands out of the glass (31-33) → 34 black → 35-39 (mine: same train, new passenger, trapped window, attack, loop to the opening).
 v05: … → P9 (31-33) → P10 final fight (34-38) → P11 final scene, wooden door → crowded metro (39). The film ends there.
+
+## Film v06 (01/11) — team notes on v05 + 5 new scenes
+Mirror act: P4 door/corridor → P6 phone, clawed hand, scream, search for the exit → N3 chase → P5 the creature behind her reflection → N5 back at the mirror, engulfed into the mud → N4 mirror world, she meets the young man → **N2 his own engulfment (flashback)** → N1 hall of mirrors → P8 the two of them → P9 mirror smashed → P10 final fight → P11 door → crowded metro. 308 s. v05 = `edl_film_v05.json` (composition `FilmV05`).
