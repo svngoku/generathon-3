@@ -22,6 +22,9 @@ We did not win. The winner was **HARU!** (2:59.7, 1280×720). This file is for t
 ## Continuity rule learned the hard way
 Order scenes by the **character's physical state**, not by scene titles: clean → scratched/bleeding (chase) → seized at the mirror → **mud-covered** (mirror world, pounding the glass from inside, the fight, the exit). Before every re-cut, pull one frame per scene and line them up — a mud-covered shot placed before the engulfment breaks the story instantly.
 
+## The loop must be visible
+The winning films make the loop obvious: they open and close on the **same recognisable shot** (HARU!: the watchtower at sunrise). A 1-second echo is not enough — repeat the full opening shot (3–9 s) at the end, and cut into it on a strong beat.
+
 ## What hurt
 - Two pipelines in parallel (Arcads shots + Perle's scenes) → late replacements, duplicated beats ("ça boucle"), runtime creep. Decide the backbone early.
 - Quality: low-res exports (640×360 at 250 kb/s) mixed with 1080p; a global CSS grade applied to footage that should have been untouched; heavy delivery compression (crf 26). Fix: one delivery spec for everyone (1080p, ≥ 8 Mb/s), no grade on finished scenes, deliver crf ≤ 18.

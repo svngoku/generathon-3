@@ -1,6 +1,6 @@
 {
  "fps": 24,
- "note": "3:00 cut (01/11, after the hackathon — lessons from the winner HARU!): exactly 180 s; cold open hook; one story line; one chase; P9 (duplicate smash, low-res, gore) dropped; loop ending (another girl, the creature beside her). Team scenes ungraded.",
+ "note": "3:00 cut (01/11, after the hackathon — lessons from the winner HARU!): exactly 180 s; cold open hook; one story line; one chase; P9 (duplicate smash, low-res, gore) dropped; loop ending (another girl, the creature beside her). Team scenes ungraded. Loop: last shot = first shot's in-point.",
  "shots": [
   {
    "id": "01",
@@ -42,7 +42,7 @@
    "id": "01.5",
    "take": "01-06_team_perle_best_HD.mp4",
    "in": 41.0,
-   "dur": 4.0,
+   "dur": 3.0833,
    "grade": "none",
    "sound": "01-06_team_perle_best_HD.mp4",
    "note": "the lift, the call nobody answers"
@@ -258,20 +258,19 @@
    "id": "39.3",
    "take": "38_v01.mp4",
    "in": 0.0,
-   "dur": 4.0417,
+   "dur": 2.42,
    "grade": "normal",
    "sound": "38_v01.mp4",
-   "note": "the creature beside her turns, surges — picture cuts to black at the impact, sound carries on",
-   "blackAt": 2.42
+   "note": "the creature beside her turns and surges — hard cut at the impact into the loop shot"
   },
   {
    "id": "39.4",
-   "take": "BLACK",
-   "in": 0,
-   "dur": 0.9583,
-   "grade": "normal",
-   "sound": null,
-   "note": "black (duration set to land exactly on 3:00)"
+   "take": "perle_Q5_miroir_fissure_HD.mp4",
+   "in": 10.0,
+   "dur": 3.5,
+   "grade": "none",
+   "sound": "perle_Q5_miroir_fissure_HD.mp4",
+   "note": "LOOP (track challenge, as in the winning films): the film ends on the SAME 3.5 s as it opens — her face screaming behind the cracked glass. Replayed, the end flows straight back into the start."
   }
  ],
  "transitions": [
