@@ -1,6 +1,6 @@
 {
  "fps": 24,
- "note": "Film v04 = the team's Perle scenes (31/10-01/11) as the backbone, whole takes with their own sound, in story order; my takes only where Perle has none: E02→E04 (station, train arrival, boarding) and 34→39 (black, the train returns, the new passenger, the trapped window, the attack, the loop). Previous cut = composition FilmV03.",
+ "note": "Film v05 = the team's Perle scenes as the backbone, ending on the team's final scene (P11: wooden door -> crowded metro). My takes only for E02→E04 (station, train arrival, boarding). Previous cuts: FilmV03 (my full film with the loop).",
  "shots": [
   {
    "id": "01-06",
@@ -133,67 +133,22 @@
    "note": "Perle P9: she smashes the mirror with a poker, he punches the glass, clawed hands reach out of the mirror"
   },
   {
-   "id": "34",
-   "take": "BLACK",
+   "id": "34-38",
+   "take": "perle_P10_fight.mp4",
    "in": 0,
-   "dur": 2.0,
+   "dur": 28.0,
    "grade": "normal",
-   "sound": null,
-   "note": "storyboard: two seconds of absolute black"
-  },
-  {
-   "id": "35",
-   "take": "09_v02a.mp4",
-   "in": 0,
-   "dur": 5.0417,
-   "grade": "normal",
-   "sound": "09_v02a.mp4",
-   "note": "the same last metro arrives again (take 09 reused on purpose)"
-  },
-  {
-   "id": "36",
-   "take": "36_v01.mp4",
-   "in": 0,
-   "dur": 4.0417,
-   "grade": "normal",
-   "sound": "36_v01.mp4"
-  },
-  {
-   "id": "37",
-   "take": "37_v01.mp4",
-   "in": 0,
-   "dur": 4.0417,
-   "grade": "normal",
-   "sound": "37_v01.mp4",
-   "note": "« Aidez-moi… » = team audio A19, muffled behind the glass"
-  },
-  {
-   "id": "38",
-   "take": "38_v01.mp4",
-   "in": 0,
-   "dur": 4.0417,
-   "blackAt": 2.42,
-   "grade": "normal",
-   "sound": "38_v01.mp4",
-   "note": "the lights cut at the impact (2.42 s); no gore shown"
+   "sound": "perle_P10_fight.mp4",
+   "note": "Perle P10 final fight: the creature attacks, she is dragged, glass shards, the creature over them both, red flash, white flash, faces pressed against the glass"
   },
   {
    "id": "39",
-   "take": "37_v01.mp4",
-   "in": 2.0,
-   "dur": 2.0417,
-   "zoom": [
-    1.0,
-    1.9
-   ],
-   "zoomOrigin": "50% 42%",
-   "takeB": "01-06_team_perle_best.mp4",
-   "bIn": 0,
-   "bAt": 0.3,
-   "bDur": 1.0,
+   "take": "perle_P11_final.mp4",
+   "in": 0,
+   "dur": 7.3333,
    "grade": "normal",
-   "sound": "37_v01.mp4",
-   "note": "push into the window -> the opening Paris aerial (first frame of the film): the loop"
+   "sound": "perle_P11_final.mp4",
+   "note": "Perle P11 FINAL SCENE: a hand opens the wooden door onto a crowded metro platform; she and the young man come out, dirty and stunned"
   }
  ],
  "transitions": [
@@ -282,56 +237,17 @@
    "why": "the mirror splits -> she strikes it"
   },
   {
-   "cut": "31-33>34",
+   "cut": "31-33>34-38",
    "type": "cut",
    "frames": 0,
-   "why": "the hands seize them -> absolute black"
+   "why": "hands out of the mirror -> the creature strikes (shock)"
   },
   {
-   "cut": "34>35",
-   "type": "fade",
-   "frames": 12,
-   "why": "out of the black: the same train arrives"
-  },
-  {
-   "cut": "35>36",
-   "type": "fade",
-   "frames": 8,
-   "why": "a new passenger boards"
-  },
-  {
-   "cut": "36>37",
+   "cut": "34-38>39",
    "type": "cut",
    "frames": 0,
-   "why": "reveal: the heroine trapped in her window"
-  },
-  {
-   "cut": "37>38",
-   "type": "cut",
-   "frames": 0,
-   "why": "the figure beside the new passenger"
-  },
-  {
-   "cut": "38>39",
-   "type": "cut",
-   "frames": 0,
-   "why": "from the black of the impact to the window"
+   "why": "faces in the glass -> the door opens onto the crowded metro (the team's last scene)"
   }
  ],
- "audio": [
-  {
-   "file": "A19_aidez-moi.wav",
-   "at": "37",
-   "offset": 0.6,
-   "volume": 0.9,
-   "note": "team: « Aidez-moi… » behind thick glass"
-  },
-  {
-   "file": "A20_three-pulses_v1.wav",
-   "at": "39",
-   "offset": 0,
-   "volume": 1,
-   "note": "team: three pulses on the push-in"
-  }
- ]
+ "audio": []
 }
