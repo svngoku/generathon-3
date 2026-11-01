@@ -12,7 +12,7 @@
   {"id": "36", "take": "36_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "36_v01.mp4"},
   {"id": "37", "take": "37_v01.mp4", "in": 0, "dur": 4.0417, "grade": "normal", "sound": "37_v01.mp4", "note": "« Aidez-moi… » = team audio A19, muffled behind the glass"},
   {"id": "38", "take": "38_v01.mp4", "in": 0, "dur": 4.0417, "blackAt": 2.42, "grade": "normal", "sound": "38_v01.mp4", "note": "the lights cut at the impact (2.42 s); no gore shown"},
-  {"id": "39", "take": "37_v01.mp4", "in": 2.0, "dur": 2.0417, "zoom": [1.0, 1.9], "zoomOrigin": "50% 42%", "takeB": "01-06_team_perle_best.mp4", "bIn": 0, "bAt": 0.3, "bDur": 1.0, "grade": "normal", "sound": "37_v01.mp4", "note": "push into the window -> the opening Paris aerial (first frame of the film): the loop"}
+  {"id": "39", "take": "37_v01.mp4", "in": 2.0, "dur": 2.0417, "zoom": [1.0, 1.9], "zoomOrigin": "50% 42%", "takeB": "01-06_team_perle_best_HD.mp4", "bIn": 0, "bAt": 0.3, "bDur": 1.0, "grade": "normal", "sound": "37_v01.mp4", "note": "push into the window -> the opening Paris aerial (first frame of the film): the loop"}
  ],
  "transitions": [
   {"cut": "29a-30>31", "type": "fade", "frames": 10, "why": "out of the flashback, back to her before the same mirror"},
