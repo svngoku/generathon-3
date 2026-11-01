@@ -1,15 +1,15 @@
 {
  "fps": 24,
- "note": "3:00 cut (01/11, after the hackathon — lessons from the winner HARU!): exactly 180 s; cold open hook; one story line; one chase; P9 (duplicate smash, low-res, gore) dropped; loop ending (another girl, the creature beside her). Team scenes ungraded. Loop: last shot = first shot's in-point.",
+ "note": "3:00+ cut v2 (01/11, after team feedback): HARU! circular structure (cold open = final shot, film ends on it), no epilogue girl; every scene finishes its beat — whole chase, whole mirror-smash (H1 + P9), the fight with the shard stab and the creature's death; N3 fangs and the train arrival dropped as whole scenes. Team scenes ungraded.",
  "shots": [
   {
    "id": "01",
-   "take": "perle_Q5_miroir_fissure_HD.mp4",
-   "in": 10.0,
+   "take": "perle_P11_final.mp4",
+   "in": 4.0,
    "dur": 3.5,
    "grade": "none",
-   "sound": "perle_Q5_miroir_fissure_HD.mp4",
-   "note": "COLD OPEN (lesson from HARU!: hook in 5 s): her face screaming behind the cracked glass — flash-forward"
+   "sound": "perle_P11_final.mp4",
+   "note": "COLD OPEN = the END first (HARU! structure): both mud-covered, walking out among the crowd on the platform. Same shot closes the film -> visible loop, ending kept final"
   },
   {
    "id": "01.2",
@@ -55,15 +55,6 @@
    "grade": "none",
    "sound": "perle_H3_ruelle_HD.mp4",
    "note": "rain alley — « Madame, vous allez bien ? » — the red cloak turns: la Vieille — « Le dernier métro ne ramène personne, ma fille. » — she runs"
-  },
-  {
-   "id": "09",
-   "take": "09_v02a.mp4",
-   "in": 0.0,
-   "dur": 5.0417,
-   "grade": "normal",
-   "sound": "09_v02a.mp4",
-   "note": "the last train arrives"
   },
   {
    "id": "10",
@@ -131,38 +122,20 @@
   {
    "id": "22-23",
    "take": "perle_Q4_poursuite_v2_HD.mp4",
-   "in": 0.0,
-   "dur": 5.5,
+   "in": 0,
+   "dur": 15,
    "grade": "none",
    "sound": "perle_Q4_poursuite_v2_HD.mp4",
-   "note": "phone camera, the clawed hand, the scream (the ONLY chase kept)"
-  },
-  {
-   "id": "24-25",
-   "take": "perle_N3_poursuite.mp4",
-   "in": 11.5,
-   "dur": 3.5,
-   "grade": "none",
-   "sound": "perle_N3_poursuite.mp4",
-   "note": "the fangs"
+   "note": "WHOLE chase: phone, the clawed hand, scream, flight through the rooms, she reaches the mirror room"
   },
   {
    "id": "26",
    "take": "perle_N5_absorption_boue.mp4",
-   "in": 0.0,
-   "dur": 2.0,
+   "in": 5.5,
+   "dur": 9.5,
    "grade": "none",
    "sound": "perle_N5_absorption_boue.mp4",
-   "note": "bleeding at the mirror"
-  },
-  {
-   "id": "26.2",
-   "take": "perle_N5_absorption_boue.mp4",
-   "in": 9.4,
-   "dur": 5.6,
-   "grade": "none",
-   "sound": "perle_N5_absorption_boue.mp4",
-   "note": "seized, she falls into the mud"
+   "note": "at the mirror, bleeding; hands reach from the glass; the creature seizes her; she falls into the mud (complete beat)"
   },
   {
    "id": "27-28",
@@ -201,76 +174,49 @@
    "note": "covered in mud, she pounds the mirror FROM INSIDE, it cracks (after the mirror world — team continuity note 01/11)"
   },
   {
-   "id": "32b-33",
+   "id": "32b",
    "take": "perle_H1_miroirs_p1_HD.mp4",
-   "in": 0.0,
-   "dur": 10.0,
+   "in": 0,
+   "dur": 10,
    "grade": "none",
    "sound": "perle_H1_miroirs_p1_HD.mp4",
-   "note": "« J'ai une idée. Il faut qu'on brise les miroirs. » — « OK. »"
+   "note": "WHOLE: « J'ai une idée. Il faut qu'on brise les miroirs. » « OK. » — she smashes the mirror with the poker; the cracked mirror"
+  },
+  {
+   "id": "33",
+   "take": "perle_P9_up1080.mp4",
+   "in": 0,
+   "dur": 7.5,
+   "grade": "none",
+   "sound": "perle_P9_up1080.mp4",
+   "note": "the smashing: she breaks two mirrors, he punches the third (blood) — the creature's hands come out of the broken glass"
   },
   {
    "id": "34-38",
    "take": "perle_H2_combat_HD.mp4",
    "in": 2.0,
-   "dur": 3.0,
+   "dur": 4.0,
    "grade": "none",
    "sound": "perle_H2_combat_HD.mp4",
-   "note": "the creature strikes"
+   "note": "the creature appears, its tongue lashes, they run and fall in the mud"
   },
   {
    "id": "34-38.2",
    "take": "perle_H2_combat_HD.mp4",
-   "in": 10.0,
-   "dur": 3.0,
+   "in": 8.5,
+   "dur": 18.0,
    "grade": "none",
    "sound": "perle_H2_combat_HD.mp4",
-   "note": "seized by the throat"
-  },
-  {
-   "id": "34-38.3",
-   "take": "perle_H2_combat_HD.mp4",
-   "in": 18.0,
-   "dur": 10.0,
-   "grade": "none",
-   "sound": "perle_H2_combat_HD.mp4",
-   "note": "the creature over them, red, black, white burst, faces in the glass"
+   "note": "the tongue chokes her — he finds a mirror shard, PLANTS it in the creature (17.5) — it explodes (21), white flash, their faces"
   },
   {
    "id": "39",
    "take": "perle_P11_final.mp4",
-   "in": 0.0,
+   "in": 0,
    "dur": 7.5,
    "grade": "none",
    "sound": "perle_P11_final.mp4",
-   "note": "the door opens onto the crowded metro — they are out"
-  },
-  {
-   "id": "39.2",
-   "take": "36_v01.mp4",
-   "in": 0.0,
-   "dur": 3.0,
-   "grade": "normal",
-   "sound": "36_v01.mp4",
-   "note": "LOOP: another night, another girl alone in the last metro"
-  },
-  {
-   "id": "39.3",
-   "take": "38_v01.mp4",
-   "in": 0.0,
-   "dur": 2.42,
-   "grade": "normal",
-   "sound": "38_v01.mp4",
-   "note": "the creature beside her turns and surges — hard cut at the impact into the loop shot"
-  },
-  {
-   "id": "39.4",
-   "take": "perle_Q5_miroir_fissure_HD.mp4",
-   "in": 10.0,
-   "dur": 3.5,
-   "grade": "none",
-   "sound": "perle_Q5_miroir_fissure_HD.mp4",
-   "note": "LOOP (track challenge, as in the winning films): the film ends on the SAME 3.5 s as it opens — her face screaming behind the cracked glass. Replayed, the end flows straight back into the start."
+   "note": "the door opens onto the crowded metro — they are out. Ends on the cold-open shot = LOOP"
   }
  ],
  "transitions": [
@@ -300,14 +246,9 @@
    "frames": 8
   },
   {
-   "cut": "06a-07>09",
+   "cut": "06a-07>10",
    "type": "fade",
-   "frames": 10
-  },
-  {
-   "cut": "09>10",
-   "type": "fade",
-   "frames": 20
+   "frames": 12
   },
   {
    "cut": "10>11-18",
@@ -345,22 +286,12 @@
    "frames": 10
   },
   {
-   "cut": "22-23>24-25",
+   "cut": "22-23>26",
    "type": "cut",
    "frames": 0
   },
   {
-   "cut": "24-25>26",
-   "type": "cut",
-   "frames": 0
-  },
-  {
-   "cut": "26>26.2",
-   "type": "cut",
-   "frames": 0
-  },
-  {
-   "cut": "26.2>27-28",
+   "cut": "26>27-28",
    "type": "fade",
    "frames": 8
   },
@@ -380,12 +311,17 @@
    "frames": 0
   },
   {
-   "cut": "32a>32b-33",
+   "cut": "32a>32b",
    "type": "cut",
    "frames": 0
   },
   {
-   "cut": "32b-33>34-38",
+   "cut": "32b>33",
+   "type": "cut",
+   "frames": 0
+  },
+  {
+   "cut": "33>34-38",
    "type": "cut",
    "frames": 0
   },
@@ -395,29 +331,9 @@
    "frames": 0
   },
   {
-   "cut": "34-38.2>34-38.3",
-   "type": "cut",
-   "frames": 0
-  },
-  {
-   "cut": "34-38.3>39",
+   "cut": "34-38.2>39",
    "type": "fade",
    "frames": 10
-  },
-  {
-   "cut": "39>39.2",
-   "type": "fade",
-   "frames": 12
-  },
-  {
-   "cut": "39.2>39.3",
-   "type": "cut",
-   "frames": 0
-  },
-  {
-   "cut": "39.3>39.4",
-   "type": "cut",
-   "frames": 0
   }
  ],
  "audio": []

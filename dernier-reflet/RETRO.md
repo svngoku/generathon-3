@@ -31,5 +31,14 @@ The winning films make the loop obvious: they open and close on the **same recog
 - Credits: 1080p Seedance = 104 credits/s; 2 variants × 1080p burned most of the budget on block 3. Plan budgets per act; 1 variant for inserts.
 - Rendering a 5-minute film takes ~20 min here: keep the final 90 min for render + checks + upload.
 
-## The 3:00 cut (`edit_remotion/src/edl_film_3min.json`, composition `Film3min`)
+## Scene coherence (team feedback on the first 3:00 cut)
+Cutting every scene to its "best seconds" broke cause → effect: the mirrors were never seen breaking, the young man was never seen planting the shard, and an epilogue (another girl) undid the ending. Rules for next time:
+- A scene that carries a **turning point** (a decision, a weapon, a death) plays **whole** — from setup to consequence.
+- Save time by dropping **whole** secondary scenes (a duplicate monster close-up, an establishing shot), never by trimming the middle of an action.
+- The loop must not contradict the ending: open on the final image (HARU!), don't add a new character after the climax.
+
+## The 3:00 cut v2 (`edit_remotion/src/edl_film_3min.json`, composition `Film3min`, 3:08.7)
+Cold open = the last image (both mud-covered, walking out among the crowd) → Paris / office (« Il est tard… ») → la Vieille → boarding → blackout + creature → ghost platform, door → the whole chase to the mirror room → hands from the glass, seized, the mud → « Je suis désolé » → his engulfment → hall of mirrors (« Cours ! ») → pounding from inside → « Il faut qu'on brise les miroirs » + every smash, the hands coming out → the fight: the shard planted, the creature explodes → the door onto the crowded metro — **the same shot as the opening**.
+
+## The 3:00 cut v1 (`edl_film_3min_v1.json`)
 Cold open (her scream behind the cracked glass) → Paris / office (« Il est tard… ») → la Vieille (« Le dernier métro ne ramène personne, ma fille. ») → the train → blackout + creature → ghost platform, door → ONE chase → cracked mirror → engulfed in the mud → the young man (« Je suis désolé ») → his engulfment → hall of mirrors (« Cours ! », the blonde) → « Il faut qu'on brise les miroirs » → fight (16 s) → door onto the crowded metro → **loop**: another girl alone in the last metro, the creature beside her, black at the impact. Exactly 180 s.
